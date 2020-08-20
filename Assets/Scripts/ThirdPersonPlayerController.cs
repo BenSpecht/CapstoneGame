@@ -2,7 +2,7 @@
 
 [RequireComponent(typeof(CharacterController))]
 
-public class ThirdPersonController : MonoBehaviour
+public class ThirdPersonPlayerController : MonoBehaviour
 {
     public float speed = 7.5f;
     public float jumpSpeed = 8.0f;
@@ -10,10 +10,13 @@ public class ThirdPersonController : MonoBehaviour
     public Transform playerCameraParent;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 60.0f;
+    public GameObject gameManager;
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     Vector2 rotation = Vector2.zero;
+
+    private GameManager _gameManager;
 
     [HideInInspector]
     public bool canMove = true;
@@ -22,11 +25,12 @@ public class ThirdPersonController : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         rotation.y = transform.eulerAngles.y;
+        _gameManager = gameManager.GetComponent<GameManager>();
     }
 
     void Update()
     {
-        if (characterController.isGrounded)
+        if (characterController.isGrounded && _gameManager.playerControl)
         {
             // We are grounded, so recalculate move direction based on axes
             Vector3 forward = transform.TransformDirection(Vector3.forward);
@@ -50,7 +54,7 @@ public class ThirdPersonController : MonoBehaviour
         characterController.Move(moveDirection * Time.deltaTime);
 
         // Player and Camera rotation
-        if (canMove)
+        if (canMove && _gameManager.playerControl)
         {
             rotation.y += Input.GetAxis("Mouse X") * lookSpeed;
             rotation.x += -Input.GetAxis("Mouse Y") * lookSpeed;

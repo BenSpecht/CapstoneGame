@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerMovementController : MonoBehaviour
 {
     public float speed = 5;
     public float gravity = -5;
  
-    float _velocityY = 0; 
+    float _velocityY = 0;
+
+    public GameManager gameManager;
     
     CharacterController _controller;
     
