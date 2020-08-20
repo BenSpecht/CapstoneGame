@@ -30,7 +30,7 @@ public class ThirdPersonPlayerController : MonoBehaviour
 
     void Update()
     {
-        if (characterController.isGrounded && _gameManager.playerControl)
+        if (_gameManager.playerControl)
         {
             // We are grounded, so recalculate move direction based on axes
             Vector3 forward = transform.TransformDirection(Vector3.forward);
@@ -39,28 +39,26 @@ public class ThirdPersonPlayerController : MonoBehaviour
             float curSpeedY = canMove ? speed * Input.GetAxis("Horizontal") : 0;
             moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
-            if (Input.GetButton("Jump") && canMove)
+            if (Input.GetButton("Jump"))
             {
                 moveDirection.y = jumpSpeed;
             }
-        }
+            
+            
+            moveDirection.y -= gravity * Time.deltaTime;
 
-        // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
-        // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
-        // as an acceleration (ms^-2)
-        moveDirection.y -= gravity * Time.deltaTime;
-
-        // Move the controller
-        characterController.Move(moveDirection * Time.deltaTime);
-
-        // Player and Camera rotation
-        if (canMove && _gameManager.playerControl)
-        {
+            // Move the controller
+            characterController.Move(moveDirection * Time.deltaTime);
+            
             rotation.y += Input.GetAxis("Mouse X") * lookSpeed;
             rotation.x += -Input.GetAxis("Mouse Y") * lookSpeed;
             rotation.x = Mathf.Clamp(rotation.x, -lookXLimit, lookXLimit);
             playerCameraParent.localRotation = Quaternion.Euler(rotation.x, 0, 0);
             transform.eulerAngles = new Vector2(0, rotation.y);
         }
+        
+        // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
+        // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
+        // as an acceleration (ms^-2)
     }
 }

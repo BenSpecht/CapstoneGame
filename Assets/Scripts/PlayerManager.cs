@@ -5,6 +5,12 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+
+    public GameObject whaleCameraParent;
+
+    public GameObject playerCameraParent;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,20 +23,21 @@ public class PlayerManager : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnTriggerStay(Collider other)
     {
-        Debug.Log(other);
         if (other.gameObject.name == "Whale")
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                GameObject.Find("PlayerCameraParent").SetActive(false);
-                GameObject.Find("WhaleCameraParent").SetActive(true);
                 
+                playerCameraParent.SetActive(false);
+                whaleCameraParent.SetActive(true);
+
                 // Animate player getting on whale here - for now just teleporting player onto whale
                 var player = gameObject;
                 player.transform.parent = other.transform;
-                player.transform.position = new Vector3(1.1f, -0.28f, -1.7f);
+                player.transform.localPosition = new Vector3(1.1f, -0.28f, -1.7f);
+                player.GetComponent<ThirdPersonPlayerController>().gravity = 0;
                 
                 var gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();    
                 gameManager.playerControl = false;
