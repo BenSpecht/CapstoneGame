@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour
 {
 
     public GameObject whaleCameraParent;
-
+    public GameObject gameManager;
     public GameObject playerCameraParent;
     
     
@@ -39,9 +39,9 @@ public class PlayerManager : MonoBehaviour
                 player.transform.localPosition = new Vector3(1.1f, -0.28f, -1.7f);
                 player.GetComponent<ThirdPersonPlayerController>().gravity = 0;
                 
-                var gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();    
-                gameManager.playerControl = false;
-                gameManager.whaleControl = true;
+                var gameManagerScript = gameManager.GetComponent<GameManager>();    
+                gameManagerScript.playerControl = false;
+                gameManagerScript.whaleControl = true;
             }
         }
     }
