@@ -86,11 +86,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637341564350000000
+  lastModified: 637342133260000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 862
+    Value: 908
   Exists: 1
 --- !u!114 &-5484409282263466549
 MonoBehaviour:
@@ -107,13 +107,13 @@ MonoBehaviour:
   Path: event:/Ambience/WhaleStation_Bed
   guid: 80605e721e2cfe4aadd38d241a7e582d
   Banks:
-  - {fileID: -491758489335659073}
+  - {fileID: 6675726059241880290}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 50
+  MinDistance: 25
+  MaxDistance: 75
   Length: 5000
 --- !u!114 &-3796693052942295587
 MonoBehaviour:
@@ -166,7 +166,7 @@ MonoBehaviour:
   Path: event:/Player/Footsteps
   guid: 27ee6f8c103af74ba73c85b854b6c5aa
   Banks:
-  - {fileID: -491758489335659073}
+  - {fileID: 6675726059241880290}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -174,6 +174,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 350
+--- !u!114 &-2352424014684758712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Land
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Land
+  guid: 50bb93301c7d3143a6eb11c5d1075da9
+  Banks:
+  - {fileID: 6675726059241880290}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 450
 --- !u!114 &-2098664392475546282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,7 +254,7 @@ MonoBehaviour:
   lastModified: 637341564350000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,17 +269,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -5588222394555388474}
-  - {fileID: -491758489335659073}
+  - {fileID: 6675726059241880290}
   EditorEvents:
   - {fileID: -2495358637716948065}
   - {fileID: -5484409282263466549}
   - {fileID: 4704858280858192679}
+  - {fileID: -2352424014684758712}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -491758489335659073}
+  - {fileID: 6675726059241880290}
   StringsBanks:
   - {fileID: -5588222394555388474}
-  stringsBankWriteTime: 637341564350000000
+  stringsBankWriteTime: 637342133260000000
   cacheVersion: 3
 --- !u!114 &848930014003615532
 MonoBehaviour:
@@ -327,7 +351,7 @@ MonoBehaviour:
   Path: event:/Music/Ocean_MusicLoop
   guid: e65a80974d4a344c850e239d4ea7dc6d
   Banks:
-  - {fileID: -491758489335659073}
+  - {fileID: 6675726059241880290}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -393,3 +417,21 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 100
   Length: 5000
+--- !u!114 &6675726059241880290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637342133260000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
