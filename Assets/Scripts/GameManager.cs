@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WhaleAttachController : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
+    public bool playerControl = true;
+    public bool whaleControl = false;
+    
     // Start is called before the first frame update
     void Start()
     {
