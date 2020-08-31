@@ -47,7 +47,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -59,8 +59,414 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: curve1__done
+        weight: 1
+      - path: curve2__done_
+        weight: 1
+      - path: curve3_done
+        weight: 1
+      - path: curve4_done
+        weight: 1
+      - path: curve5_done
+        weight: 1
+      - path: curve6_done
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/whale_current1_3
+        weight: 1
+      - path: group1/whale_eye:PM3D_Sphere3D3
+        weight: 1
+      - path: group1/whale_eye:PM3D_Sphere3D5
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: ikHandle5
+        weight: 1
+      - path: ikHandle6
+        weight: 1
+      - path: ikHandle7
+        weight: 1
+      - path: ikHandle8
+        weight: 1
+      - path: ikHandle10
+        weight: 1
+      - path: ikHandle11
+        weight: 1
+      - path: ikHandle12
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      - path: ikHandle15
+        weight: 1
+      - path: ikHandle16
+        weight: 1
+      - path: ikHandle17
+        weight: 1
+      - path: ikHandle18
+        weight: 1
+      - path: ikHandle19
+        weight: 1
+      - path: ikHandle20
+        weight: 1
+      - path: ikHandle24
+        weight: 1
+      - path: ikHandle25
+        weight: 1
+      - path: ikHandle26
+        weight: 1
+      - path: nurbsCircle5
+        weight: 1
+      - path: nurbsCircle8
+        weight: 1
+      - path: nurbsCircle9
+        weight: 1
+      - path: nurbsCircle11
+        weight: 1
+      - path: nurbsCircle12__Done_
+        weight: 1
+      - path: nurbsCircle13
+        weight: 1
+      - path: nurbsCircle14__Done_
+        weight: 1
+      - path: nurbsCircle15__DONE_
+        weight: 1
+      - path: nurbsCircle16
+        weight: 1
+      - path: nurbsCircle17
+        weight: 1
+      - path: nurbsCircle18__done_
+        weight: 1
+      - path: nurbsCircle19__done_
+        weight: 1
+      - path: nurbsCircle20done
+        weight: 1
+      - path: nurbsCircle21done
+        weight: 1
+      - path: nurbsCircle22_done_
+        weight: 1
+      - path: nurbsCircle23
+        weight: 1
+      - path: nurbsCircle25
+        weight: 1
+      - path: nurbsCircle26
+        weight: 1
+      - path: nurbsCircle27
+        weight: 1
+      - path: nurbsCircle28
+        weight: 1
+      - path: nurbsCircle29
+        weight: 1
+      - path: ROOT_jnt
+        weight: 1
+      - path: ROOT_jnt/Spine_1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Lower_SmallFin_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Lower_SmallFin_jnt1/Lower_SmallFin_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/Lower_BigFin_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/Lower_BigFin_jnt1/Lower_BigFin_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker1_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker1_jnt1/R_Whisker1_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker1_jnt1/R_Whisker1_jnt2/R_Whisker1_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker1_jnt1/R_Whisker1_jnt2/R_Whisker1_jnt3/R_Whiskers1_jnt4
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker2_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker2_jnt1/R_Whisker2_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker2_jnt1/R_Whisker2_jnt2/R_Whisker2_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker2_jnt1/R_Whisker2_jnt2/R_Whisker2_jnt3/R_Whisker2_jnt4
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker2_jnt1/R_Whisker2_jnt2/R_Whisker2_jnt3/R_Whisker2_jnt4/R_Whiskers2_jnt5
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker2_jnt1/R_Whisker2_jnt2/R_Whisker2_jnt3/R_Whisker2_jnt4/R_Whiskers2_jnt5/R_Whisker2_jnt6
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker3_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker3_jnt1/R_Whisker3_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker3_jnt1/R_Whisker3_jnt2/R_Whisker3_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker4_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker4_jnt1/R_Whisker4_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker4_jnt1/R_Whisker4_jnt2/R_Whisker4_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker5_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker5_jnt1/R_Whisker5_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker5_jnt1/R_Whisker5_jnt2/R_Whisker5_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker6_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker6_jnt1/R_Whisker6_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker6_jnt1/R_Whisker6_jnt2/R_Whisker6_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker7_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker7_jnt1/R_Whisker7_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker7_jnt1/R_Whisker7_jnt2/R_Whisker7_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker7_jnt1/R_Whisker7_jnt2/R_Whisker7_jnt3/R_Whisker7_jnt4
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker7_jnt1/R_Whisker7_jnt2/R_Whisker7_jnt3/R_Whisker7_jnt4/R_Whisker7_jnt5
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker7_jnt1/R_Whisker7_jnt2/R_Whisker7_jnt3/R_Whisker7_jnt4/R_Whisker7_jnt5/R_Whisker7_jnt6
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker7_jnt1/R_Whisker7_jnt2/R_Whisker7_jnt3/R_Whisker7_jnt4/R_Whisker7_jnt5/R_Whisker7_jnt6/R_Whisker7_jnt7
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear/R_Whisker7_jnt1/R_Whisker7_jnt2/R_Whisker7_jnt3/R_Whisker7_jnt4/R_Whisker7_jnt5/R_Whisker7_jnt6/R_Whisker7_jnt7/R_Whisker7_jnt8
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker1_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker1_jnt1/L_Whisker1_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker1_jnt1/L_Whisker1_jnt2/L_Whisker1_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker1_jnt1/L_Whisker1_jnt2/L_Whisker1_jnt3/L_Whiskers1_jnt4
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker2_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker2_jnt1/L_Whisker2_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker2_jnt1/L_Whisker2_jnt2/L_Whisker2_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker2_jnt1/L_Whisker2_jnt2/L_Whisker2_jnt3/L_Whisker2_jnt4
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker2_jnt1/L_Whisker2_jnt2/L_Whisker2_jnt3/L_Whisker2_jnt4/L_Whiskers2_jnt5
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker2_jnt1/L_Whisker2_jnt2/L_Whisker2_jnt3/L_Whisker2_jnt4/L_Whiskers2_jnt5/L_Whisker2_jnt6
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker3_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker3_jnt1/L_Whisker3_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker3_jnt1/L_Whisker3_jnt2/L_Whisker3_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker4_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker4_jnt1/L_Whisker4_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker4_jnt1/L_Whisker4_jnt2/L_Whisker4_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker5_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker5_jnt1/L_Whisker5_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker5_jnt1/L_Whisker5_jnt2/L_Whisker5_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker6_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker6_jnt1/L_Whisker6_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker6_jnt1/L_Whisker6_jnt2/L_Whisker6_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker7_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker7_jnt1/L_Whisker7_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker7_jnt1/L_Whisker7_jnt2/L_Whisker7_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker7_jnt1/L_Whisker7_jnt2/L_Whisker7_jnt3/L_Whisker7_jnt4
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker7_jnt1/L_Whisker7_jnt2/L_Whisker7_jnt3/L_Whisker7_jnt4/L_Whisker7_jnt5
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker7_jnt1/L_Whisker7_jnt2/L_Whisker7_jnt3/L_Whisker7_jnt4/L_Whisker7_jnt5/L_Whisker7_jnt6
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker7_jnt1/L_Whisker7_jnt2/L_Whisker7_jnt3/L_Whisker7_jnt4/L_Whisker7_jnt5/L_Whisker7_jnt6/L_Whisker7_jnt7
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/ear1/L_Whisker7_jnt1/L_Whisker7_jnt2/L_Whisker7_jnt3/L_Whisker7_jnt4/L_Whisker7_jnt5/L_Whisker7_jnt6/L_Whisker7_jnt7/L_Whisker7_jnt8
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/L_Eye
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/L_Whiskers8_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/L_Whiskers8_jnt1/L_Whisker8_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/L_Whiskers8_jnt1/L_Whisker8_jnt2/L_Whisker8_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/L_Whiskers8_jnt1/L_Whisker8_jnt2/L_Whisker8_jnt3/L_Whisker8_jnt4
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/R_Eye
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/R_Whiskers8_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/R_Whiskers8_jnt1/R_Whisker8_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/R_Whiskers8_jnt1/R_Whisker8_jnt2/R_Whisker8_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/Head/R_Whiskers8_jnt1/R_Whisker8_jnt2/R_Whisker8_jnt3/R_Whisker8_jnt4
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/L_Fin_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/L_Fin_jnt1/L_Fin_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/L_Fin_jnt1/L_Fin_jnt2/L_Fin_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/L_Fin_jnt1/L_Fin_jnt2/L_Fin_jnt3/L_Fin_jnt4
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/R_Fin_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/R_Fin_jnt1/R_Fin_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/R_Fin_jnt1/R_Fin_jnt2/R_Fin_jnt3
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/neck/R_Fin_jnt1/R_Fin_jnt2/R_Fin_jnt3/R_Fin_jnt4
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/Upper_BigFin_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Spine_2/Spine_3/Upper_BigFin_jnt1/Upper_BigFin_jnt2
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Upper_SmallFin_jnt1
+        weight: 1
+      - path: ROOT_jnt/Spine_1/Upper_SmallFin_jnt1/Upper_SmallFin_jnt2
+        weight: 1
+      - path: ROOT_jnt/Tail_Root
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail6_jnt1
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail6_jnt1/Tail6_jnt2
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail6_jnt1/Tail6_jnt2/Tail6_jnt3
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail6_jnt1/Tail6_jnt2/Tail6_jnt3/Tail6_jnt4
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail6_jnt1/Tail6_jnt2/Tail6_jnt3/Tail6_jnt4/Tail6_jnt5
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail6_jnt1/Tail6_jnt2/Tail6_jnt3/Tail6_jnt4/Tail6_jnt5/Tail6_jnt6
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2/Tail7_jnt3
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2/Tail7_jnt3/Tail7_jnt4
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2/Tail7_jnt3/Tail7_jnt4/Tail7_jnt5
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2/Tail7_jnt3/Tail7_jnt4/Tail7_jnt5/Tail7_jnt6
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2/Tail7_jnt3/Tail7_jnt4/Tail7_jnt5/Tail7_jnt6/Tail7_jnt7
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2/Tail7_jnt3/Tail7_jnt4/Tail7_jnt5/Tail7_jnt6/Tail7_jnt7/Tail7_jnt8
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2/Tail7_jnt3/Tail7_jnt4/Tail7_jnt5/Tail7_jnt6/Tail7_jnt7/Tail7_jnt8/Tail7_jnt9
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2/Tail7_jnt3/Tail7_jnt4/Tail7_jnt5/Tail7_jnt6/Tail7_jnt7/Tail7_jnt8/Tail7_jnt9/Tail7_jnt10
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2/Tail7_jnt3/Tail7_jnt4/Tail7_jnt5/Tail7_jnt6/Tail7_jnt7/Tail7_jnt8/Tail7_jnt9/Tail7_jnt10/Tail7_jnt11
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/bottomtailroot/Tail7_jnt1/Tail7_jnt2/Tail7_jnt3/Tail7_jnt4/Tail7_jnt5/Tail7_jnt6/Tail7_jnt7/Tail7_jnt8/Tail7_jnt9/Tail7_jnt10/Tail7_jnt11/Tail7_jnt12
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail1_jnt1
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail1_jnt1/Tail1_jnt2
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail1_jnt1/Tail1_jnt2/Tail1_jnt3
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail1_jnt1/Tail1_jnt2/Tail1_jnt3/Tail1_jnt4
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2/Tail2_jnt3
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2/Tail2_jnt3/Tail2_jnt4
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2/Tail2_jnt3/Tail2_jnt4/Tail2_jnt5
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2/Tail2_jnt3/Tail2_jnt4/Tail2_jnt5/Tail2_jnt6
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2/Tail2_jnt3/Tail2_jnt4/Tail2_jnt5/Tail2_jnt6/Tail2_jnt7
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2/Tail2_jnt3/Tail2_jnt4/Tail2_jnt5/Tail2_jnt6/Tail2_jnt7/Tail2_jnt8
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2/Tail2_jnt3/Tail3_jnt1
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2/Tail2_jnt3/Tail3_jnt1/Tail3_jnt2
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2/Tail2_jnt3/Tail3_jnt1/Tail3_jnt2/Tail3_jnt3
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail2_jnt2/Tail2_jnt3/Tail3_jnt1/Tail3_jnt2/Tail3_jnt3/Tail3_jnt4
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail4_jnt1
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail4_jnt1/Tail4_jnt2
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail4_jnt1/Tail4_jnt2/Tail4_jnt3
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail4_jnt1/Tail4_jnt2/Tail4_jnt3/Tail4_jnt4
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail4_jnt1/Tail4_jnt2/Tail4_jnt3/Tail4_jnt4/Tail4_jnt5
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail1_jnt0/Tail2_jnt1/Tail4_jnt1/Tail4_jnt2/Tail4_jnt3/Tail4_jnt4/Tail4_jnt5/Tail4_jnt6
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2/Tail5_jnt3
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2/Tail5_jnt3/Tail5_jnt4
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2/Tail5_jnt3/Tail5_jnt4/Tail5_jnt5
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2/Tail5_jnt3/Tail5_jnt4/Tail5_jnt5/Tail5_jnt6
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2/Tail5_jnt3/Tail5_jnt4/Tail5_jnt5/Tail5_jnt6/Tail5_jnt7
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2/Tail5_jnt3/Tail5_jnt4/Tail5_jnt5/Tail5_jnt6/Tail5_jnt7/Tail5_jnt8
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2/Tail5_jnt3/Tail5_jnt4/Tail5_jnt5/Tail5_jnt6/Tail5_jnt7/Tail5_jnt8/Tail5_jnt9
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2/Tail5_jnt3/Tail5_jnt4/Tail5_jnt5/Tail5_jnt6/Tail5_jnt7/Tail5_jnt8/Tail5_jnt9/Tail5_jnt10
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2/Tail5_jnt3/Tail5_jnt4/Tail5_jnt5/Tail5_jnt6/Tail5_jnt7/Tail5_jnt8/Tail5_jnt9/Tail5_jnt10/Tail5_jnt11
+        weight: 1
+      - path: ROOT_jnt/Tail_Root/Tail5_jnt1/Tail5_jnt2/Tail5_jnt3/Tail5_jnt4/Tail5_jnt5/Tail5_jnt6/Tail5_jnt7/Tail5_jnt8/Tail5_jnt9/Tail5_jnt10/Tail5_jnt11/Tail5_jnt12
+        weight: 1
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     isReadable: 0
@@ -122,7 +528,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
