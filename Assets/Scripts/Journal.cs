@@ -9,11 +9,15 @@ public class Journal : MonoBehaviour
     
     public static bool GameIsPaused = false;
 
+    public Animator up;
+
     [FormerlySerializedAs("journalUI")] public GameObject journalUi;
 
     // Update is called once per frame
     void Update()
     {
+        up = gameObject.GetComponent<Animator>();
+        
         if (Input.GetKeyDown(KeyCode.B))
         {
             if (GameIsPaused)
@@ -32,7 +36,7 @@ public class Journal : MonoBehaviour
     void Resume()
     {
         journalUi.SetActive(false);
-        
+        up.Play("up");
         GameIsPaused = false;
     }
 
