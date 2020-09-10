@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Editor Default Resources.meta
 guid: bd3a121c57f0d448d87019747ed278ce
+=======
+guid: 7b4acfef3c4282d42bc95f5cd91fa04b
+>>>>>>> master:Assets/Models/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
