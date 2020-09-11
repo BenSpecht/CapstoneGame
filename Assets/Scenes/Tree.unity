@@ -927,7 +927,7 @@ MonoBehaviour:
   speed: 7.5
   jumpSpeed: 8
   gravity: 20
-  playerCameraParent: {fileID: 481895854}
+  playerCameraParent: {fileID: 2068922999}
   lookSpeed: 2
   lookXLimit: 60
   gameManager: {fileID: 2068922998}
@@ -4131,7 +4131,7 @@ MonoBehaviour:
       colorBlindnessType: 0
       colorBlindnessStrength: 1
   m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
+  m_ShowToolkit: 1
   m_ShowCustomSorter: 0
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
@@ -4529,6 +4529,12 @@ MeshFilter:
 --- !u!1 &2068922998 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3133498875991405556, guid: 2fbdf8875b9c4024b8db63af0eb1f0c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1133469967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2068922999 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 533193074659131909, guid: 2fbdf8875b9c4024b8db63af0eb1f0c6,
     type: 3}
   m_PrefabInstance: {fileID: 1133469967}
   m_PrefabAsset: {fileID: 0}
