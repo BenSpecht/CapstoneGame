@@ -14,7 +14,7 @@ ModelImporter:
     second: ear_wiggle
   - first:
       74: -998496362607748373
-    second: Take 001
+    second: leg_lift
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -131,7 +131,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Take 001
+      name: leg_lift
       takeName: Take 001
       internalID: 0
       firstFrame: 522

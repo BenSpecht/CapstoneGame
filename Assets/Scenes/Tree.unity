@@ -437,13 +437,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373832684}
-  m_LocalRotation: {x: -0.23896357, y: -0.9022406, z: 0.06891655, w: -0.35229096}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.21511567, y: -0.9289215, z: 0.20671064, w: -0.21931888}
+  m_LocalPosition: {x: -122.959, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 808199898}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 17.021, y: -219.07799, z: 23.589}
+  m_LocalEulerAnglesHint: {x: 163.161, y: -31.23999, z: 149.18399}
 --- !u!108 &373832686
 Light:
   m_ObjectHideFlags: 0
@@ -624,6 +624,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &667780180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 487616110979492911, guid: 65b2dea18573648a8bb17e51ac86cefb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1082809804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &667780182
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667780180}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 024761da9c5414972b9c38c6562b38da, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &808199897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,27 +1652,27 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 65b2dea18573648a8bb17e51ac86cefb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.9178686
+      value: -2.91
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 65b2dea18573648a8bb17e51ac86cefb,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 65b2dea18573648a8bb17e51ac86cefb,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.09420714
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 65b2dea18573648a8bb17e51ac86cefb,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 65b2dea18573648a8bb17e51ac86cefb,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99555266
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 65b2dea18573648a8bb17e51ac86cefb,
         type: 3}
@@ -1662,7 +1687,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 65b2dea18573648a8bb17e51ac86cefb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 10.811001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 65b2dea18573648a8bb17e51ac86cefb,
         type: 3}
@@ -1779,6 +1804,31 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103823632}
   m_Mesh: {fileID: -3908946226753950656, guid: e5204cdae53de5f42a3e7d904c0412b8, type: 3}
+--- !u!1 &1108866136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 65b2dea18573648a8bb17e51ac86cefb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1082809804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1108866138
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108866136}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 376df5f1b7bd745eb8d55c8ae4d81bd5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1213377672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1875,17 +1925,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 900f37758557145508a46440991acfd8,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 46.61196
+      value: 101.23105
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 900f37758557145508a46440991acfd8,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 46.61196
+      value: 101.23105
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 900f37758557145508a46440991acfd8,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 46.61196
+      value: 101.23105
       objectReference: {fileID: 0}
     - target: {fileID: -8429902488911622316, guid: 900f37758557145508a46440991acfd8,
         type: 3}
@@ -2131,6 +2181,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerControl: 1
   whaleControl: 0
+--- !u!1 &1419620143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3787790100496528460, guid: 65b2dea18573648a8bb17e51ac86cefb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1082809804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1419620146
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419620143}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 024761da9c5414972b9c38c6562b38da, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1432289548
 PrefabInstance:
   m_ObjectHideFlags: 0
