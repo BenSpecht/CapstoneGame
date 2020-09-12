@@ -121,6 +121,31 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &11173 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -152268138317580954, guid: 900f37758557145508a46440991acfd8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1218395396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &11177
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11173}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 960d6a273077c4d7fa7e6f3d1df09102, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8065488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,7 +1239,7 @@ Animator:
   m_GameObject: {fileID: 964738298}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: adb9108d707824a2e9212b13b8d024cb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 17bc2999d500d451ea60b9bee4fbb1a1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2141,7 +2166,7 @@ Animator:
   m_GameObject: {fileID: 1653633468}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 08f5015b4b74a496e987d88eb6c5fca0, type: 2}
+  m_Controller: {fileID: 9100000, guid: c26f7dd48ba934372b5f88396bf125c8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
