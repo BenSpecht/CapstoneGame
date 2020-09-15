@@ -1,46 +1,29 @@
 fileFormatVersion: 2
-guid: 92c4ee4f06c70ea44b1bc1be054ff38a
+guid: a29aa74f54235264ea2a61bb1879018a
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: Serpanceae_Idle
+    second: Serpanceae_Idle1
+  - first:
+      74: 3562376265220522683
+    second: Serpanceae_Stand
   - first:
       74: -1794898017953962391
-    second: Serpanceae_Stand
+    second: Serpanceae_Idle2
   - first:
       74: 3792055021178385920
     second: Serpanceae_Hiss
   - first:
       74: -1592230995236778038
     second: Serpanceae_Dance
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SnakeThird_blinn1
-    second: {fileID: 2100000, guid: bd0ffe5d6a762544485ee34fa287a2de, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SnakeThird_lambert1
-    second: {fileID: 2100000, guid: bab17825330bf4949b102eb5385f0e2b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SnakeThird_lambert2
-    second: {fileID: 2100000, guid: 78d5a135f4f8a3941a8507f81bd2f11e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert2
-    second: {fileID: 2100000, guid: bab17825330bf4949b102eb5385f0e2b, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -64,7 +47,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Serpanceae_Idle
+      name: Serpanceae_Idle1
       takeName: Take 001
       internalID: 0
       firstFrame: 1
@@ -97,7 +80,36 @@ ModelImporter:
       takeName: Take 001
       internalID: 0
       firstFrame: 85
-      lastFrame: 135
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Serpanceae_Idle2
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 135
+      lastFrame: 174
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -125,8 +137,8 @@ ModelImporter:
       name: Serpanceae_Hiss
       takeName: Take 001
       internalID: 0
-      firstFrame: 140
-      lastFrame: 179
+      firstFrame: 180
+      lastFrame: 180
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -154,8 +166,8 @@ ModelImporter:
       name: Serpanceae_Dance
       takeName: Take 001
       internalID: 0
-      firstFrame: 184
-      lastFrame: 223
+      firstFrame: 224
+      lastFrame: 263
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
