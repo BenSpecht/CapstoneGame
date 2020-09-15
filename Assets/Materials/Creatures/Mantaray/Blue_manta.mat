@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EYE
+  m_Name: Blue_manta
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
@@ -36,11 +36,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: b1d2ef1fa1f1a4b4cb3f472be971839c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2d63c8705c1934a72a56119876af1ca7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a1d38da7c5766416cad200259cd8b483, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0c50c250d2e7e478b9bb469e3b714d91, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -74,4 +74,4 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 3.6428769, b: 3.9533494, a: 1}
+    - _EmissionColor: {r: 0.1744483, g: 4.9088182, b: 5.2832885, a: 1}
