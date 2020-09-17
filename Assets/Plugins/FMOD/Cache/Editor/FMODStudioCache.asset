@@ -33,13 +33,13 @@ MonoBehaviour:
   Path: event:/Ambience/DarkWorld_River_Loop
   guid: 0900c2054243f748a0075d215a74aa8e
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 8
-  MaxDistance: 40
+  MaxDistance: 35
   Length: 45506
 --- !u!114 &-8218752720322506652
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_Close
   guid: 8c5a840da429054ca3d8b0db702c566f
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -133,6 +133,24 @@ MonoBehaviour:
   Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637347558890000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6581453406114819253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637359561690000000
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -276,7 +294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637357938560000000
+  lastModified: 637359567660000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -297,7 +315,7 @@ MonoBehaviour:
   Path: event:/Ambience/WhaleStation_Bed
   guid: 80605e721e2cfe4aadd38d241a7e582d
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -374,7 +392,7 @@ MonoBehaviour:
   Path: event:/Player/Footsteps
   guid: 27ee6f8c103af74ba73c85b854b6c5aa
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -397,7 +415,7 @@ MonoBehaviour:
   Path: event:/Player/Land
   guid: 50bb93301c7d3143a6eb11c5d1075da9
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -405,6 +423,24 @@ MonoBehaviour:
   MinDistance: 10000
   MaxDistance: 10000
   Length: 380
+--- !u!114 &-2296905727024147080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637359555460000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-2098664392475546282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,7 +478,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_PageFlip
   guid: f6de75e19a30204bb171731bb51be729
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -483,7 +519,7 @@ MonoBehaviour:
   Path: event:/Ambience/OceanForest_Bed
   guid: 5a7618c28bd83048a4232e9323de549e
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -595,7 +631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -5588222394555388474}
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   EditorEvents:
   - {fileID: -2495358637716948065}
   - {fileID: -5484409282263466549}
@@ -612,11 +648,29 @@ MonoBehaviour:
   - {fileID: 7716864859154540382}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   StringsBanks:
   - {fileID: -5588222394555388474}
-  stringsBankWriteTime: 637357938560000000
+  stringsBankWriteTime: 637359567660000000
   cacheVersion: 3
+--- !u!114 &123838018515620544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637359551590000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &193247921096778953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -761,6 +815,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3154784928445021317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637359558580000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &3435727688189353813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -794,7 +866,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_NewTask
   guid: a6b6b0bd770d414482ec2016f22c2216
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -802,6 +874,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 694
+--- !u!114 &4564532923419618150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637359559460000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &4704858280858192679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -817,7 +907,7 @@ MonoBehaviour:
   Path: event:/Music/Ocean_MusicLoop
   guid: e65a80974d4a344c850e239d4ea7dc6d
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -825,6 +915,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 101200
+--- !u!114 &4908034175042029464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637359563390000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5055449628940711570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -843,6 +951,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5572334082735502453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637359567660000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5628381330343760943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -934,7 +1060,7 @@ MonoBehaviour:
   Path: event:/Player/Jump
   guid: 2c1705e3e75824438bec03b569dc5bf2
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -957,7 +1083,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_Open
   guid: 993cc37caefd524b8b09eab2677f9a70
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -980,6 +1106,24 @@ MonoBehaviour:
   Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637342133260000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7204712924999969695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637359557180000000
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -1018,7 +1162,7 @@ MonoBehaviour:
   lastModified: 637357938560000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &7716864859154540382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1034,7 +1178,7 @@ MonoBehaviour:
   Path: event:/Ambience/DarkWorld_Bed
   guid: fb81852ac4c5fb488d24bc81258da677
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1042,6 +1186,24 @@ MonoBehaviour:
   MinDistance: 65
   MaxDistance: 80
   Length: 5000
+--- !u!114 &8065157256615586514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Games2020/capstone/CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637359557860000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8411831717081092772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1093,7 +1255,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_CompleteTask
   guid: 0e67e765317df74f9705b3718cd71ae6
   Banks:
-  - {fileID: 7670236298704460273}
+  - {fileID: 5572334082735502453}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
