@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/StreamingAssets.meta
+<<<<<<< HEAD
+guid: 1961a882a084a4205a1ae97fb08ca639
+=======
+<<<<<<< Updated upstream:Assets/Models/Materials.meta
+<<<<<<< HEAD
+guid: c1ac74a689d36674f83413be157156da
+=======
+guid: 2271939087df449958f03d496566b1b1
+>>>>>>> Alex'sBranch
+=======
+guid: 1961a882a084a4205a1ae97fb08ca639
+>>>>>>> Stashed changes:Assets/StreamingAssets.meta
+>>>>>>> master
+=======
+guid: b733df737e05ff74fbb45ce08d2c54d4
+>>>>>>> Ben'sWorkingBranch:Assets/Animation/Corvanine.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
