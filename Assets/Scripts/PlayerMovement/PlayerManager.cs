@@ -40,8 +40,8 @@ public class PlayerManager : MonoBehaviour
                 player.GetComponent<ThirdPersonPlayerController>().gravity = 0;
                 
                 var gameManagerScript = gameManager.GetComponent<GameManager>();    
-                gameManagerScript.playerControl = false;
-                gameManagerScript.whaleControl = true;
+                gameManagerScript.bools.ControlBools.playerControl = false;
+                gameManagerScript.bools.ControlBools.whaleControl = true;
             }
         }
     }

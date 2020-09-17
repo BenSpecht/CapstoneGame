@@ -30,7 +30,7 @@ public class ThirdPersonPlayerController : MonoBehaviour
 
     void Update()
     {
-        if (_gameManager.playerControl)
+        if (_gameManager.bools.ControlBools.playerControl)
         {
             // We are grounded, so recalculate move direction based on axes
             Vector3 forward = transform.TransformDirection(Vector3.forward);
