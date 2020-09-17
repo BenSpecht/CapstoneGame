@@ -10,6 +10,7 @@ public class Journal : MonoBehaviour
     public static bool GameIsPaused = false;
 
     [FormerlySerializedAs("journalUI")] public GameObject journalUi;
+    public GameManager gameManager;
 
     // Update is called once per frame
     void Update()
@@ -32,14 +33,14 @@ public class Journal : MonoBehaviour
     void Resume()
     {
         journalUi.SetActive(false);
-        
+        gameManager.bools.ControlBools.playerControl = true;
         GameIsPaused = false;
     }
 
     void Pause()
     {
         journalUi.SetActive(true);
-        
+        gameManager.bools.ControlBools.playerControl = false;
         GameIsPaused = true;
     }
 }
