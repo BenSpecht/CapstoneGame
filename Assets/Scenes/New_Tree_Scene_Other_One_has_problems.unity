@@ -2707,8 +2707,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482909332}
-  m_LocalRotation: {x: 0.17645168, y: -0.5137766, z: -0.10879345, w: -0.83250374}
-  m_LocalPosition: {x: -148.50998, y: -19.28992, z: -18.603014}
+  m_LocalRotation: {x: 0.03207121, y: 0.9580289, z: 0.258967, w: -0.1186935}
+  m_LocalPosition: {x: -84.085625, y: -30.807419, z: 37.75846}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4509,10 +4509,10 @@ GameObject:
   - component: {fileID: 876155041}
   - component: {fileID: 876155040}
   - component: {fileID: 876155039}
-  - component: {fileID: 876155042}
   - component: {fileID: 876155045}
   - component: {fileID: 876155044}
   - component: {fileID: 876155043}
+  - component: {fileID: 876155042}
   m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4594,30 +4594,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 876155038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Script: {fileID: 11500000, guid: b1476749fa5e4f7aa9d0ea1d3386b0ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
-  m_IgnoreTimeScale: 0
-  m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
-  m_DefaultBlend:
-    m_Style: 1
-    m_Time: 2
-    m_CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  m_CustomBlends: {fileID: 0}
-  m_CameraCutEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_CameraActivatedEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  target: {fileID: 1905176428}
+  distance: 5
+  xSpeed: 120
+  ySpeed: 120
+  yMinLimit: -20
+  yMaxLimit: 80
+  distanceMin: 0.5
+  distanceMax: 15
+  gameManager: {fileID: 1347885751}
 --- !u!114 &876155043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7189,8 +7177,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dfa1c5dca27319419ddbbeba5f36eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerControl: 1
-  whaleControl: 0
+  book: {fileID: 0}
+  bools:
+    ControlBools:
+      playerControl: 1
+      whaleControl: 0
+    InventoryBools:
+      hasCovanineBaby: 0
+      hasWood: 0
+      hasInstrument: 0
+    FoodBools:
+      scorpittyFood: 0
+  ScreenText:
+    saveBabyText: {fileID: 0}
+    babySavedText: {fileID: 0}
+    gotWoodText: {fileID: 0}
+    scorpittyFoodText: {fileID: 0}
+    instrumentText: {fileID: 0}
+  pages:
+    CorvaninePage: {fileID: 0}
+    scorpittyPage: {fileID: 0}
+    SerpanceaePage: {fileID: 0}
 --- !u!1 &1399388291
 GameObject:
   m_ObjectHideFlags: 0
@@ -9968,6 +9975,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 348934664452788078, guid: 7e09a992241fa8346a0e2c3e8c5e3c41,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 1347885751}
     - target: {fileID: 1752768932448233992, guid: 7e09a992241fa8346a0e2c3e8c5e3c41,
         type: 3}
       propertyPath: m_Name
@@ -10081,6 +10093,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &1905176428 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1752768932448488164, guid: 7e09a992241fa8346a0e2c3e8c5e3c41,
+    type: 3}
+  m_PrefabInstance: {fileID: 1881021177}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1932843009
 PrefabInstance:
   m_ObjectHideFlags: 0
