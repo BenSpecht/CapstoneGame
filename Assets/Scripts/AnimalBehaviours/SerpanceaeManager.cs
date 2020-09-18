@@ -10,7 +10,8 @@ public class SerpanceaeManager : MonoBehaviour
 
     public GameManager gameManager;
     public Collider invisibleWall;
-    
+    private static readonly int PlayerPlayedMusic = Animator.StringToHash("PlayerPlayedMusic");
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +38,7 @@ public class SerpanceaeManager : MonoBehaviour
                 foreach (var serpanceae in serpanceaeMembers)
                 {
                     serpanceae.GetComponent<Animator>().Play("Serpanceae_Dance");
+                    serpanceae.GetComponent<Animator>().SetBool(PlayerPlayedMusic, true);
                     invisibleWall.enabled = false;
                     
                     // Add to book
