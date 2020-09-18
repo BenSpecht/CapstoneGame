@@ -30,7 +30,7 @@ public class ThirdPersonWhaleController : MonoBehaviour
 
     void Update()
     {
-        if (_gameManager.whaleControl)
+        if (_gameManager.bools.ControlBools.whaleControl)
         {
             // We are grounded, so recalculate move direction based on axes
             Vector3 forward = transform.TransformDirection(Vector3.forward);
@@ -49,7 +49,7 @@ public class ThirdPersonWhaleController : MonoBehaviour
         characterController.Move(moveDirection * Time.deltaTime);
 
         // Player and Camera rotation
-        if (canMove && _gameManager.whaleControl)
+        if (canMove && _gameManager.bools.ControlBools.whaleControl)
         {
             rotation.y += Input.GetAxis("Mouse X") * lookSpeed;
             rotation.x += -Input.GetAxis("Mouse Y") * lookSpeed;
