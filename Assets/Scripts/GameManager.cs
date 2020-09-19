@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 [Serializable]
@@ -13,6 +14,8 @@ public struct ScreenText
     public Text gotWoodText;
     public Text scorpittyFoodText;
     public Text instrumentText;
+    public Text befriendText;
+    public Text befriendSuccessText;
 }
 
 [Serializable]
@@ -27,6 +30,7 @@ public struct Pages
 public struct FoodBools
 {
     public bool scorpittyFood;
+    public bool whaleFood;
 }
 
 [Serializable]
@@ -45,12 +49,24 @@ public struct InventoryBools
 }
 
 [Serializable]
+public struct WhalePathing
+{
+    public bool pathToDark;
+    public bool pathToForest;
+
+    public bool whaleAtForest;
+    public bool whaleAtDark;
+}
+
+[Serializable]
 public struct Bools
 {
     public ControlBools ControlBools;
     public InventoryBools InventoryBools;
     public FoodBools FoodBools;
-    
+    public WhalePathing WhalePathing;
+
+    public bool whaleFed;
 }
 
 public class GameManager : MonoBehaviour
@@ -147,5 +163,29 @@ public class GameManager : MonoBehaviour
         ScreenText.instrumentText.gameObject.SetActive(true);
         yield return new WaitForSeconds(3);
         ScreenText.instrumentText.gameObject.SetActive(false);
+    }
+
+    public void DisplayBefriendText()
+    {
+        StartCoroutine(BefriendText());
+    }
+
+    private IEnumerator BefriendText()
+    {
+        ScreenText.befriendText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(3);
+        ScreenText.befriendText.gameObject.SetActive(false);
+    }
+
+    public void DisplayBefriendSuccessText()
+    {
+        
+    }
+
+    private IEnumerator BefriendSuccessText()
+    {
+        ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(4);
+        ScreenText.befriendSuccessText.gameObject.SetActive(false);
     }
 }

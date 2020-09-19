@@ -40,7 +40,7 @@ public class MouseOrbitImproved : MonoBehaviour {
  
     void LateUpdate () 
     {
-        if (target && gameManager.bools.ControlBools.playerControl) 
+        if (target && (gameManager.bools.ControlBools.playerControl || gameManager.bools.ControlBools.whaleControl)) 
         {
             x += Input.GetAxis("Mouse X") * xSpeed * distance * 0.02f;
             y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
