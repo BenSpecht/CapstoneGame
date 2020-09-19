@@ -844,7 +844,7 @@ MonoBehaviour:
   - {fileID: 1247861216}
   - {fileID: 1778059543}
   currentWayPoint: 0
-  speed: 50
+  speed: 20
   gameManager: {fileID: 1347885751}
   whaleManager: {fileID: 163870946}
 --- !u!4 &163870948
