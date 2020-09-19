@@ -12,6 +12,7 @@ public struct ScreenText
     public Text babySavedText;
     public Text gotWoodText;
     public Text scorpittyFoodText;
+    public Text instrumentText;
 }
 
 [Serializable]
@@ -19,6 +20,7 @@ public struct Pages
 {
     public Sprite CorvaninePage;
     public Sprite scorpittyPage;
+    public Sprite SerpanceaePage;
 }
 
 [Serializable]
@@ -39,6 +41,7 @@ public struct InventoryBools
 {
     public bool hasCovanineBaby;
     public bool hasWood;
+    public bool hasInstrument;
 }
 
 [Serializable]
@@ -79,6 +82,11 @@ public class GameManager : MonoBehaviour
     public void AddScorpittyToBook()
     {
         book.bookPages[1] = pages.scorpittyPage;
+    }
+
+    public void AddSerpanceaeToBook()
+    {
+        book.bookPages[2] = pages.SerpanceaePage;
     }
     
     public void DisplaySaveBaby()
@@ -127,5 +135,17 @@ public class GameManager : MonoBehaviour
         ScreenText.scorpittyFoodText.gameObject.SetActive(true);
         yield return new WaitForSeconds(3);
         ScreenText.scorpittyFoodText.gameObject.SetActive(false);
+    }
+
+    public void DisplayInstrumentRecieved()
+    {
+        StartCoroutine(InstrumentRecievedText());
+    }
+
+    private IEnumerator InstrumentRecievedText()
+    {
+        ScreenText.instrumentText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(3);
+        ScreenText.instrumentText.gameObject.SetActive(false);
     }
 }
