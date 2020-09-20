@@ -179,7 +179,7 @@ public class GameManager : MonoBehaviour
 
     public void DisplayBefriendSuccessText()
     {
-        
+        StartCoroutine(BefriendSuccessText());
     }
 
     private IEnumerator BefriendSuccessText()
