@@ -24,6 +24,9 @@ public struct Pages
     public Sprite CorvaninePage;
     public Sprite scorpittyPage;
     public Sprite SerpanceaePage;
+    public Sprite WhalePage;
+    public Sprite MantarayPage;
+    public Sprite OctopusPage;
 }
 
 [Serializable]
@@ -46,6 +49,7 @@ public struct InventoryBools
     public bool hasCovanineBaby;
     public bool hasWood;
     public bool hasInstrument;
+    public bool hasOctopusBox;
 }
 
 [Serializable]
@@ -103,6 +107,21 @@ public class GameManager : MonoBehaviour
     public void AddSerpanceaeToBook()
     {
         book.bookPages[2] = pages.SerpanceaePage;
+    }
+
+    public void AddOctopusToBook()
+    {
+        book.bookPages[3] = pages.OctopusPage;
+    }
+
+    public void AddMantarayToBook()
+    {
+        book.bookPages[4] = pages.MantarayPage;
+    }
+
+    public void AddWhaleToBook()
+    {
+        book.bookPages[5] = pages.WhalePage;
     }
     
     public void DisplaySaveBaby()
