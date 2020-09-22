@@ -31,6 +31,7 @@ namespace AnimalBehaviours
                 {
                     // Add to journal and provide wood
                     gameManager.AddCorvanineToBook();
+                    gameManager.bools.AnimalsMetBools.CorvinineMet = true;
                     gameManager.bools.InventoryBools.hasWood = true;
                     gameManager.DisplayWoodRecieved();
                 }

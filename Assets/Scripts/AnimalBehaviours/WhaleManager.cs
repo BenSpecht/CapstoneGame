@@ -111,6 +111,7 @@ public class WhaleManager : MonoBehaviour
                     gameManager.DisplayBefriendSuccessText();
                     gameManager.bools.whaleFed = true;
                     gameManager.AddWhaleToBook();
+                    gameManager.bools.AnimalsMetBools.WhaleMet = true;
                 }
                 else
                 {

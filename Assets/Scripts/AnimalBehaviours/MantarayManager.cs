@@ -32,6 +32,7 @@ public class MantarayManager : MonoBehaviour
                 // Play mantaray eating animation
                 gameObject.GetComponent<Animator>().Play("Eat");
                 gameManager.AddMantarayToBook();
+                gameManager.bools.AnimalsMetBools.MantarayMet = true;
             }
         }
     }

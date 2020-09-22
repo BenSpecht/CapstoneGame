@@ -48,6 +48,7 @@ public class ScorpittyManager : MonoBehaviour
                 
                 // Add to book
                 gameManager.AddScorpittyToBook();
+                gameManager.bools.AnimalsMetBools.ScorpittyMet = true;
             }
         }
     }

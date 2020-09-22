@@ -31,6 +31,7 @@ public class OctopusRadiusManager : MonoBehaviour
             {
                 octopus.SetActive(false);
                 gameManager.AddOctopusToBook();
+                gameManager.bools.AnimalsMetBools.OctopusMet = true;
             }
         }
     }
