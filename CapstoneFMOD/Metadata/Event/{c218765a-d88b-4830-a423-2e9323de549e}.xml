@@ -5,7 +5,7 @@
 			<value>OceanForest_Bed</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{de57fd2c-9f06-4a42-b666-de2d32a224c8}</destination>
@@ -389,6 +389,7 @@
 		<relationship name="effects">
 			<destination>{3d592ef7-67e7-45c6-9c7c-28d44f905434}</destination>
 			<destination>{9e63ec82-afaa-4bbc-a092-333181caa565}</destination>
+			<destination>{a490464c-77a5-4d36-ab8a-9853641f43ec}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cb998fcd-aa8a-4329-97f7-6975c3a12238}" />
@@ -669,6 +670,23 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{9e63ec82-afaa-4bbc-a092-333181caa565}" />
+	<object class="SpatialiserEffect" id="{a490464c-77a5-4d36-ab8a-9853641f43ec}">
+		<property name="minimumDistance">
+			<value>25.5</value>
+		</property>
+		<property name="maximumDistance">
+			<value>40</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>8500</value>
+		</property>
+		<property name="minimumExtent">
+			<value>360</value>
+		</property>
+	</object>
 	<object class="MultibandEqEffect" id="{08a77694-c076-479b-9df7-50ed445900a2}">
 		<property name="filterTypeA">
 			<value>9</value>
