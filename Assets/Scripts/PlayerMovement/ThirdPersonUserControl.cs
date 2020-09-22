@@ -13,6 +13,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
 
+
+        public GameManager gameManager;
         
         private void Start()
         {
@@ -53,9 +55,17 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             // calculate move direction to pass to character
             if (m_Cam != null)
             {
-                // calculate camera relative direction to move:
-                m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
-                m_Move = v*m_CamForward + h*m_Cam.right;
+                if (gameManager.bools.ControlBools.playerControl)
+                {
+                    // calculate camera relative direction to move:
+                    m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
+                    m_Move = v * m_CamForward + h * m_Cam.right;
+                }
+                else
+                {
+                    m_CamForward = Vector3.Scale(-m_Cam.forward, new Vector3(1, 0, 1)).normalized;
+                    m_Move = v * m_CamForward + h * m_Cam.right;
+                }
             }
             else
             {

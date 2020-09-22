@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+/*using UnityEditor;*/
 
-[ExecuteInEditMode]
+/*[ExecuteInEditMode]
 public class CheckForStandardAssets : MonoBehaviour {
 
 	// Use this for initialization
@@ -16,4 +16,4 @@ public class CheckForStandardAssets : MonoBehaviour {
 	void Update () {
 		
 	}
-}
+}*/

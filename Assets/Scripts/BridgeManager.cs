@@ -24,6 +24,7 @@ public class BridgeManager : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        Debug.Log("Beep");
         if (other.CompareTag("Player"))
         {
             if (gameManager.bools.InventoryBools.hasWood && brokenBridge.activeSelf)

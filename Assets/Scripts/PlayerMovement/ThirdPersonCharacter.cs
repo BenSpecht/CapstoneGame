@@ -10,7 +10,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		[SerializeField] float m_MovingTurnSpeed = 360;
 		[SerializeField] float m_StationaryTurnSpeed = 180;
 		[SerializeField] float m_JumpPower = 12f;
-		[Range(1f, 4f)][SerializeField] float m_GravityMultiplier = 2f;
+		[Range(-1f, 4f)][SerializeField] float m_GravityMultiplier = 2f;
 		[SerializeField] float m_RunCycleLegOffset = 0.2f; //specific to the character in sample assets, will need to be modified to work with others
 		[SerializeField] float m_MoveSpeedMultiplier = 1f;
 		[SerializeField] float m_AnimSpeedMultiplier = 1f;
@@ -47,7 +47,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 		public void Move(Vector3 move, bool crouch, bool jump)
 		{
-			if (GameManager.bools.ControlBools.playerControl)
+			if (GameManager.bools.ControlBools.playerControl || GameManager.bools.ControlBools.whaleControl)
 			{
 				// convert the world relative moveInput vector into a local-relative
 				// turn amount and forward amount required to head in the desired
@@ -177,6 +177,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_IsGrounded = false;
 				m_Animator.applyRootMotion = false;
 				m_GroundCheckDistance = 0.1f;
+			}
+			
+			if (GameManager.bools.ControlBools.whaleControl)
+			{
+				m_IsGrounded = true;
 			}
 		}
 
