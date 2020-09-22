@@ -6,10 +6,8 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
 
-    public GameObject whaleCameraParent;
-    public GameObject gameManager;
-    public GameObject playerCameraParent;
-    
+    public GameManager gameManager;
+    public GameObject octopusBox;
     
     // Start is called before the first frame update
     void Start()
@@ -20,29 +18,16 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.name == "Whale")
+        if (Input.GetKeyDown(KeyCode.R) && gameManager.bools.InventoryBools.hasOctopusBox)
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                
-                playerCameraParent.SetActive(false);
-                whaleCameraParent.SetActive(true);
+            // Drop box in front of player
+            
+            octopusBox.SetActive(true);
+            
+            var position = gameObject.transform.position;
+            octopusBox.transform.position = position;
 
-                // Animate player getting on whale here - for now just teleporting player onto whale
-                var player = gameObject;
-                player.transform.parent = other.transform;
-                player.transform.localPosition = new Vector3(1.1f, -0.28f, -1.7f);
-                player.GetComponent<ThirdPersonPlayerController>().gravity = 0;
-                
-                var gameManagerScript = gameManager.GetComponent<GameManager>();    
-                gameManagerScript.bools.ControlBools.playerControl = false;
-                gameManagerScript.bools.ControlBools.whaleControl = true;
-            }
-        }
+            gameManager.bools.InventoryBools.hasOctopusBox = false;
+        } 
     }
 }
