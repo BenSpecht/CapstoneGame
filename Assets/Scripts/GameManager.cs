@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 /*using UnityEditor;*/
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 [Serializable]
 public struct ScreenText
@@ -34,6 +36,7 @@ public struct FoodBools
 {
     public bool scorpittyFood;
     public bool whaleFood;
+    public bool mantarayFood;
 }
 
 [Serializable]
@@ -63,12 +66,24 @@ public struct WhalePathing
 }
 
 [Serializable]
+public struct AnimalsMetBools
+{
+    public bool WhaleMet;
+    public bool ScorpittyMet;
+    public bool SerpMet;
+    public bool MantarayMet;
+    public bool OctopusMet;
+    public bool CorvinineMet;
+}
+
+[Serializable]
 public struct Bools
 {
     public ControlBools ControlBools;
     public InventoryBools InventoryBools;
     public FoodBools FoodBools;
     public WhalePathing WhalePathing;
+    public AnimalsMetBools AnimalsMetBools;
 
     public bool whaleFed;
 }
@@ -82,6 +97,13 @@ public class GameManager : MonoBehaviour
     public ScreenText ScreenText;
     public Pages pages;
 
+
+    public GameObject player;
+    public GameObject playerCam;
+    public GameObject finalCam;
+
+    public GameObject flower;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -91,7 +113,28 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GameOverCheck();
+    }
+
+    private void GameOverCheck()
+    {
+        if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.MantarayMet &&
+            bools.AnimalsMetBools.OctopusMet && bools.AnimalsMetBools.ScorpittyMet && bools.AnimalsMetBools.SerpMet &&
+            bools.AnimalsMetBools.WhaleMet)
+        {
+            player.GetComponent<ThirdPersonCharacter>().enabled = false;
+            player.GetComponent<ThirdPersonUserControl>().enabled = false;
+            playerCam.SetActive(false);
+            finalCam.SetActive(true);
+            StartCoroutine(FinalAnimationDelay());
+        }
+    }
+
+    private IEnumerator FinalAnimationDelay()
+    {
+        yield return new WaitForSeconds(4);
+        flower.GetComponent<Animator>().Play("Take 001");
+        finalCam.GetComponent<Animator>().Play("Camera");
     }
 
     public void AddCorvanineToBook()

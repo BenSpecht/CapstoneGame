@@ -110,6 +110,7 @@ public class WhaleManager : MonoBehaviour
                 {
                     gameManager.DisplayBefriendSuccessText();
                     gameManager.bools.whaleFed = true;
+                    gameManager.AddWhaleToBook();
                 }
                 else
                 {
