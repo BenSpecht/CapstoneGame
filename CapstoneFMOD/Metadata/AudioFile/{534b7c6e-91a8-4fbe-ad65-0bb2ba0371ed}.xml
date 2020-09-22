@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{534b7c6e-91a8-4fbe-ad65-0bb2ba0371ed}">
+		<property name="assetPath">
+			<value>Ambience/Bird_Blackbird/Bird_Blackbird_7.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.96514739229024948</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a92529b8-2d2c-4835-a9a7-b4743b92a9a4}</destination>
+		</relationship>
+	</object>
+</objects>
