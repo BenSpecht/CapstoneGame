@@ -43,6 +43,7 @@ public class SerpanceaeManager : MonoBehaviour
                     
                     // Add to book
                     gameManager.AddSerpanceaeToBook();
+                    gameManager.bools.AnimalsMetBools.SerpMet = true;
                 }
             }
         }
