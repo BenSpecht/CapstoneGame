@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000029319526028 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000194D69B67A8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -16,83 +16,5 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] SoundI::release                          :  (00000293193BDD88)
-[LOG] SoundI::release                          :     Bug03_1 (00000292538F0F28)
-[LOG] SoundI::release                          :  (000002925443A668)
-[LOG] SoundI::release                          :     Bug03_2 (0000029252070A78)
-[LOG] SoundI::release                          :  (00000293193BF768)
-[LOG] SoundI::release                          :     Bug03_3 (00000292519D2B98)
-[LOG] SoundI::release                          :  (00000293193BEA78)
-[LOG] SoundI::release                          :     Bug03_4 (00000292538F3488)
-[LOG] SoundI::release                          :  (00000293193BED58)
-[LOG] SoundI::release                          :     Bug04_1 (00000292538F37C8)
-[LOG] SoundI::release                          :  (00000293193BE068)
-[LOG] SoundI::release                          :     Bug04_2 (00000292538F3B08)
-[LOG] SoundI::release                          :  (00000293193BE348)
-[LOG] SoundI::release                          :     Bug04_3 (00000292519D5DF8)
-[LOG] SoundI::release                          :  (0000029228819BE8)
-[LOG] SoundI::release                          :     Bug04_4 (000002925206AA98)
-[LOG] SoundI::release                          :  (00000293193BFD28)
-[LOG] SoundI::release                          :     Bug01_1 (000002925206DE98)
-[LOG] SoundI::release                          : Tree01_Loop (000002922ABE4E38)
-[LOG] SoundI::release                          :     Tree01_Loop (00000292538F4B48)
-[LOG] SoundI::release                          :     Tree01_Loop (00000292FF5D7488)
-[LOG] SoundI::release                          : Tree02_Loop (000002922C3EDC38)
-[LOG] SoundI::release                          :     Tree02_Loop (00000292538F0D88)
-[LOG] SoundI::release                          :     Tree02_Loop (000002931958BAC8)
-[LOG] SoundI::release                          : Tree06_Crunch_Loop (000002922C3ED8D8)
-[LOG] SoundI::release                          :     Tree06_Crunch_Loop (00000292520582D8)
-[LOG] SoundI::release                          :     Tree06_Crunch_Loop (000002931958B918)
-[LOG] SoundI::release                          : DarkWorld_Ambience_3 (000002925475F228)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_3 (00000291C842C4D8)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_3 (00000292FF5D7EA8)
-[LOG] SoundI::release                          : DarkWorld_Ambience_4 (000002925475ED18)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_4 (00000291C842ED78)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_4 (00000292FF5D7998)
-[LOG] SoundI::release                          : DarkWorld_Ambience_2 (000002925475F3D8)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_2 (00000291C84300F8)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_2 (00000292FF5D72D8)
-[LOG] SoundI::release                          : DarkWorld_Ambience_1 (000002925475EB68)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_1 (00000292519CE418)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_1 (00000292FF5D7128)
-[LOG] SoundI::release                          : River_Loop (000002922ABE40B8)
-[LOG] SoundI::release                          :     River_Loop (00000292538F1268)
-[LOG] SoundI::release                          :     River_Loop (00000292FF5D7CF8)
-[LOG] SoundI::release                          : OFmusic_V01_Loop (000002922C3ED218)
-[LOG] SoundI::release                          :     OFmusic_V01_Loop (000002925206A5B8)
-[LOG] SoundI::release                          :     OFmusic_V01_Loop (000002931958BE28)
-[LOG] SoundI::release                          :  (00000290433BF7F8)
-[LOG] SoundI::release                          :     Bug01_2 (000002925206D678)
-[LOG] SoundI::release                          :  (00000293193C05C8)
-[LOG] SoundI::release                          :     Bug01_3 (00000292538E38A8)
-[LOG] SoundI::release                          :  (00000293193BDEF8)
-[LOG] SoundI::release                          :     Bug01_4 (00000292519D4A78)
-[LOG] SoundI::release                          :  (00000293193BD378)
-[LOG] SoundI::release                          :     Bug02_1 (00000292538F3E48)
-[LOG] SoundI::release                          :  (00000293193BEBE8)
-[LOG] SoundI::release                          :     Bug02_2 (00000292519D5438)
-[LOG] SoundI::release                          :  (000002925443AD98)
-[LOG] SoundI::release                          :     Bug02_3 (000002925206A278)
-[LOG] SoundI::release                          :  (00000293193BE798)
-[LOG] SoundI::release                          :     Bug02_4 (00000292519D6478)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] SystemI::close                           : Closed.
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
-[LOG] SystemI::close                           : Closed.
