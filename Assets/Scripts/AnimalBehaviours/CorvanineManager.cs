@@ -6,6 +6,8 @@ namespace AnimalBehaviours
     {
 
         public GameManager gameManager;
+
+        public GameObject planks;
     
         // Start is called before the first frame update
         void Start()
@@ -30,10 +32,12 @@ namespace AnimalBehaviours
                 else
                 {
                     // Add to journal and provide wood
+                    planks.SetActive(true);
                     gameManager.AddCorvanineToBook();
                     gameManager.bools.AnimalsMetBools.CorvinineMet = true;
-                    gameManager.bools.InventoryBools.hasWood = true;
-                    gameManager.DisplayWoodRecieved();
+                    //gameManager.bools.InventoryBools.hasWood = true;
+                   // gameManager.DisplayWoodRecieved();
+                    
                 }
             }
         }

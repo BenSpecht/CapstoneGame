@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000194D69B67A8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000217BBD0E4A8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -17,4 +17,230 @@
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSound                     : filename = CapstoneFMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000217E3506E38 : node = 00000218F88317E0
+[LOG] SystemI::createSound                     : add node to async list : head = 00000217E1B14318.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000217E3506E38
+[LOG] SystemI::createSoundInternal             :     Create name='CapstoneFMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9001568
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 72288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000218F88318F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Tree02_Loop', format=2, channels=2, frequency=48000, lengthbytes=266560, lengthpcm=981400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.167026.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000217E3506E38
+[LOG] SoundI::getSubSound                      : sound 00000217E3506E38.  Subsound index 0 / 1
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SoundI::release                          : Tree02_Loop (00000217E1422278)
+[LOG] SoundI::release                          :     Tree02_Loop (00000217E1B170E8)
+[LOG] SoundI::release                          :     Tree02_Loop (00000217E2A3B378)
+[LOG] SystemI::createSound                     : filename = CapstoneFMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000218973514F8 : node = 00000218F8831F60
+[LOG] SystemI::createSound                     : add node to async list : head = 00000217E1B14318.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000218973514F8
+[LOG] SystemI::createSoundInternal             :     Create name='CapstoneFMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9001568
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 72288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000218F8832070
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Tree06_Crunch_Loop', format=2, channels=2, frequency=48000, lengthbytes=214976, lengthpcm=1128000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.037755.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000218973514F8
+[LOG] SoundI::getSubSound                      : sound 00000218973514F8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : Tree06_Crunch_Loop (00000217E1421F18)
+[LOG] SoundI::release                          :     Tree06_Crunch_Loop (00000217E1B13808)
+[LOG] SoundI::release                          :     Tree06_Crunch_Loop (00000217E2A3B1C8)
+[LOG] SystemI::createSound                     : filename = CapstoneFMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000021897350E38 : node = 00000218F88325A0
+[LOG] SystemI::createSound                     : add node to async list : head = 00000217E1B14318.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021897350E38
+[LOG] SystemI::createSoundInternal             :     Create name='CapstoneFMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9001568
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 72288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000218F88326B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='DarkWorld_Ambience_4', format=2, channels=2, frequency=48000, lengthbytes=321440, lengthpcm=1155228, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.007595.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021897350E38
+[LOG] SoundI::getSubSound                      : sound 0000021897350E38.  Subsound index 0 / 1
+[LOG] SoundI::release                          : DarkWorld_Ambience_4 (000002188E9FE348)
+[LOG] SoundI::release                          :     DarkWorld_Ambience_4 (00000217E1B19CC8)
+[LOG] SoundI::release                          :     DarkWorld_Ambience_4 (00000217E0E4F3B8)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSound                     : filename = CapstoneFMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000021897350AD8 : node = 00000217BB4C7F80
+[LOG] SystemI::createSound                     : add node to async list : head = 00000217E1B14318.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000021897350AD8
+[LOG] SystemI::createSoundInternal             :     Create name='CapstoneFMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9001568
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 72288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000217BB4C8090
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Tree01_Loop', format=2, channels=2, frequency=48000, lengthbytes=503328, lengthpcm=1848000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.177874.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000021897350AD8
+[LOG] SoundI::getSubSound                      : sound 0000021897350AD8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : Tree01_Loop (00000217E14225D8)
+[LOG] SoundI::release                          :     Tree01_Loop (00000217E1B18608)
+[LOG] SoundI::release                          :     Tree01_Loop (00000217E2A3A298)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SystemI::createSound                     : filename = CapstoneFMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000217E0BFB698 : node = 00000217BB4C7940
+[LOG] SystemI::createSound                     : add node to async list : head = 00000217E1B14318.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000217E0BFB698
+[LOG] SystemI::createSoundInternal             :     Create name='CapstoneFMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9001568
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 72288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000217BB4C7A50
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Tree02_Loop', format=2, channels=2, frequency=48000, lengthbytes=266560, lengthpcm=981400, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.167026.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000217E0BFB698
+[LOG] SoundI::getSubSound                      : sound 00000217E0BFB698.  Subsound index 0 / 1
+[LOG] SoundI::release                          : Tree02_Loop (00000217E3506E38)
+[LOG] SoundI::release                          :     Tree02_Loop (00000217E1B16C08)
+[LOG] SoundI::release                          :     Tree02_Loop (00000217E0E4EEA8)
+[LOG] SystemI::createSound                     : filename = CapstoneFMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000217E0BFAAC8 : node = 00000217BB4C7E40
+[LOG] SystemI::createSound                     : add node to async list : head = 00000217E1B14318.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000217E0BFAAC8
+[LOG] SystemI::createSoundInternal             :     Create name='CapstoneFMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9001568
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 72288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000217BB4C7F50
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='River_Loop', format=2, channels=2, frequency=48000, lengthbytes=579040, lengthpcm=2184335, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.227023.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000217E0BFAAC8
+[LOG] SoundI::getSubSound                      : sound 00000217E0BFAAC8.  Subsound index 0 / 1
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SoundI::release                          : River_Loop (00000217BE81C7B8)
+[LOG] SoundI::release                          :     River_Loop (00000217E1B16A68)
+[LOG] SoundI::release                          :     River_Loop (00000217E2A3B888)
+[LOG] SystemI::createSound                     : filename = CapstoneFMOD/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000217E0BFAC78 : node = 00000217BB4C80C0
+[LOG] SystemI::createSound                     : add node to async list : head = 00000217E1B14318.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000217E0BFAC78
+[LOG] SystemI::createSoundInternal             :     Create name='CapstoneFMOD/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 9001568
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 72288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000217BB4C81D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Tree06_Crunch_Loop', format=2, channels=2, frequency=48000, lengthbytes=214976, lengthpcm=1128000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.037755.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000217E0BFAC78
+[LOG] SoundI::getSubSound                      : sound 00000217E0BFAC78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : Tree06_Crunch_Loop (00000218973514F8)
+[LOG] SoundI::release                          :     Tree06_Crunch_Loop (00000217E1B19168)
+[LOG] SoundI::release                          :     Tree06_Crunch_Loop (00000217E0E4F568)
+[LOG] SoundI::release                          :  (00000218F9216F18)
+[LOG] SoundI::release                          :     Bug03_1 (00000217E1B15F08)
+[LOG] SoundI::release                          :  (00000218F9217A98)
+[LOG] SoundI::release                          :     Bug03_2 (00000217E1B12CA8)
+[LOG] SoundI::release                          :  (00000218F9210EC8)
+[LOG] SoundI::release                          :     Bug03_3 (00000217E1B17908)
+[LOG] SoundI::release                          :  (00000218F920FD88)
+[LOG] SoundI::release                          :     Bug03_4 (00000217E1B1A348)
+[LOG] SoundI::release                          :  (00000218F9210BE8)
+[LOG] SoundI::release                          :     Bug04_1 (00000217E1B1BBA8)
+[LOG] SoundI::release                          :  (00000218F9213CC8)
+[LOG] SoundI::release                          :     Bug04_2 (00000217E1B187A8)
+[LOG] SoundI::release                          :  (00000218F9210068)
+[LOG] SoundI::release                          :     Bug04_3 (00000217E1B18948)
+[LOG] SoundI::release                          :  (00000218F9216398)
+[LOG] SoundI::release                          :     Bug04_4 (00000217E1B14368)
+[LOG] SoundI::release                          :  (00000218F9217088)
+[LOG] SoundI::release                          :     Bug01_1 (00000217E1B13328)
+[LOG] SoundI::release                          : Tree01_Loop (0000021897350AD8)
+[LOG] SoundI::release                          :     Tree01_Loop (00000217E1B18C88)
+[LOG] SoundI::release                          :     Tree01_Loop (00000217E2A3B1C8)
+[LOG] SoundI::release                          : Tree02_Loop (00000217E0BFB698)
+[LOG] SoundI::release                          :     Tree02_Loop (00000217E1B182C8)
+[LOG] SoundI::release                          :     Tree02_Loop (00000217E2A3B378)
+[LOG] SoundI::release                          : Tree06_Crunch_Loop (00000217E0BFAC78)
+[LOG] SoundI::release                          :     Tree06_Crunch_Loop (00000217E1B170E8)
+[LOG] SoundI::release                          :     Tree06_Crunch_Loop (00000217E2A3B888)
+[LOG] SoundI::release                          : DarkWorld_Ambience_3 (00000217E24D8A38)
+[LOG] SoundI::release                          :     DarkWorld_Ambience_3 (00000217E1B17C48)
+[LOG] SoundI::release                          :     DarkWorld_Ambience_3 (00000217E0E4F058)
+[LOG] SoundI::release                          : DarkWorld_Ambience_4 (0000021897350E38)
+[LOG] SoundI::release                          :     DarkWorld_Ambience_4 (00000217E1B13808)
+[LOG] SoundI::release                          :     DarkWorld_Ambience_4 (00000217E0E4EB48)
+[LOG] SoundI::release                          : DarkWorld_Ambience_2 (00000218F7C88EF8)
+[LOG] SoundI::release                          :     DarkWorld_Ambience_2 (00000217E1B1BD48)
+[LOG] SoundI::release                          :     DarkWorld_Ambience_2 (00000217E31E0998)
+[LOG] SoundI::release                          : DarkWorld_Ambience_1 (00000218F7C88688)
+[LOG] SoundI::release                          :     DarkWorld_Ambience_1 (00000217E1B18FC8)
+[LOG] SoundI::release                          :     DarkWorld_Ambience_1 (00000217E31E0488)
+[LOG] SoundI::release                          : River_Loop (00000217E0BFAAC8)
+[LOG] SoundI::release                          :     River_Loop (00000217E1B18468)
+[LOG] SoundI::release                          :     River_Loop (00000217E2A39D88)
+[LOG] SoundI::release                          : OFmusic_V01_Loop (00000217E1421BB8)
+[LOG] SoundI::release                          :     OFmusic_V01_Loop (00000217E1B127C8)
+[LOG] SoundI::release                          :     OFmusic_V01_Loop (00000217E2A3B018)
+[LOG] SoundI::release                          :  (00000218F9216508)
+[LOG] SoundI::release                          :     Bug01_2 (00000217E1B14508)
+[LOG] SoundI::release                          :  (00000218F9210D58)
+[LOG] SoundI::release                          :     Bug01_3 (00000217E1B17DE8)
+[LOG] SoundI::release                          :  (00000217E0F2F118)
+[LOG] SoundI::release                          :     Bug01_4 (00000217E1B18AE8)
+[LOG] SoundI::release                          :  (00000218F9214568)
+[LOG] SoundI::release                          :     Bug02_1 (00000217E1B15BC8)
+[LOG] SoundI::release                          :  (00000218F9215258)
+[LOG] SoundI::release                          :     Bug02_2 (00000217E1B197E8)
+[LOG] SoundI::release                          :  (00000218F9217368)
+[LOG] SoundI::release                          :     Bug02_3 (00000217E1B12968)
+[LOG] SoundI::release                          :  (00000218F920FEF8)
+[LOG] SoundI::release                          :     Bug02_4 (00000217E1B19B28)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
+[LOG] SystemI::close                           : Closed.
