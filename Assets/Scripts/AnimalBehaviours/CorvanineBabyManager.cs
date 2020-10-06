@@ -7,6 +7,8 @@ using UnityEngine;
 public class CorvanineBabyManager : MonoBehaviour
 {
     public GameManager gameManager;
+
+    
     
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,7 @@ public class CorvanineBabyManager : MonoBehaviour
             gameManager.bools.InventoryBools.hasCovanineBaby = true;
             gameObject.SetActive(false);
             gameManager.DisplayBabySaved();
+            
         }
     }
 }
