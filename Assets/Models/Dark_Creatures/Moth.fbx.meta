@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b758d08c98c4b6847950d36ee03a775c
+guid: ff2e46cd7f5f2b74aa2ab783ec2fe7a4
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
@@ -7,8 +7,8 @@ ModelImporter:
       74: 1827226128182048838
     second: Moth_fly
   - first:
-      74: -5340977755761151698
-    second: Moth_sit
+      74: 5787812336346297882
+    second: Moth_land
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -42,7 +42,7 @@ ModelImporter:
       takeName: Take 001
       internalID: 0
       firstFrame: 1
-      lastFrame: 54
+      lastFrame: 45
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -67,10 +67,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Moth_sit
+      name: Moth_land
       takeName: Take 001
       internalID: 0
-      firstFrame: 54
+      firstFrame: 50
       lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
