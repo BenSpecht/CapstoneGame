@@ -9,7 +9,7 @@ namespace Utility
         public Transform[] WendigoCircle;
  
         public int currentWayPoint = 0; 
-        Transform targetWayPoint;
+        public Transform targetWayPoint;
  
         public float speed = 4f;
 
@@ -28,11 +28,12 @@ namespace Utility
         void Update () {
             // Check if we are walking
             
-            if (gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Wendigo_Idle") && wendigoCircleBool) 
+            if (wendigoCircleBool) 
             {
                 if (currentWayPoint > WendigoCircle.Length)
                 {
                     // Reached Destination
+                    Debug.Log("HAHA");
                 }
                 else
                 {
@@ -40,9 +41,9 @@ namespace Utility
                     {
                         targetWayPoint = WendigoCircle[currentWayPoint];
                     }
-                    
-                    Walk();
                 }
+                
+                Walk();
             }
             
             if (wendigoOutBool)
@@ -63,7 +64,7 @@ namespace Utility
                     {
                         targetWayPoint = WendigoOut[currentWayPoint];
                     }
-
+                    
                     Walk();
                 }
             }
@@ -75,6 +76,11 @@ namespace Utility
 
             if (!gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Wendigo_Idle"))
             {
+
+                if (wendigoCircleBool)
+                {
+                    Debug.Log("MEME");
+                }
 
                 // rotate towards the target
 
