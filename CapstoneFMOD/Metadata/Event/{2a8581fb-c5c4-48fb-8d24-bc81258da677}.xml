@@ -5,7 +5,7 @@
 			<value>DarkWorld_Bed</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{de57fd2c-9f06-4a42-b666-de2d32a224c8}</destination>
@@ -126,7 +126,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{209b31cf-39a8-4641-81ea-eb8e0fd6e788}">
 		<property name="volume">
-			<value>4.5</value>
+			<value>3.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{e5c7882b-76e5-4554-bf68-7fd8c127e55e}</destination>
@@ -157,7 +157,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3a68972e-1a4e-43c3-b836-4067fc7f66e6}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -181,6 +181,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5f4dab36-5106-4204-95fe-648a4780b853}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -203,6 +206,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{01cab86c-8e7f-4e49-b1d1-78efbab490d3}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="name">
 			<value>Audio 3</value>
 		</property>
@@ -226,7 +232,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{5751a30d-5310-4797-94a1-36406b7e3b68}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>Audio 4</value>
@@ -281,7 +287,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4d83b21a-da9b-4fd7-9b7d-be22fca3beb0}">
 		<property name="volume">
-			<value>-18</value>
+			<value>-22</value>
 		</property>
 		<property name="name">
 			<value>Audio 6</value>
@@ -336,7 +342,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{da3009ad-bf7e-416a-a8fd-38ff4d5571d5}">
 		<property name="volume">
-			<value>-18</value>
+			<value>-22.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 5</value>
@@ -372,6 +378,9 @@
 		<property name="initialValue">
 			<value>-80</value>
 		</property>
+		<property name="releaseTime">
+			<value>3000</value>
+		</property>
 		<property name="finalValue">
 			<value>-80</value>
 		</property>
@@ -380,10 +389,13 @@
 		<relationship name="effects">
 			<destination>{1595fc65-e46a-460f-bd86-27e61c3f3a4c}</destination>
 			<destination>{ee7cf577-6f28-4b05-9638-c432b7c3c477}</destination>
-			<destination>{78aec0bb-ff9d-49d6-9e76-ceeff478b428}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{5019058f-04d6-4d17-9c1a-ffb21bdb0f7f}" />
+	<object class="MixerBusPanner" id="{5019058f-04d6-4d17-9c1a-ffb21bdb0f7f}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f898db44-a766-40dd-a79b-173b71f6832b}" />
 	<object class="MixerBusEffectChain" id="{523a4cfc-a151-422c-bcab-5e86755ffdaa}">
 		<relationship name="effects">
@@ -613,23 +625,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{ee7cf577-6f28-4b05-9638-c432b7c3c477}" />
-	<object class="SpatialiserEffect" id="{78aec0bb-ff9d-49d6-9e76-ceeff478b428}">
-		<property name="minimumDistance">
-			<value>65</value>
-		</property>
-		<property name="maximumDistance">
-			<value>80</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>8500</value>
-		</property>
-		<property name="minimumExtent">
-			<value>360</value>
-		</property>
-	</object>
 	<object class="MultibandEqEffect" id="{edf83da6-3ceb-4b51-bcfc-60dbe3ab33f4}">
 		<property name="filterTypeA">
 			<value>9</value>
@@ -641,7 +636,7 @@
 			<value>7</value>
 		</property>
 		<property name="frequencyA">
-			<value>983.313721</value>
+			<value>677.211731</value>
 		</property>
 		<property name="frequencyB">
 			<value>3270.302</value>
@@ -653,7 +648,7 @@
 			<value>0.560000002</value>
 		</property>
 		<property name="gainA">
-			<value>-8.4832058</value>
+			<value>-16.2838573</value>
 		</property>
 		<property name="gainB">
 			<value>9.71830845</value>
