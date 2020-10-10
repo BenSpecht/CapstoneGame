@@ -29,13 +29,12 @@ public class Journal : MonoBehaviour
             {
                 Pause();
             }
-            
-            
         }
     }
 
     void Resume()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_Close", gameObject.transform.position);
         bookBack.SetActive(false);
         journalUi.SetActive(false);
         gameManager.bools.ControlBools.playerControl = true;
@@ -44,6 +43,7 @@ public class Journal : MonoBehaviour
 
     void Pause()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_Open", gameObject.transform.position);
         bookBack.SetActive(true);
         journalUi.SetActive(true);
         gameManager.bools.ControlBools.playerControl = false;

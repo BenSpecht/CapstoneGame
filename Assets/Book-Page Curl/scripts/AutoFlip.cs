@@ -37,6 +37,7 @@ public class AutoFlip : MonoBehaviour {
         //float h =  ControledBook.Height * 0.5f;
         float h = Mathf.Abs(ControledBook.EndBottomRight.y) * 0.9f;
         float dx = (xl)*2 / AnimationFramesCount;
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_PageFlip", gameObject.transform.position);
         StartCoroutine(FlipRTL(xc, xl, h, frameTime, dx));
     }
     public void FlipLeftPage()
@@ -50,6 +51,7 @@ public class AutoFlip : MonoBehaviour {
         //float h =  ControledBook.Height * 0.5f;
         float h = Mathf.Abs(ControledBook.EndBottomRight.y) * 0.9f;
         float dx = (xl) * 2 / AnimationFramesCount;
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_PageFlip", gameObject.transform.position);
         StartCoroutine(FlipLTR(xc, xl, h, frameTime, dx));
     }
     IEnumerator FlipToEnd()

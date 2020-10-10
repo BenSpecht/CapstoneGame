@@ -27,15 +27,16 @@ public class BridgeManager : MonoBehaviour
         Debug.Log("Beep");
         if (other.CompareTag("Player"))
         {
-            if (gameManager.bools.InventoryBools.hasWood && brokenBridge.activeSelf)
-            {
-                repairText.SetActive(true);
-            }
+            // if (gameManager.bools.InventoryBools.hasWood && brokenBridge.activeSelf)
+            // {
+            //     repairText.SetActive(true);
+            // }
 
             if (Input.GetKeyDown(KeyCode.E))
             {
                 brokenBridge.SetActive(false);
                 repairedBridge.SetActive(true);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Planks/Planks_Bridge", GetComponent<Transform>().position);
             }
         }
     }

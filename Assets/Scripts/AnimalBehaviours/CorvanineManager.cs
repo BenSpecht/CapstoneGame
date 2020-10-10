@@ -33,6 +33,7 @@ namespace AnimalBehaviours
                 {
                     // Add to journal and provide wood
                     planks.SetActive(true);
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Planks/Planks_Drop", GetComponent<Transform>().position);
                     gameManager.AddCorvanineToBook();
                     gameManager.bools.AnimalsMetBools.CorvinineMet = true;
                     //gameManager.bools.InventoryBools.hasWood = true;
