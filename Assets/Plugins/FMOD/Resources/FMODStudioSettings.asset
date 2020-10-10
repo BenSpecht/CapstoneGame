@@ -16,7 +16,7 @@ MonoBehaviour:
   HasSourceProject: 1
   HasPlatforms: 1
   sourceProjectPath: CapstoneFMOD/CapstoneFMOD.fspro
-  sourceBankPath: CapstoneFMOD/Build
+  sourceBankPath: CapstoneFMOD\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
     Value: 0
   OverlaySettings:
   - Platform: 1
-    Value: 0
+    Value: 1
   - Platform: 2
     Value: 1
   - Platform: 20

@@ -20,8 +20,7 @@ public class WoodScript : MonoBehaviour
                //gameManager.bools.AnimalsMetBools.CorvinineMet = true;
                 gameManager.bools.InventoryBools.hasWood = true;
                 gameManager.DisplayWoodRecieved();
-                    
-            
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Planks/Planks_PickUp", GetComponent<Transform>().position);
         }
     }
 }

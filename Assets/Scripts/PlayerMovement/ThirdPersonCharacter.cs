@@ -1,3 +1,4 @@
+using System.IO.Compression;
 using UnityEngine;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
@@ -31,6 +32,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 
+
+		private bool toPlayLand;
 
 		void Start()
 		{
@@ -154,6 +157,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				// don't use that while airborne
 				m_Animator.speed = 1;
 			}
+			PlayLandedSound();
 		}
 
 
@@ -207,6 +211,19 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			}
 		}
 
+		void PlayLandedSound()
+		{
+			if (!m_Animator.GetBool("OnGround"))
+			{
+				toPlayLand = true;
+			}
+
+			if (toPlayLand && m_Animator.GetBool("OnGround"))
+			{
+				FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Land", GetComponent<Transform>().position);
+				toPlayLand = false;
+			}
+		}
 
 		void CheckGroundStatus()
 		{

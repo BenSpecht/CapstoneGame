@@ -19,5 +19,10 @@ public class FMOD_Animations : MonoBehaviour
 
     }
 
+    void PlayerFootstep(string path)
+    {
+        FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
+    }
+
 }
     
