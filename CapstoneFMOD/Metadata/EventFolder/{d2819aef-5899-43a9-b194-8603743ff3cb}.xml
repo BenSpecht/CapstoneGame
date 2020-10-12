@@ -5,7 +5,7 @@
 			<value>Octopus</value>
 		</property>
 		<relationship name="folder">
-			<destination>{0585a794-61dc-441e-ae07-6701da092bb4}</destination>
+			<destination>{43f061cd-5f27-464e-a0db-d61b73a1d53a}</destination>
 		</relationship>
 	</object>
 </objects>

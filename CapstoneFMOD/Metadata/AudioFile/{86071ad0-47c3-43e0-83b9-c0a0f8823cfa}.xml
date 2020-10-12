@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{48852fea-173e-459b-9fc1-94371b3d00fc}">
+	<object class="AudioFile" id="{86071ad0-47c3-43e0-83b9-c0a0f8823cfa}">
 		<property name="assetPath">
-			<value>Animals/FlowerSnake/FlowerSnake_Hiss__3.wav</value>
+			<value>Animals/CorvaninePup/CorvaninePup_Idle2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.291156462585034</value>
+			<value>1.1234693877551021</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{a92529b8-2d2c-4835-a9a7-b4743b92a9a4}</destination>

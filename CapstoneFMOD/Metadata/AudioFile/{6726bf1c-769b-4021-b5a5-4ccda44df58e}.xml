@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{6726bf1c-769b-4021-b5a5-4ccda44df58e}">
 		<property name="assetPath">
-			<value>Animals/FlowerSnake/FlowerSnake_Hiss__1.wav</value>
+			<value>Animals/Serpanceae/FlowerSnake_Hiss__1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
