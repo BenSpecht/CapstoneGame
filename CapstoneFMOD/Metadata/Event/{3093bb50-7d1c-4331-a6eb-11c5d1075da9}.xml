@@ -5,7 +5,7 @@
 			<value>Land</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a78ad190-3924-4e50-aa54-946caac668e2}</destination>
@@ -180,7 +180,6 @@
 		<relationship name="effects">
 			<destination>{d85514bc-8c0e-44ab-9a58-9a3f806efca2}</destination>
 			<destination>{76567082-d269-4b3f-b8af-eafcf9d748d9}</destination>
-			<destination>{7c4f1c16-5bd6-4a6c-b52d-f56a6ed5b84f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2f2955e9-ad49-4e9d-baab-14ea24a05e12}" />
@@ -297,14 +296,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{76567082-d269-4b3f-b8af-eafcf9d748d9}" />
-	<object class="SpatialiserEffect" id="{7c4f1c16-5bd6-4a6c-b52d-f56a6ed5b84f}">
-		<property name="minimumDistance">
-			<value>10000</value>
-		</property>
-		<property name="maximumDistance">
-			<value>10000</value>
-		</property>
-	</object>
 	<object class="MultibandEqEffect" id="{adc7d701-de3f-4e3b-b9d4-607c993c50f7}">
 		<property name="filterTypeA">
 			<value>7</value>

@@ -5,7 +5,7 @@
 			<value>Food_PickUp</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a78ad190-3924-4e50-aa54-946caac668e2}</destination>
@@ -98,7 +98,6 @@
 	<object class="MixerBusEffectChain" id="{a8ff4c3f-7c0a-433d-8c79-1f35c32e7ccc}">
 		<relationship name="effects">
 			<destination>{7c4161c2-af65-4e7a-8afa-5043e521786b}</destination>
-			<destination>{3b7c06f6-1bde-41d8-a850-3234266304f8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cff2ee72-c0f7-4783-a5e2-b445213c7454}" />
@@ -111,7 +110,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{d0e7cd0c-a3b8-4832-ae40-8ddae2ce23e4}" />
 	<object class="MixerBusFader" id="{7c4161c2-af65-4e7a-8afa-5043e521786b}" />
-	<object class="SpatialiserEffect" id="{3b7c06f6-1bde-41d8-a850-3234266304f8}" />
 	<object class="MultibandEqEffect" id="{aa504264-f796-41f1-b7aa-b1fcf5ecf8e1}">
 		<property name="filterTypeA">
 			<value>0</value>
