@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
+using Cinemachine;
 /*using UnityEditor;*/
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -31,6 +32,8 @@ public struct Pages
     public Sprite MantarayPage;
     public Sprite OctopusPage;
     public Sprite snailBunnyPage;
+    public Sprite WendigoPage;
+    public Sprite ElephantPage;
 }
 
 [Serializable]
@@ -58,6 +61,7 @@ public struct InventoryBools
     public bool hasWood;
     public bool hasInstrument;
     public bool hasOctopusBox;
+    public bool hasKey;
 }
 
 [Serializable]
@@ -115,10 +119,14 @@ public class GameManager : MonoBehaviour
 
 
     public GameObject player;
-    public GameObject playerCam;
-    public GameObject finalCam;
+
+    public GameObject mainCamera;
+    public GameObject flowerCamera;
+    public bool hasBook;
 
     public GameObject flower;
+
+    private bool runFlowerAnimation = false;
     
     // Start is called before the first frame update
     void Start()
@@ -141,7 +149,7 @@ public class GameManager : MonoBehaviour
 
     private void DarkWorldLeaveCheck()
     {
-        if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.SerpMet && bools.AnimalsMetBools.WendigoMet)
+        if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.SerpMet && bools.AnimalsMetBools.WendigoMet && bools.AnimalsMetBools.ScorpittyMet)
         {
             bools.WhalePathing.whaleReadyToLeaveDark = true;
         }
@@ -159,21 +167,32 @@ public class GameManager : MonoBehaviour
     {
         if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.MantarayMet &&
             bools.AnimalsMetBools.OctopusMet && bools.AnimalsMetBools.ScorpittyMet && bools.AnimalsMetBools.SerpMet &&
-            bools.AnimalsMetBools.WhaleMet)
+            bools.AnimalsMetBools.WhaleMet && bools.AnimalsMetBools.WendigoMet && bools.AnimalsMetBools.SnailbunnyMet && !runFlowerAnimation)
         {
             player.GetComponent<ThirdPersonCharacter>().enabled = false;
             player.GetComponent<ThirdPersonUserControl>().enabled = false;
-            playerCam.SetActive(false);
-            finalCam.SetActive(true);
-            StartCoroutine(FinalAnimationDelay());
+
+            mainCamera.GetComponent<MouseOrbitImproved>().enabled = false;
+            mainCamera.GetComponent<CinemachineBrain>().enabled = true;
+
+            flowerCamera.GetComponent<CinemachineVirtualCamera>().Priority = 999999;
+            flower.GetComponent<Animator>().Play("Take 001");
+            flowerCamera.GetComponent<Animator>().Play("FlowerOpen");
+            runFlowerAnimation = true;
         }
     }
 
-    private IEnumerator FinalAnimationDelay()
+    public void FlowerAnimationOver()
     {
-        yield return new WaitForSeconds(4);
-        flower.GetComponent<Animator>().Play("Take 001");
-        finalCam.GetComponent<Animator>().Play("Camera");
+        flowerCamera.GetComponent<Animator>().enabled = false;
+        player.GetComponent<ThirdPersonCharacter>().enabled = true;
+        player.GetComponent<ThirdPersonUserControl>().enabled = true;
+
+        mainCamera.GetComponent<MouseOrbitImproved>().enabled = true;
+        mainCamera.GetComponent<CinemachineBrain>().enabled = false;
+
+        flowerCamera.GetComponent<CinemachineVirtualCamera>().Priority = 1;
+        bools.WhalePathing.whaleReadyToLeaveDark = true;
     }
 
     public void AddCorvanineToBook()
@@ -215,6 +234,18 @@ public class GameManager : MonoBehaviour
     public void AddSnailBunnyToBook()
     {
         book.bookPages[4] = pages.snailBunnyPage;
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+    }
+
+    public void AddWendigoToBook()
+    {
+        book.bookPages[9] = pages.WendigoPage;
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+    }
+
+    public void AddElephantToBook()
+    {
+        book.bookPages[10] = pages.ElephantPage;
         FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
     

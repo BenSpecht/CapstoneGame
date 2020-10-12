@@ -34,6 +34,9 @@ public class WhaleManager : MonoBehaviour
         if (gameManager.bools.WhalePathing.whaleAtForest && !gameManager.bools.WhalePathing.whaleReadyToLeaveForest)
         {
             gameManager.bools.WhalePathing.whaleCircleForest = true;
+        } else if (gameManager.bools.WhalePathing.whaleAtDark && !gameManager.bools.WhalePathing.whaleReadyToLeaveDark)
+        {
+            gameManager.bools.WhalePathing.whaleCircleDark = true;
         }
     }
 
@@ -93,7 +96,7 @@ public class WhaleManager : MonoBehaviour
         } else if (gameManager.bools.WhalePathing.whaleAtForest)
         {
             playerObject.transform.localPosition = forestWorldDismount.transform.position;
-        } else if (gameManager.bools.WhalePathing.whaleAtForest)
+        } else if (gameManager.bools.WhalePathing.whaleAtFlower)
         {
             playerObject.transform.localPosition = flowerDismount.transform.position;
         }
@@ -115,9 +118,11 @@ public class WhaleManager : MonoBehaviour
         } else if (gameManager.bools.WhalePathing.whaleAtDark)
         {
             gameManager.bools.WhalePathing.forestToDark = false;
+            gameManager.bools.WhalePathing.whaleReadyToLeaveForest = false;
         } else if (gameManager.bools.WhalePathing.whaleAtFlower)
         {
             gameManager.bools.WhalePathing.darkToFlower = false;
+            gameManager.bools.WhalePathing.whaleReadyToLeaveDark = false;
         }
     }
 
@@ -125,33 +130,38 @@ public class WhaleManager : MonoBehaviour
     {
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
-            if (gameManager.bools.whaleFed)
+            if (gameManager.hasBook)
             {
-                if (gameManager.bools.WhalePathing.whaleAtTutorial)
+                if (gameManager.bools.whaleFed)
                 {
-                    GetOnWhale();
-                } else if (gameManager.bools.WhalePathing.whaleAtForest &&
-                           gameManager.bools.WhalePathing.whaleReadyToLeaveForest)
-                {
-                    GetOnWhale();
-                } else if (gameManager.bools.WhalePathing.whaleAtDark &&
-                           gameManager.bools.WhalePathing.whaleReadyToLeaveDark)
-                {
-                    GetOnWhale();
-                }
-            }
-            else
-            {
-                if (gameManager.bools.FoodBools.whaleFood)
-                {
-                    gameManager.DisplayBefriendSuccessText();
-                    gameManager.bools.whaleFed = true;
-                    gameManager.AddWhaleToBook();
-                    gameManager.bools.AnimalsMetBools.WhaleMet = true;
+                    if (gameManager.bools.WhalePathing.whaleAtTutorial)
+                    {
+                        GetOnWhale();
+                    }
+                    else if (gameManager.bools.WhalePathing.whaleAtForest &&
+                             gameManager.bools.WhalePathing.whaleReadyToLeaveForest)
+                    {
+                        GetOnWhale();
+                    }
+                    else if (gameManager.bools.WhalePathing.whaleAtDark &&
+                             gameManager.bools.WhalePathing.whaleReadyToLeaveDark)
+                    {
+                        GetOnWhale();
+                    }
                 }
                 else
                 {
-                    gameManager.DisplayBefriendText();
+                    if (gameManager.bools.FoodBools.whaleFood)
+                    {
+                        gameManager.DisplayBefriendSuccessText();
+                        gameManager.bools.whaleFed = true;
+                        gameManager.AddWhaleToBook();
+                        gameManager.bools.AnimalsMetBools.WhaleMet = true;
+                    }
+                    else
+                    {
+                        gameManager.DisplayBefriendText();
+                    }
                 }
             }
         }

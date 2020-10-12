@@ -174,6 +174,10 @@ public class WayPoints : MonoBehaviour {
                 whaleManager.GetOffWhale();
                 targetWayPoint = null;
             }
+            else
+            {
+                Walk();
+            }
         }
     }
 
