@@ -29,7 +29,8 @@ public class BellController : MonoBehaviour
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
             // Ring bell
-            
+            FMODUnity.RuntimeManager.PlayOneShot("event:/TowerBell", GetComponent<Transform>().position);
+
             // Disable Player Control
             gameManager.bools.ControlBools.playerControl = false;
             

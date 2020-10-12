@@ -20,7 +20,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: BirdGuyNEW_BirdGuyTexture
-    second: {fileID: 2100000, guid: ce4a06efb39d588438ebd2720908d3ae, type: 2}
+    second: {fileID: 2100000, guid: bebd964cae861484b894198c7e6c6a40, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -72,7 +72,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: PlayCorvaninePup_Idle1
+        data: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -101,7 +108,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: PlayCorvaninePup_Idle2
+        data: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle2
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

@@ -44,6 +44,8 @@ public class SerpanceaeManager : MonoBehaviour
                     // Add to book
                     gameManager.AddSerpanceaeToBook();
                     gameManager.bools.AnimalsMetBools.SerpMet = true;
+
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PanFlute_FlowerSnake", GetComponent<Transform>().position);
                 }
             }
         }
