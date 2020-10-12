@@ -15,6 +15,7 @@ public class WhaleManager : MonoBehaviour
     public GameObject playerObject;
     public GameObject darkWorldDismount;
     public GameObject forestWorldDismount;
+    public GameObject flowerDismount;
     
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,15 @@ public class WhaleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        IdleWhale();
+    }
+
+    private void IdleWhale()
+    {
+        if (gameManager.bools.WhalePathing.whaleAtForest && !gameManager.bools.WhalePathing.whaleReadyToLeaveForest)
+        {
+            gameManager.bools.WhalePathing.whaleCircleForest = true;
+        }
     }
 
     private void GetOnWhale()
@@ -39,21 +48,30 @@ public class WhaleManager : MonoBehaviour
                 
         // Move player onto whale
         playerObject.transform.SetParent(gameObject.transform);
-        playerObject.transform.localPosition = new Vector3(2.362f, -0.074f, -8.689f);
+        var playerAdjust = new Vector3(-0.087f, 8.54f, 6.69f);
+        playerObject.transform.position = gameObject.transform.position + playerAdjust;
+        var tempRotation = gameObject.transform.rotation;
+        tempRotation.y = -180;
+        playerObject.transform.localRotation = tempRotation;
         playerObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
 
         // Disable player movement
         playerObject.GetComponent<ThirdPersonCharacter>().enabled = false;
         playerObject.GetComponent<ThirdPersonUserControl>().enabled = false;
+        playerObject.GetComponent<Animator>().enabled = false;
         
         // Run whale movement
-        if (gameManager.bools.WhalePathing.whaleAtForest)
+        if (gameManager.bools.WhalePathing.whaleAtTutorial)
         {
-            gameManager.bools.WhalePathing.pathToDark = true;
+            gameManager.bools.WhalePathing.tutorialToForest = true;
+            gameManager.bools.WhalePathing.whaleAtTutorial = false;
+        } else if (gameManager.bools.WhalePathing.whaleAtForest)
+        {
+            gameManager.bools.WhalePathing.forestToDark = true;
             gameManager.bools.WhalePathing.whaleAtForest = false;
         } else if (gameManager.bools.WhalePathing.whaleAtDark)
         {
-            gameManager.bools.WhalePathing.pathToForest = true;
+            gameManager.bools.WhalePathing.darkToFlower = true;
             gameManager.bools.WhalePathing.whaleAtDark = false;
         }
     }
@@ -75,6 +93,9 @@ public class WhaleManager : MonoBehaviour
         } else if (gameManager.bools.WhalePathing.whaleAtForest)
         {
             playerObject.transform.localPosition = forestWorldDismount.transform.position;
+        } else if (gameManager.bools.WhalePathing.whaleAtForest)
+        {
+            playerObject.transform.localPosition = flowerDismount.transform.position;
         }
         
         playerObject.transform.rotation = Quaternion.identity;
@@ -85,14 +106,18 @@ public class WhaleManager : MonoBehaviour
         // Enable player movement
         playerObject.GetComponent<ThirdPersonCharacter>().enabled = true;
         playerObject.GetComponent<ThirdPersonUserControl>().enabled = true;
+        playerObject.GetComponent<Animator>().enabled = true;
 
         // Disable whale movement
-        if (gameManager.bools.WhalePathing.whaleAtDark)
+        if (gameManager.bools.WhalePathing.whaleAtForest)
         {
-            gameManager.bools.WhalePathing.pathToDark = false;
-        } else if (gameManager.bools.WhalePathing.whaleAtForest)
+            gameManager.bools.WhalePathing.tutorialToForest = false;
+        } else if (gameManager.bools.WhalePathing.whaleAtDark)
         {
-            gameManager.bools.WhalePathing.pathToForest = false;
+            gameManager.bools.WhalePathing.forestToDark = false;
+        } else if (gameManager.bools.WhalePathing.whaleAtFlower)
+        {
+            gameManager.bools.WhalePathing.darkToFlower = false;
         }
     }
 
@@ -102,7 +127,18 @@ public class WhaleManager : MonoBehaviour
         {
             if (gameManager.bools.whaleFed)
             {
-                GetOnWhale();
+                if (gameManager.bools.WhalePathing.whaleAtTutorial)
+                {
+                    GetOnWhale();
+                } else if (gameManager.bools.WhalePathing.whaleAtForest &&
+                           gameManager.bools.WhalePathing.whaleReadyToLeaveForest)
+                {
+                    GetOnWhale();
+                } else if (gameManager.bools.WhalePathing.whaleAtDark &&
+                           gameManager.bools.WhalePathing.whaleReadyToLeaveDark)
+                {
+                    GetOnWhale();
+                }
             }
             else
             {
