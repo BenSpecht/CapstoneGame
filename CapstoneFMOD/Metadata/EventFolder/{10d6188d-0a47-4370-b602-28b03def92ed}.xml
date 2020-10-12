@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{10d6188d-0a47-4370-b602-28b03def92ed}">
+		<property name="name">
+			<value>MantaRay</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0585a794-61dc-441e-ae07-6701da092bb4}</destination>
+		</relationship>
+	</object>
+</objects>

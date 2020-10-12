@@ -5,7 +5,7 @@
 			<value>Footsteps</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a78ad190-3924-4e50-aa54-946caac668e2}</destination>
@@ -56,7 +56,11 @@
 			<destination>{d26cedd2-414d-47da-a13f-97f601c6270b}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{792e5959-a0f4-4958-846a-97472e5a00e9}" />
+	<object class="EventAutomatableProperties" id="{792e5959-a0f4-4958-846a-97472e5a00e9}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{adca7db9-0234-41dd-b740-cd4d8134b8f0}" />
 	<object class="GroupTrack" id="{9f913d20-52ce-4a2c-8154-dc55f9d9a1ff}">
 		<relationship name="modules">
@@ -109,9 +113,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2caf78d7-c582-45ca-b5c8-117971e5c63e}">
-		<property name="volume">
-			<value>4</value>
-		</property>
 		<property name="name">
 			<value>Footsteps</value>
 		</property>
@@ -129,7 +130,6 @@
 		<relationship name="effects">
 			<destination>{ef5e15c4-af3c-4808-b957-71b338e9265b}</destination>
 			<destination>{9dddbf77-aa6c-4f99-b607-fd35ca47c4ac}</destination>
-			<destination>{4d337620-c7d7-44ec-929f-ee786cfed335}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{57163391-c756-465c-85e2-9c7adf6c542f}" />
@@ -193,7 +193,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{9dddbf77-aa6c-4f99-b607-fd35ca47c4ac}" />
-	<object class="SpatialiserEffect" id="{4d337620-c7d7-44ec-929f-ee786cfed335}" />
 	<object class="MultibandEqEffect" id="{0470531d-b70f-4e27-98bf-5bd450ba779f}">
 		<property name="filterTypeA">
 			<value>7</value>

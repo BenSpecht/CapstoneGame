@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: event:/Ambience/DarkWorld_River_Loop
   guid: 0900c2054243f748a0075d215a74aa8e
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_Open
   guid: 993cc37caefd524b8b09eab2677f9a70
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -46,6 +46,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 732
+--- !u!114 &-7996868876716138012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637381034340000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-6529980683875957920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +79,7 @@ MonoBehaviour:
   Path: event:/Player/Jump
   guid: 2c1705e3e75824438bec03b569dc5bf2
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -84,7 +102,7 @@ MonoBehaviour:
   Path: event:/Planks/Planks_Drop
   guid: 3ecfce13dde83a45a43f65aea9d4b05b
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -92,6 +110,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 540
+--- !u!114 &-5392648176806647235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637380954670000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3738847702222069911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,7 +143,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_NewTask
   guid: a6b6b0bd770d414482ec2016f22c2216
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -115,6 +151,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 694
+--- !u!114 &-3085703571728754376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637380958060000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-2966035215218005383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,6 +187,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-2771456170669997008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637381030070000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-2373364562128232172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,7 +220,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_PageFlip
   guid: f6de75e19a30204bb171731bb51be729
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -156,6 +228,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1500
+--- !u!114 &-1883477040732224330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637379452050000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1779576586499594931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +261,7 @@ MonoBehaviour:
   Path: event:/Ambience/DarkWorld_Bed
   guid: fb81852ac4c5fb488d24bc81258da677
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -194,14 +284,14 @@ MonoBehaviour:
   Path: event:/Planks/Planks_PickUp
   guid: bac8567a10893a448be38bf4ecbb1f06
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 383
 --- !u!114 &-1405749394454862782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,7 +307,7 @@ MonoBehaviour:
   Path: event:/Planks/Planks_Bridge
   guid: fcb552a4aeaf8342b7161a6d8a7f9f70
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -240,7 +330,7 @@ MonoBehaviour:
   Path: event:/Animals/FlowerSnake/FlowerSnake_Hiss
   guid: 02258dd1ac3f2c49bd0c8988af0419cc
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -262,7 +352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 8001591180279906941}
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   EditorEvents:
   - {fileID: -941706512550926139}
   - {fileID: -8902823233420250355}
@@ -277,19 +367,20 @@ MonoBehaviour:
   - {fileID: 1701806357621799856}
   - {fileID: -8373252192665967446}
   - {fileID: -3738847702222069911}
-  - {fileID: 388990639795636301}
   - {fileID: -1432683682518476511}
   - {fileID: 2688770811955654216}
   - {fileID: 3343169106154096259}
   - {fileID: -2373364562128232172}
   - {fileID: -1779576586499594931}
   - {fileID: -1405749394454862782}
+  - {fileID: 687408257863027478}
+  - {fileID: 5374553135569869089}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   StringsBanks:
   - {fileID: 8001591180279906941}
-  stringsBankWriteTime: 637379349371370267
+  stringsBankWriteTime: 637381034340000000
   cacheVersion: 3
 --- !u!114 &388990639795636301
 MonoBehaviour:
@@ -305,8 +396,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Animals/Feed_Generic
   guid: b1725a77b2d4c042add4dbb668983654
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1577
+--- !u!114 &687408257863027478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feed_Generic
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feed_Generic
+  guid: b1725a77b2d4c042add4dbb668983654
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -329,13 +442,13 @@ MonoBehaviour:
   Path: event:/Player/Footsteps
   guid: 27ee6f8c103af74ba73c85b854b6c5aa
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 0
+  MaxDistance: 0
   Length: 350
 --- !u!114 &1701806357621799856
 MonoBehaviour:
@@ -352,7 +465,7 @@ MonoBehaviour:
   Path: event:/Music/DarkWorld_MusicLoop
   guid: 95e3f7cdf67ea347b308456abc5a0bf9
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -375,7 +488,7 @@ MonoBehaviour:
   Path: event:/Player/Land
   guid: 50bb93301c7d3143a6eb11c5d1075da9
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -383,6 +496,24 @@ MonoBehaviour:
   MinDistance: 10000
   MaxDistance: 10000
   Length: 380
+--- !u!114 &2446889897388530638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637380955120000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &2688770811955654216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,7 +529,7 @@ MonoBehaviour:
   Path: event:/Music/Ocean_MusicLoop
   guid: e65a80974d4a344c850e239d4ea7dc6d
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -421,7 +552,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_Close
   guid: 8c5a840da429054ca3d8b0db702c566f
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -444,7 +575,7 @@ MonoBehaviour:
   Path: event:/Animals/ScorpionCat/ScorpionCat_Meow
   guid: eee3b29c91f8884885d04e201a54b057
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -467,7 +598,7 @@ MonoBehaviour:
   Path: event:/Ambience/OceanForest_Bed
   guid: 5a7618c28bd83048a4232e9323de549e
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -475,6 +606,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 10000
+--- !u!114 &5374553135569869089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PanFlute_FlowerSnake
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PanFlute_FlowerSnake
+  guid: b1fd1b841ddcfe42831804373d532c1a
+  Banks:
+  - {fileID: -7996868876716138012}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
 --- !u!114 &6702490795648672825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -490,7 +644,7 @@ MonoBehaviour:
   Path: event:/Ambience/WhaleStation_Bed
   guid: 80605e721e2cfe4aadd38d241a7e582d
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -512,11 +666,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: CapstoneFMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637379349371370267
+  lastModified: 637381034340000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1738
+    Value: 1788
   Exists: 1
 --- !u!114 &8487030791290468353
 MonoBehaviour:
@@ -533,7 +687,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_CompleteTask
   guid: 0e67e765317df74f9705b3718cd71ae6
   Banks:
-  - {fileID: -2966035215218005383}
+  - {fileID: -7996868876716138012}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
