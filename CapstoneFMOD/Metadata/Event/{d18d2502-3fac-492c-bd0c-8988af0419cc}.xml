@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{d18d2502-3fac-492c-bd0c-8988af0419cc}">
 		<property name="name">
-			<value>FlowerSnake_Hiss</value>
+			<value>Serpanceae_Hiss</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -92,11 +92,12 @@
 		<property name="length">
 			<value>1.3442857142857143</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{e4b0ffb5-97df-4540-9fef-ba667b3c16c3}</destination>
+		</relationship>
 		<relationship name="sounds">
-			<destination>{5486b2ad-4db9-4f70-b977-c8e5ba557058}</destination>
 			<destination>{2a613a75-40ce-4d85-a7ec-6c74606ca26d}</destination>
 			<destination>{daaf455d-04bb-4872-a636-bf54d780f1e9}</destination>
-			<destination>{bb243850-aaed-46d9-8e53-95785734144e}</destination>
 			<destination>{27d7bd01-9d87-4837-af56-0f85c34473cc}</destination>
 		</relationship>
 	</object>
@@ -122,10 +123,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{ddb020c8-73bf-4e49-94d0-2993d7b1e647}" />
 	<object class="MixerBusFader" id="{bb0c7218-c87f-460e-adcf-ffbd7a9c30aa}" />
-	<object class="SingleSound" id="{5486b2ad-4db9-4f70-b977-c8e5ba557058}">
-		<relationship name="audioFile">
-			<destination>{3b2b5ea0-f994-4d5b-9eb8-70c97c393c53}</destination>
-		</relationship>
+	<object class="RandomizerModulator" id="{e4b0ffb5-97df-4540-9fef-ba667b3c16c3}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>8.33333397</value>
+		</property>
 	</object>
 	<object class="SingleSound" id="{2a613a75-40ce-4d85-a7ec-6c74606ca26d}">
 		<relationship name="audioFile">
@@ -135,11 +139,6 @@
 	<object class="SingleSound" id="{daaf455d-04bb-4872-a636-bf54d780f1e9}">
 		<relationship name="audioFile">
 			<destination>{9a5c9e71-b617-4c6b-b2ec-37e1c0df8457}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{bb243850-aaed-46d9-8e53-95785734144e}">
-		<relationship name="audioFile">
-			<destination>{48852fea-173e-459b-9fc1-94371b3d00fc}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{27d7bd01-9d87-4837-af56-0f85c34473cc}">

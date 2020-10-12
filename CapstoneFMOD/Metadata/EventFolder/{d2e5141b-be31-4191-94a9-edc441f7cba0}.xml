@@ -5,7 +5,7 @@
 			<value>ScorpionCat</value>
 		</property>
 		<relationship name="folder">
-			<destination>{0585a794-61dc-441e-ae07-6701da092bb4}</destination>
+			<destination>{2bf56dc2-e2b2-4048-8396-16db88820189}</destination>
 		</relationship>
 	</object>
 </objects>
