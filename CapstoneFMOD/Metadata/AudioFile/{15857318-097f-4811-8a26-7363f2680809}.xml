@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{15857318-097f-4811-8a26-7363f2680809}">
 		<property name="assetPath">
-			<value>Animals/Serpanceae_Rattle_4.wav</value>
+			<value>Animals/Serpanceae/Serpanceae_Rattle_4.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -198,55 +198,55 @@ public class GameManager : MonoBehaviour
     public void AddCorvanineToBook()
     {
         book.bookPages[7] = pages.CorvaninePage;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
 
     public void AddScorpittyToBook()
     {
         book.bookPages[6] = pages.scorpittyPage;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
 
     public void AddSerpanceaeToBook()
     {
         book.bookPages[8] = pages.SerpanceaePage;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
 
     public void AddOctopusToBook()
     {
         book.bookPages[2] = pages.OctopusPage;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
 
     public void AddMantarayToBook()
     {
         book.bookPages[3] = pages.MantarayPage;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
 
     public void AddWhaleToBook()
     {
         book.bookPages[1] = pages.WhalePage;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
 
     public void AddSnailBunnyToBook()
     {
         book.bookPages[4] = pages.snailBunnyPage;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
 
     public void AddWendigoToBook()
     {
         book.bookPages[9] = pages.WendigoPage;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
 
     public void AddElephantToBook()
     {
         book.bookPages[10] = pages.ElephantPage;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
+        //FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
     
     public void DisplaySaveBaby()

@@ -214,10 +214,10 @@
 			<value>-80</value>
 		</property>
 		<property name="releaseTime">
-			<value>1807.6925</value>
+			<value>4230.77002</value>
 		</property>
 		<property name="finalValue">
-			<value>-80</value>
+			<value>-76.1481476</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{6e7ef0bd-04dc-4473-82db-c769eba6c985}">

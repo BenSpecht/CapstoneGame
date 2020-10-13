@@ -35,6 +35,14 @@ public class FMOD_Animations : MonoBehaviour
 
     }
 
+    //Corvanine Animations
+    void PlayCorvanine_Howl(string path)
+    {
+
+        FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
+
+    }
+
     //CorvaninePup Animations
     void PlayCorvaninePup_Idle1(string path)
     {
@@ -49,6 +57,8 @@ public class FMOD_Animations : MonoBehaviour
         FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
 
     }
+
+    
 
 }
     

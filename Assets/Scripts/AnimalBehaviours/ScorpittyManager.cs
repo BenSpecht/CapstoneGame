@@ -45,7 +45,17 @@ public class ScorpittyManager : MonoBehaviour
                 Debug.Log("Feeding Cat");
                 // Animation Control
                 gameObject.GetComponent<Animator>().Play("Scorpitty_meow");
-                
+
+                //Scorpitty Sounds
+                void PlayScorpitty_Meow(string path)
+                {
+
+                    FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
+
+                }
+
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Feed_Generic", GetComponent<Transform>().position);
+
                 // Add to book
                 gameManager.AddScorpittyToBook();
                 gameManager.bools.AnimalsMetBools.ScorpittyMet = true;

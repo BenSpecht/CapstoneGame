@@ -77,6 +77,9 @@ public class WhaleManager : MonoBehaviour
             gameManager.bools.WhalePathing.darkToFlower = true;
             gameManager.bools.WhalePathing.whaleAtDark = false;
         }
+
+        //GetOnWhale Sound
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Animals/Whale/Whale_OnOff", GetComponent<Transform>().position);
     }
 
     public void GetOffWhale()
@@ -124,6 +127,9 @@ public class WhaleManager : MonoBehaviour
             gameManager.bools.WhalePathing.darkToFlower = false;
             gameManager.bools.WhalePathing.whaleReadyToLeaveDark = false;
         }
+
+        //GetOnWhale Sound
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Animals/Whale/Whale_OnOff", GetComponent<Transform>().position);
     }
 
     private void OnTriggerStay(Collider other)
