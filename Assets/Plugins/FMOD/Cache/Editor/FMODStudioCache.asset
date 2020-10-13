@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: event:/Player/Footsteps
   guid: 27ee6f8c103af74ba73c85b854b6c5aa
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -56,7 +56,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Stand
   guid: 87456a054b3f714d8495f2591de36fbf
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -79,7 +79,7 @@ MonoBehaviour:
   Path: event:/Player/PanFlute_FlowerSnake
   guid: 9cd4bcf3aaf5ab40867130dc9ea43868
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -102,7 +102,7 @@ MonoBehaviour:
   Path: event:/Ambience/DarkWorld_River_Loop
   guid: 0900c2054243f748a0075d215a74aa8e
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -125,7 +125,7 @@ MonoBehaviour:
   Path: event:/Ambience/DarkWorld_Bed
   guid: fb81852ac4c5fb488d24bc81258da677
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -148,7 +148,7 @@ MonoBehaviour:
   Path: event:/Player/Feed_Generic
   guid: b1725a77b2d4c042add4dbb668983654
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -171,7 +171,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_Close
   guid: 8c5a840da429054ca3d8b0db702c566f
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -179,6 +179,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 512
+--- !u!114 &-4817204368848002239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637381855792479995
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-4691509434350686038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +212,7 @@ MonoBehaviour:
   Path: event:/TowerBell
   guid: bbc8c50265fccb4ebe0ee4e5b3c480e4
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -216,7 +234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: CapstoneFMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637381599321772708
+  lastModified: 637381855790285864
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -237,7 +255,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_CompleteTask
   guid: 0e67e765317df74f9705b3718cd71ae6
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -260,7 +278,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_NewTask
   guid: a6b6b0bd770d414482ec2016f22c2216
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -283,7 +301,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/ScorpionCat/ScorpionCat_Meow
   guid: eee3b29c91f8884885d04e201a54b057
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -306,7 +324,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
   guid: aa440b0484301c4da54b1c260b6d8f52
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -329,7 +347,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Hiss
   guid: 02258dd1ac3f2c49bd0c8988af0419cc
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -352,7 +370,7 @@ MonoBehaviour:
   Path: event:/Music/DarkWorld_MusicLoop
   guid: 95e3f7cdf67ea347b308456abc5a0bf9
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -375,7 +393,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_PageFlip
   guid: f6de75e19a30204bb171731bb51be729
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -398,7 +416,7 @@ MonoBehaviour:
   Path: event:/Planks/Planks_Bridge
   guid: fcb552a4aeaf8342b7161a6d8a7f9f70
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -420,7 +438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -4467397300117960140}
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   EditorEvents:
   - {fileID: -2009060283947785529}
   - {fileID: -7487571336430715224}
@@ -449,10 +467,10 @@ MonoBehaviour:
   - {fileID: -233652887478434142}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   StringsBanks:
   - {fileID: -4467397300117960140}
-  stringsBankWriteTime: 637381599321772708
+  stringsBankWriteTime: 637381855790285864
   cacheVersion: 3
 --- !u!114 &137778174508402529
 MonoBehaviour:
@@ -469,7 +487,7 @@ MonoBehaviour:
   Path: event:/Player/Land
   guid: 50bb93301c7d3143a6eb11c5d1075da9
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -492,7 +510,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle2
   guid: 81ac3def58924f43a922ff98eadbe6a4
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -515,7 +533,7 @@ MonoBehaviour:
   Path: event:/Planks/Planks_PickUp
   guid: bac8567a10893a448be38bf4ecbb1f06
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -538,7 +556,7 @@ MonoBehaviour:
   Path: event:/Ambience/OceanForest_Bed
   guid: 5a7618c28bd83048a4232e9323de549e
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -561,7 +579,7 @@ MonoBehaviour:
   Path: event:/Planks/Planks_Drop
   guid: 3ecfce13dde83a45a43f65aea9d4b05b
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -584,7 +602,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_Open
   guid: 993cc37caefd524b8b09eab2677f9a70
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -607,7 +625,7 @@ MonoBehaviour:
   Path: event:/Music/Ocean_MusicLoop
   guid: e65a80974d4a344c850e239d4ea7dc6d
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -630,7 +648,7 @@ MonoBehaviour:
   Path: event:/Player/Jump
   guid: 2c1705e3e75824438bec03b569dc5bf2
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -653,7 +671,7 @@ MonoBehaviour:
   Path: event:/Ambience/WhaleStation_Bed
   guid: 80605e721e2cfe4aadd38d241a7e582d
   Banks:
-  - {fileID: -9019732123952511935}
+  - {fileID: -4817204368848002239}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
