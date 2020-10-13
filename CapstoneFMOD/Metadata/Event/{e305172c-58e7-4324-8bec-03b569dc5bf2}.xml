@@ -5,7 +5,7 @@
 			<value>Jump</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a78ad190-3924-4e50-aa54-946caac668e2}</destination>
@@ -128,7 +128,6 @@
 	<object class="MixerBusEffectChain" id="{c5d7b361-7a2b-40fa-9c2f-cf606ba38dd4}">
 		<relationship name="effects">
 			<destination>{eb39a9f3-1f8b-453f-8cf0-9e890080da5b}</destination>
-			<destination>{349bb069-faf9-4ac8-8485-acbc3cb19e06}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7524157e-e08c-496a-aa0d-8b5a25ce751a}" />
@@ -179,7 +178,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{9fcbb8a7-bab0-4b4e-8975-9f502a1edc7d}" />
 	<object class="MixerBusFader" id="{eb39a9f3-1f8b-453f-8cf0-9e890080da5b}" />
-	<object class="SpatialiserEffect" id="{349bb069-faf9-4ac8-8485-acbc3cb19e06}" />
 	<object class="MultibandEqEffect" id="{21f4efbf-9839-4844-ad69-d3421edfc369}">
 		<property name="filterTypeA">
 			<value>9</value>
