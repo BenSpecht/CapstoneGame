@@ -9,6 +9,7 @@ TagManager:
   - Bridge
   - Planks
   - OctopusBox
+  - SnailBunny
   layers:
   - Default
   - TransparentFX

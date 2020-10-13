@@ -56,6 +56,7 @@ public class Tutorial : MonoBehaviour
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
             bookup = true;
+            gameManager.hasBook = true;
 
             popuptext1.SetActive(false);
             popuptext2.SetActive(false);

@@ -8,6 +8,9 @@ public class PlayerManager : MonoBehaviour
 
     public GameManager gameManager;
     public GameObject octopusBox;
+    public GameObject snailBunny;
+
+    public GameObject snailBunnyFoodGround;
     
     // Start is called before the first frame update
     void Start()
@@ -28,6 +31,19 @@ public class PlayerManager : MonoBehaviour
             octopusBox.transform.position = position;
 
             gameManager.bools.InventoryBools.hasOctopusBox = false;
-        } 
+        }
+
+        if (Input.GetKeyDown(KeyCode.R) && gameManager.bools.FoodBools.snailbunnyFood)
+        {
+            snailBunnyFoodGround.SetActive(true);
+
+            var position = gameObject.transform.position;
+            snailBunnyFoodGround.transform.position = position;
+
+            snailBunny.GetComponent<SnailbunnyManager>().runTarget = snailBunnyFoodGround;
+            gameManager.bools.FoodBools.snailBunnyComingToFood = true;
+
+            gameManager.bools.FoodBools.snailbunnyFood = false;
+        }
     }
 }
