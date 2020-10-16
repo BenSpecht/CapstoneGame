@@ -15,6 +15,13 @@
             <e p="Book.cs" t="Include" />
           </e>
         </e>
+        <e p="Customizable Skybox" t="Include">
+          <e p="Stylized Sky" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Stylized Sky.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Editor" t="Include">
           <e p="HolyShift" t="Include">
             <e p="Readme.txt" t="Include" />
@@ -27,7 +34,6 @@
             </e>
           </e>
         </e>
-        <e p="FMOD_Animations.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="FMOD" t="Include">
             <e p="addons" t="Include">
@@ -115,25 +121,31 @@
           <e p="AnimalBehaviours" t="Include">
             <e p="CorvanineBabyManager.cs" t="Include" />
             <e p="CorvanineManager.cs" t="Include" />
+            <e p="ElephantManager.cs" t="Include" />
             <e p="MantarayManager.cs" t="Include" />
             <e p="OctopusManager.cs" t="Include" />
             <e p="OctopusRadiusManager.cs" t="Include" />
             <e p="ScorpittyManager.cs" t="Include" />
             <e p="SerpanceaeManager.cs" t="Include" />
+            <e p="SnailbunnyManager.cs" t="Include" />
             <e p="WendigoManager.cs" t="Include" />
             <e p="WhaleManager.cs" t="Include" />
           </e>
           <e p="BridgeManager.cs" t="Include" />
+          <e p="FMOD_Animations.cs" t="Include" />
           <e p="FoodManagers" t="Include">
             <e p="MantarayFood.cs" t="Include" />
             <e p="MusicalInstrument.cs" t="Include" />
             <e p="OctopusBox.cs" t="Include" />
             <e p="ScorpittyFood.cs" t="Include" />
+            <e p="SnailbunnyFood.cs" t="Include" />
             <e p="WhaleFood.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />
           <e p="Interaction.cs" t="Include" />
           <e p="Journal.cs" t="Include" />
+          <e p="LightManager.cs" t="Include" />
+          <e p="LightPreset.cs" t="Include" />
           <e p="ObjectControllers" t="Include">
             <e p="BellController.cs" t="Include" />
           </e>
@@ -151,12 +163,35 @@
           <e p="Utility" t="Include">
             <e p="BellListener.cs" t="Include" />
             <e p="CameraListenerController.cs" t="Include" />
+            <e p="FlowerListener.cs" t="Include" />
             <e p="IsolatedMantaray.cs" t="Include" />
+            <e p="SnailbunnyFeedController.cs" t="Include" />
             <e p="WayPoints.cs" t="Include" />
+            <e p="WendigoPlayMusic.cs" t="Include" />
             <e p="WendigoWaypoint.cs" t="Include" />
           </e>
           <e p="WanderAI.cs" t="Include" />
           <e p="WoodScript.cs" t="Include" />
+        </e>
+        <e p="Splines" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="SplineControllerInspector.cs" t="Include" />
+              <e p="SplineInspector.cs" t="Include" />
+              <e p="SplineNodeInspector.cs" t="Include" />
+            </e>
+            <e p="HelperClasses" t="Include">
+              <e p="Set.cs" t="Include" />
+              <e p="UtilitySpline.cs" t="Include" />
+            </e>
+            <e p="SplineClasses" t="Include">
+              <e p="Spline.cs" t="Include" />
+              <e p="SplineColliderDraw.cs" t="Include" />
+              <e p="SplineController.cs" t="Include" />
+              <e p="SplineNode.cs" t="Include" />
+              <e p="SplineTester.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
