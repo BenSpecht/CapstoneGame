@@ -29,14 +29,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Fade.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Journal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineBabyManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fade.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Journal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PostProcessing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/Fade.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineManager.cs" />
       </list>
     </option>
   </component>
@@ -79,6 +88,7 @@
       <workItem from="1602426632524" duration="26000" />
       <workItem from="1602426701970" duration="554000" />
       <workItem from="1602840679732" duration="207000" />
+      <workItem from="1602934277997" duration="4733000" />
     </task>
     <servers />
   </component>

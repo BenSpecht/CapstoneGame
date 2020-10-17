@@ -8,7 +8,7 @@ public class CorvanineBabyManager : MonoBehaviour
 {
     public GameManager gameManager;
 
-    
+    public GameObject carry;
     
     // Start is called before the first frame update
     void Start()
@@ -27,6 +27,7 @@ public class CorvanineBabyManager : MonoBehaviour
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
             gameManager.bools.InventoryBools.hasCovanineBaby = true;
+            carry.SetActive(true);
             gameObject.SetActive(false);
             gameManager.DisplayBabySaved();
             

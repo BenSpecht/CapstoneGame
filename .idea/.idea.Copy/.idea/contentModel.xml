@@ -34,6 +34,20 @@
             </e>
           </e>
         </e>
+        <e p="FarlandSkies" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Player" t="Include">
+                <e p="FPSWalkerEnhanced.cs" t="Include" />
+                <e p="SmoothMouseLook.cs" t="Include" />
+              </e>
+              <e p="Skybox" t="Include">
+                <e p="SkyboxChanger.cs" t="Include" />
+                <e p="SkyboxRotator.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="FMOD" t="Include">
             <e p="addons" t="Include">
@@ -132,6 +146,7 @@
             <e p="WhaleManager.cs" t="Include" />
           </e>
           <e p="BridgeManager.cs" t="Include" />
+          <e p="Fade.cs" t="Include" />
           <e p="FMOD_Animations.cs" t="Include" />
           <e p="FoodManagers" t="Include">
             <e p="MantarayFood.cs" t="Include" />
@@ -144,8 +159,6 @@
           <e p="GameManager.cs" t="Include" />
           <e p="Interaction.cs" t="Include" />
           <e p="Journal.cs" t="Include" />
-          <e p="LightManager.cs" t="Include" />
-          <e p="LightPreset.cs" t="Include" />
           <e p="ObjectControllers" t="Include">
             <e p="BellController.cs" t="Include" />
           </e>
@@ -159,6 +172,7 @@
             <e p="ThirdPersonUserControl.cs" t="Include" />
             <e p="Tutorial.cs" t="Include" />
           </e>
+          <e p="SkyboxController.cs" t="Include" />
           <e p="ThirdPersonWhaleController.cs" t="Include" />
           <e p="Utility" t="Include">
             <e p="BellListener.cs" t="Include" />
@@ -172,6 +186,9 @@
           </e>
           <e p="WanderAI.cs" t="Include" />
           <e p="WoodScript.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="Fade.shader" t="Include" />
         </e>
         <e p="Splines" t="Include">
           <e p="Scripts" t="Include">
