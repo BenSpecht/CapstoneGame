@@ -16,7 +16,8 @@ MonoBehaviour:
   guid: 27ee6f8c103af74ba73c85b854b6c5aa
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -57,7 +58,8 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/Corvanine/Corvanine_Howl
   guid: 32899383266d1343bae649baa5971775
   Banks:
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -99,7 +101,8 @@ MonoBehaviour:
   guid: 87456a054b3f714d8495f2591de36fbf
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -123,7 +126,8 @@ MonoBehaviour:
   guid: 9cd4bcf3aaf5ab40867130dc9ea43868
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -165,7 +169,8 @@ MonoBehaviour:
   guid: 0900c2054243f748a0075d215a74aa8e
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -189,7 +194,8 @@ MonoBehaviour:
   guid: fb81852ac4c5fb488d24bc81258da677
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -213,7 +219,8 @@ MonoBehaviour:
   guid: b1725a77b2d4c042add4dbb668983654
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -236,7 +243,8 @@ MonoBehaviour:
   Path: event:/Animals/ForestAnimals/Octopus/Octopus_Walk
   guid: 984767633f877a4a9eeb6f6a193efc7e
   Banks:
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -244,6 +252,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 600
+--- !u!114 &-6368948308796272020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637385259657331003
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-6022603506547604141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,7 +286,8 @@ MonoBehaviour:
   guid: 8c5a840da429054ca3d8b0db702c566f
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -320,7 +347,8 @@ MonoBehaviour:
   guid: bbc8c50265fccb4ebe0ee4e5b3c480e4
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -360,7 +388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: CapstoneFMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637383816105198941
+  lastModified: 637385259655037177
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -382,7 +410,8 @@ MonoBehaviour:
   guid: 0e67e765317df74f9705b3718cd71ae6
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -424,7 +453,8 @@ MonoBehaviour:
   guid: a6b6b0bd770d414482ec2016f22c2216
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -466,7 +496,8 @@ MonoBehaviour:
   guid: eee3b29c91f8884885d04e201a54b057
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -490,7 +521,8 @@ MonoBehaviour:
   guid: aa440b0484301c4da54b1c260b6d8f52
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -513,7 +545,8 @@ MonoBehaviour:
   Path: event:/Animals/Whale/Whale_Tutorial
   guid: 0bd6cd6858a2c2498f4c89185e02c97f
   Banks:
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -537,7 +570,8 @@ MonoBehaviour:
   guid: 02258dd1ac3f2c49bd0c8988af0419cc
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -560,7 +594,8 @@ MonoBehaviour:
   Path: event:/Animals/ForestAnimals/Octopus/Octopus_Idle
   guid: 8c632482aa4fc9469e5dfc47be3bc8ea
   Banks:
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -584,7 +619,8 @@ MonoBehaviour:
   guid: 95e3f7cdf67ea347b308456abc5a0bf9
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -626,7 +662,8 @@ MonoBehaviour:
   guid: f6de75e19a30204bb171731bb51be729
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -668,7 +705,8 @@ MonoBehaviour:
   guid: fcb552a4aeaf8342b7161a6d8a7f9f70
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -690,7 +728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -4467397300117960140}
-  - {fileID: -305679190986305377}
+  - {fileID: -6368948308796272020}
   EditorEvents:
   - {fileID: -2009060283947785529}
   - {fileID: -7487571336430715224}
@@ -724,10 +762,10 @@ MonoBehaviour:
   - {fileID: -6369826029432097636}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -305679190986305377}
+  - {fileID: -6368948308796272020}
   StringsBanks:
   - {fileID: -4467397300117960140}
-  stringsBankWriteTime: 637383816105198941
+  stringsBankWriteTime: 637385259655037177
   cacheVersion: 3
 --- !u!114 &120839206259201833
 MonoBehaviour:
@@ -763,7 +801,8 @@ MonoBehaviour:
   guid: 50bb93301c7d3143a6eb11c5d1075da9
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -787,7 +826,8 @@ MonoBehaviour:
   guid: 81ac3def58924f43a922ff98eadbe6a4
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -829,7 +869,8 @@ MonoBehaviour:
   guid: bac8567a10893a448be38bf4ecbb1f06
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -870,7 +911,8 @@ MonoBehaviour:
   Path: event:/Animals/Whale/Whale_OnOff
   guid: 58941b4f356cfc4ca3f180e675427ec5
   Banks:
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -878,6 +920,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3353
+--- !u!114 &6036959485052429250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637385259657331003
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6062278180444334737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -930,7 +990,8 @@ MonoBehaviour:
   guid: 5a7618c28bd83048a4232e9323de549e
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -954,7 +1015,8 @@ MonoBehaviour:
   guid: 3ecfce13dde83a45a43f65aea9d4b05b
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1014,7 +1076,8 @@ MonoBehaviour:
   guid: 993cc37caefd524b8b09eab2677f9a70
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1038,7 +1101,8 @@ MonoBehaviour:
   guid: e65a80974d4a344c850e239d4ea7dc6d
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1062,7 +1126,8 @@ MonoBehaviour:
   guid: 2c1705e3e75824438bec03b569dc5bf2
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1086,7 +1151,8 @@ MonoBehaviour:
   guid: 80605e721e2cfe4aadd38d241a7e582d
   Banks:
   - {fileID: 120839206259201833}
-  - {fileID: -305679190986305377}
+  - {fileID: 6036959485052429250}
+  - {fileID: -6368948308796272020}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
