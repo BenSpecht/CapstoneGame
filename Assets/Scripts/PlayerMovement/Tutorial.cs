@@ -24,7 +24,7 @@ public class Tutorial : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        bookup = false;
+        bookup = true;
     }
 
     private void OnTriggerEnter(Collider other)

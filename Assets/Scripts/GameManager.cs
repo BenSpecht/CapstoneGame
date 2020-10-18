@@ -9,6 +9,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.ThirdPerson;
+using TMPro;
 
 [Serializable]
 public struct ScreenText
@@ -120,6 +121,10 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
 
+    public TextMeshPro thinkingText;
+
+    public Transform textmesh;
+
     public GameObject mainCamera;
     public GameObject flowerCamera;
     public bool hasBook;
@@ -131,7 +136,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        thinkingText = FindObjectOfType<TextMeshPro>();
     }
 
     // Update is called once per frame
@@ -145,6 +150,8 @@ public class GameManager : MonoBehaviour
             DarkWorldLeaveCheck();
         }
         GameOverCheck();
+        
+        textmesh.rotation = Quaternion.LookRotation( textmesh.position - Camera.main.transform.position );
     }
 
     private void DarkWorldLeaveCheck()
@@ -252,13 +259,16 @@ public class GameManager : MonoBehaviour
     public void DisplaySaveBaby()
     {
         StartCoroutine(SaveBabyText());
+        
     }
 
     private IEnumerator SaveBabyText()
     {
-        ScreenText.saveBabyText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(3);
-        ScreenText.saveBabyText.gameObject.SetActive(false);
+        //ScreenText.saveBabyText.gameObject.SetActive(true);
+        thinkingText.text = "*Looks like one is missing*";
+        yield return new WaitForSeconds(5);
+        //ScreenText.saveBabyText.gameObject.SetActive(false);
+        thinkingText.text = " ";
     }
 
     public void DisplayBabySaved()
@@ -268,9 +278,11 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator BabySavedText()
     {
+        thinkingText.text = "*WRITE STUFF HERE JULIA*";
         ScreenText.babySavedText.gameObject.SetActive(true);
         yield return new WaitForSeconds(3);
         ScreenText.babySavedText.gameObject.SetActive(false);
+        thinkingText.text = " ";
     }
 
     public void DisplayWoodRecieved()
@@ -280,9 +292,11 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator WoodRecievedText()
     {
+        thinkingText.text = "*WRITE STUFF HERE JULIA*";
         ScreenText.gotWoodText.gameObject.SetActive(true);
         yield return new WaitForSeconds(3);
         ScreenText.gotWoodText.gameObject.SetActive(false);
+        thinkingText.text = " ";
     }
 
     public void DisplayScorpittyFoodText()
@@ -292,9 +306,11 @@ public class GameManager : MonoBehaviour
     
     private IEnumerator ScorpittyFoodText()
     {
+        thinkingText.text = "*WRITE STUFF HERE JULIA*";
         ScreenText.scorpittyFoodText.gameObject.SetActive(true);
         yield return new WaitForSeconds(3);
         ScreenText.scorpittyFoodText.gameObject.SetActive(false);
+        thinkingText.text = " ";
     }
 
     public void DisplayInstrumentRecieved()
@@ -304,9 +320,11 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator InstrumentRecievedText()
     {
+        thinkingText.text = "*WRITE STUFF HERE JULIA*";
         ScreenText.instrumentText.gameObject.SetActive(true);
         yield return new WaitForSeconds(3);
         ScreenText.instrumentText.gameObject.SetActive(false);
+        thinkingText.text = " ";
     }
 
     public void DisplayBefriendText()
@@ -316,9 +334,11 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator BefriendText()
     {
+        thinkingText.text = "*WRITE STUFF HERE JULIA*";
         ScreenText.befriendText.gameObject.SetActive(true);
         yield return new WaitForSeconds(3);
         ScreenText.befriendText.gameObject.SetActive(false);
+        thinkingText.text = " ";
     }
 
     public void DisplayBefriendSuccessText()
@@ -328,8 +348,10 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator BefriendSuccessText()
     {
+        thinkingText.text = "*WRITE STUFF HERE JULIA*";
         ScreenText.befriendSuccessText.gameObject.SetActive(true);
         yield return new WaitForSeconds(4);
         ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
     }
 }

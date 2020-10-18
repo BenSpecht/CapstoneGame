@@ -32,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Fade.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Journal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/Tutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineBabyManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,8 +45,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PostProcessing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fade.cs" />
         <option value="$PROJECT_DIR$/Assets/Shaders/Fade.shader" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/Tutorial.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LightManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +93,7 @@
       <workItem from="1602426701970" duration="554000" />
       <workItem from="1602840679732" duration="207000" />
       <workItem from="1602934277997" duration="4733000" />
+      <workItem from="1602995367790" duration="6008000" />
     </task>
     <servers />
   </component>
