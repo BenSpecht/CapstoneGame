@@ -279,9 +279,9 @@ public class GameManager : MonoBehaviour
     private IEnumerator BabySavedText()
     {
         thinkingText.text = "*Back where you belong, little pup!*";
-        ScreenText.babySavedText.gameObject.SetActive(true);
+        //ScreenText.babySavedText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
-        ScreenText.babySavedText.gameObject.SetActive(false);
+        //ScreenText.babySavedText.gameObject.SetActive(false);
         thinkingText.text = " ";
     }
 
@@ -293,9 +293,9 @@ public class GameManager : MonoBehaviour
     private IEnumerator WoodRecievedText()
     {
         thinkingText.text = "*These planks could be useful*";
-        ScreenText.gotWoodText.gameObject.SetActive(true);
+        //ScreenText.gotWoodText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
-        ScreenText.gotWoodText.gameObject.SetActive(false);
+        //ScreenText.gotWoodText.gameObject.SetActive(false);
         thinkingText.text = " ";
     }
 
@@ -307,9 +307,9 @@ public class GameManager : MonoBehaviour
     private IEnumerator ScorpittyFoodText()
     {
         thinkingText.text = "*I bet one of these animals eats meat*";
-        ScreenText.scorpittyFoodText.gameObject.SetActive(true);
+        //ScreenText.scorpittyFoodText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
-        ScreenText.scorpittyFoodText.gameObject.SetActive(false);
+        //ScreenText.scorpittyFoodText.gameObject.SetActive(false);
         thinkingText.text = " ";
     }
 
@@ -321,9 +321,9 @@ public class GameManager : MonoBehaviour
     private IEnumerator InstrumentRecievedText()
     {
         thinkingText.text = "*A pan flute! I should try playing it*";
-        ScreenText.instrumentText.gameObject.SetActive(true);
+        //ScreenText.instrumentText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
-        ScreenText.instrumentText.gameObject.SetActive(false);
+        //ScreenText.instrumentText.gameObject.SetActive(false);
         thinkingText.text = " ";
     }
 
@@ -334,10 +334,10 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator BefriendText()
     {
-        thinkingText.text = "*WRITE STUFF HERE JULIA*";
-        ScreenText.befriendText.gameObject.SetActive(true);
+        thinkingText.text = "*I think it likes me*";
+        //ScreenText.befriendText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
-        ScreenText.befriendText.gameObject.SetActive(false);
+        //ScreenText.befriendText.gameObject.SetActive(false);
         thinkingText.text = " ";
     }
 
@@ -348,10 +348,10 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator BefriendSuccessText()
     {
-        thinkingText.text = "*WRITE STUFF HERE JULIA*";
-        ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        thinkingText.text = "*I think it likes me*";
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
-        ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
         thinkingText.text = " ";
     }
 }
