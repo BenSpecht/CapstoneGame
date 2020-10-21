@@ -278,7 +278,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator BabySavedText()
     {
-        thinkingText.text = "*Back where you belong, little pup!*";
+        thinkingText.text = "*You look lost! Let's find your mum*";
         //ScreenText.babySavedText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
         //ScreenText.babySavedText.gameObject.SetActive(false);
