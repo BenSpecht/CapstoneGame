@@ -16,6 +16,8 @@ public class Tutorial : MonoBehaviour
     public GameObject opentext;
     public GameObject groundbook;
 
+    public GameObject uibook;
+
     public bool bookup;
 
     //public GameObject jumptext;
@@ -56,6 +58,7 @@ public class Tutorial : MonoBehaviour
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
             bookup = true;
+            uibook.SetActive(true);
             gameManager.hasBook = true;
 
             popuptext1.SetActive(false);
