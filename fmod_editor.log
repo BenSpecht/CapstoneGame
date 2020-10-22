@@ -7,13 +7,105 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000029B0CD9B1B8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000026D2C1139D8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] SoundI::release                          :  (0000026DAFD43E98)
+[LOG] SoundI::release                          :     CorvaninePup_Idle1 (0000026E516DDEC8)
+[LOG] SoundI::release                          :  (0000026DAFD44CF8)
+[LOG] SoundI::release                          :     CorvaninePup_Idle1_1 (0000026E516DAC68)
+[LOG] SoundI::release                          :  (0000026DAFD43768)
+[LOG] SoundI::release                          :     CorvaninePup_Idle1_2 (0000026E516DAE08)
+[LOG] SoundI::release                          :  (0000026DAFD45148)
+[LOG] SoundI::release                          :     CorvaninePup_Idle2 (0000026E516DE6E8)
+[LOG] SoundI::release                          :  (0000026DAFD42348)
+[LOG] SoundI::release                          :     CorvaninePup_Idle2_1 (0000026E516DE548)
+[LOG] SoundI::release                          :  (0000026DFF6A07A8)
+[LOG] SoundI::release                          :     Whale_Call (0000026E516DD848)
+[LOG] SoundI::release                          :  (0000026CFE141158)
+[LOG] SoundI::release                          :     Whale_Call_1 (0000026E516E0428)
+[LOG] SoundI::release                          :  (0000026CFE140D08)
+[LOG] SoundI::release                          :     Whale_Call_2 (0000026E516DD1C8)
+[LOG] SoundI::release                          :  (0000026D2C181838)
+[LOG] SoundI::release                          :     Whale_Call_3 (0000026E516DDD28)
+[LOG] SoundI::release                          :  (0000026D2C1819A8)
+[LOG] SoundI::release                          :     Bird_Blackbird_1 (0000026E516DEF08)
+[LOG] SoundI::release                          :  (0000026D2C17DBD8)
+[LOG] SoundI::release                          :     Bird_Blackbird_2 (0000026E516DFA68)
+[LOG] SoundI::release                          :  (0000026DFF6A04C8)
+[LOG] SoundI::release                          :     Bird_Blackbird_3 (0000026E516DBE48)
+[LOG] SoundI::release                          :  (0000026B114AB8C8)
+[LOG] SoundI::release                          :     Bird_Blackbird_4 (0000026E516DC328)
+[LOG] SoundI::release                          :  (0000026CFE141FB8)
+[LOG] SoundI::release                          :     Bird_Blackbird_5 (0000026E516DF728)
+[LOG] SoundI::release                          :  (0000026DAFD42D58)
+[LOG] SoundI::release                          :     Bird_Blackbird_6 (0000026E516DC4C8)
+[LOG] SoundI::release                          :  (0000026DFEFC43B8)
+[LOG] SoundI::release                          :     Bird_Blackbird_7 (0000026E516DD9E8)
+[LOG] SoundI::release                          :  (0000026DFEFC3F68)
+[LOG] SoundI::release                          :     Bird_Blackbird_8 (0000026E516DE3A8)
+[LOG] SoundI::release                          :  (0000026DFEFC40D8)
+[LOG] SoundI::release                          :     Bird_Blackbird_9 (0000026E516E00E8)
+[LOG] SoundI::release                          :  (0000026CFE141CD8)
+[LOG] SoundI::release                          :     Bug03_1 (0000026E516DBFE8)
+[LOG] SoundI::release                          :  (0000026DFEFC29D8)
+[LOG] SoundI::release                          :     Bug03_2 (0000026E516DAFA8)
+[LOG] SoundI::release                          :  (0000026DFEFC4528)
+[LOG] SoundI::release                          :     Bug03_3 (0000026E516DBCA8)
+[LOG] SoundI::release                          :  (0000026CFE140E78)
+[LOG] SoundI::release                          :     Bug03_4 (0000026E516DFF48)
+[LOG] SoundI::release                          :  (0000026CFE142578)
+[LOG] SoundI::release                          :     Bug04_1 (0000026E516DCCE8)
+[LOG] SoundI::release                          :  (0000026CFE141E48)
+[LOG] SoundI::release                          :     Bug04_2 (0000026E516DFC08)
+[LOG] SoundI::release                          :  (0000026DFEFC4808)
+[LOG] SoundI::release                          :     Bug04_3 (0000026E516E0288)
+[LOG] SoundI::release                          :  (0000026DFEFC39A8)
+[LOG] SoundI::release                          :     Bug04_4 (0000026E516DC668)
+[LOG] SoundI::release                          :  (0000026DFEFC4248)
+[LOG] SoundI::release                          :     Bug01_1 (0000026E516DBB08)
+[LOG] SoundI::release                          : Jungle_Loop (0000026CFE47DD48)
+[LOG] SoundI::release                          :     Jungle_Loop (0000026E516DB2E8)
+[LOG] SoundI::release                          :     Jungle_Loop (0000026D2C831D88)
+[LOG] SoundI::release                          : flangebirds_loop (0000026DAF02A3E8)
+[LOG] SoundI::release                          :     flangebirds_loop (0000026E516DD508)
+[LOG] SoundI::release                          :     flangebirds_loop (0000026CFE47E0A8)
+[LOG] SoundI::release                          : Tree01_Loop (0000026DAF02A088)
+[LOG] SoundI::release                          :     Tree01_Loop (0000026E516E0908)
+[LOG] SoundI::release                          :     Tree01_Loop (0000026CFE47DEF8)
+[LOG] SoundI::release                          : River_Loop (0000026D2CB66828)
+[LOG] SoundI::release                          :     River_Loop (0000026E516DB7C8)
+[LOG] SoundI::release                          :     River_Loop (0000026D2CB65238)
+[LOG] SoundI::release                          : OFmusic_V01_Loop (0000026D2CB65598)
+[LOG] SoundI::release                          :     OFmusic_V01_Loop (0000026E516DF248)
+[LOG] SoundI::release                          :     OFmusic_V01_Loop (0000026D2CB65E08)
+[LOG] SoundI::release                          :  (0000026DFEFC5218)
+[LOG] SoundI::release                          :     Bug01_2 (0000026E516DC188)
+[LOG] SoundI::release                          :  (0000026CFE141438)
+[LOG] SoundI::release                          :     Bug01_3 (0000026E516DE208)
+[LOG] SoundI::release                          :  (0000026B13C9E6E8)
+[LOG] SoundI::release                          :     Bug01_4 (0000026E516DC808)
+[LOG] SoundI::release                          :  (0000026CFE140B98)
+[LOG] SoundI::release                          :     Bug02_1 (0000026E516DE068)
+[LOG] SoundI::release                          :  (0000026DFF6A0638)
+[LOG] SoundI::release                          :     Bug02_2 (0000026E516DD028)
+[LOG] SoundI::release                          :  (0000026D2C17DEB8)
+[LOG] SoundI::release                          :     Bug02_3 (0000026E516DB628)
+[LOG] SoundI::release                          :  (0000026DFEFC4AE8)
+[LOG] SoundI::release                          :     Bug02_4 (0000026E516DCE88)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
@@ -24,4 +116,6 @@
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
 [LOG] SystemI::close                           : Closed.

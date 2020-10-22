@@ -137,6 +137,7 @@
             <e p="CorvanineManager.cs" t="Include" />
             <e p="ElephantManager.cs" t="Include" />
             <e p="MantarayManager.cs" t="Include" />
+            <e p="MothManager.cs" t="Include" />
             <e p="OctopusManager.cs" t="Include" />
             <e p="OctopusRadiusManager.cs" t="Include" />
             <e p="ScorpittyManager.cs" t="Include" />

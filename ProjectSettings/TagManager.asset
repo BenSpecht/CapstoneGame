@@ -10,6 +10,7 @@ TagManager:
   - Planks
   - OctopusBox
   - SnailBunny
+  - Moth
   layers:
   - Default
   - TransparentFX

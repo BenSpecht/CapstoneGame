@@ -35,6 +35,7 @@ public struct Pages
     public Sprite snailBunnyPage;
     public Sprite WendigoPage;
     public Sprite ElephantPage;
+    public Sprite JackOMothPage;
 }
 
 [Serializable]
@@ -95,6 +96,7 @@ public struct AnimalsMetBools
     public bool CorvinineMet;
     public bool WendigoMet;
     public bool SnailbunnyMet;
+    public bool MothMet;
 }
 
 [Serializable]
@@ -132,7 +134,7 @@ public class GameManager : MonoBehaviour
     public GameObject flower;
 
     private bool runFlowerAnimation = false;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -145,18 +147,21 @@ public class GameManager : MonoBehaviour
         if (!bools.WhalePathing.whaleReadyToLeaveForest && bools.WhalePathing.whaleAtForest)
         {
             ForestWorldLeaveCheck();
-        } else if (!bools.WhalePathing.whaleReadyToLeaveDark && bools.WhalePathing.whaleAtDark)
+        }
+        else if (!bools.WhalePathing.whaleReadyToLeaveDark && bools.WhalePathing.whaleAtDark)
         {
             DarkWorldLeaveCheck();
         }
+
         GameOverCheck();
-        
-        textmesh.rotation = Quaternion.LookRotation( textmesh.position - Camera.main.transform.position );
+
+        textmesh.rotation = Quaternion.LookRotation(textmesh.position - Camera.main.transform.position);
     }
 
     private void DarkWorldLeaveCheck()
     {
-        if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.SerpMet && bools.AnimalsMetBools.WendigoMet && bools.AnimalsMetBools.ScorpittyMet)
+        if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.SerpMet && bools.AnimalsMetBools.WendigoMet &&
+            bools.AnimalsMetBools.ScorpittyMet)
         {
             bools.WhalePathing.whaleReadyToLeaveDark = true;
         }
@@ -164,7 +169,8 @@ public class GameManager : MonoBehaviour
 
     private void ForestWorldLeaveCheck()
     {
-        if (bools.AnimalsMetBools.MantarayMet && bools.AnimalsMetBools.OctopusMet && bools.AnimalsMetBools.SnailbunnyMet)
+        if (bools.AnimalsMetBools.MantarayMet && bools.AnimalsMetBools.OctopusMet &&
+            bools.AnimalsMetBools.SnailbunnyMet)
         {
             bools.WhalePathing.whaleReadyToLeaveForest = true;
         }
@@ -174,7 +180,8 @@ public class GameManager : MonoBehaviour
     {
         if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.MantarayMet &&
             bools.AnimalsMetBools.OctopusMet && bools.AnimalsMetBools.ScorpittyMet && bools.AnimalsMetBools.SerpMet &&
-            bools.AnimalsMetBools.WhaleMet && bools.AnimalsMetBools.WendigoMet && bools.AnimalsMetBools.SnailbunnyMet && !runFlowerAnimation)
+            bools.AnimalsMetBools.WhaleMet && bools.AnimalsMetBools.WendigoMet && bools.AnimalsMetBools.SnailbunnyMet &&
+            !runFlowerAnimation)
         {
             player.GetComponent<ThirdPersonCharacter>().enabled = false;
             player.GetComponent<ThirdPersonUserControl>().enabled = false;
@@ -255,11 +262,19 @@ public class GameManager : MonoBehaviour
         book.bookPages[10] = pages.ElephantPage;
         //FMODUnity.RuntimeManager.PlayOneShot("event:/Journal/Journal_NewTask", GetComponent<Transform>().position);
     }
-    
+
     public void DisplaySaveBaby()
     {
         StartCoroutine(SaveBabyText());
-        
+
+    }
+
+    public void AddMothToBook()
+    {
+
+        book.bookPages[5] = pages.JackOMothPage;
+
+
     }
 
     private IEnumerator SaveBabyText()
@@ -303,7 +318,7 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine(ScorpittyFoodText());
     }
-    
+
     private IEnumerator ScorpittyFoodText()
     {
         thinkingText.text = "*I bet one of these animals eats meat*";
@@ -354,4 +369,6 @@ public class GameManager : MonoBehaviour
         //ScreenText.befriendSuccessText.gameObject.SetActive(false);
         thinkingText.text = " ";
     }
+
+    
 }
