@@ -20,7 +20,7 @@ public class MothManager : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            thinkingText.text = "*MOTH BEGONE*";
+            thinkingText.text = "*What a pretty moth*";
             
             
         }
@@ -28,7 +28,9 @@ public class MothManager : MonoBehaviour
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
             thinkingText.text = " ";
-             gameObject.SetActive(false);
+            //moth.GetComponent<Animator>().Play("Moth_fly_away");
+            //Julia doesn't know what she's doing, plz help her XD
+            gameObject.SetActive(false);
              //MAKE MOTH BECOME ULTIMATE LIFEFORM
         }
     }
