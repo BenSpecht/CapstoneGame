@@ -31,6 +31,7 @@ public class WendigoManager : MonoBehaviour
             
             anim.SetTrigger("calm");
             gameManager.AddWendigoToBook();
+            gameManager.bools.AnimalsMetBools.WendigoMet = true;
             
             Debug.Log("CALMu");
             //moth.GetComponent<Animator>().Play("Moth_fly_away");
