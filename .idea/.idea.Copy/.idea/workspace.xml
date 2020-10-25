@@ -31,12 +31,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Fade.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Low Pixel Test/Assets/Scripts/FirstDoor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WendigoManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WhaleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/MothManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodManagers/MusicalInstrument.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineBabyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SerpanceaeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectControllers/BellController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interaction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Journal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/Tutorial.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,6 +60,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/MothManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/MusicalInstrument.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectControllers/BellController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WendigoManager.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +109,7 @@
       <workItem from="1602995367790" duration="6008000" />
       <workItem from="1603360416684" duration="3002000" />
       <workItem from="1603452854393" duration="3848000" />
+      <workItem from="1603597662493" duration="7952000" />
     </task>
     <servers />
   </component>

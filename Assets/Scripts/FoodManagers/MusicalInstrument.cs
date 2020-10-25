@@ -6,6 +6,7 @@ using UnityEngine;
 public class MusicalInstrument : MonoBehaviour
 {
     public GameManager gameManager;
+    public GameObject carryFlute;
     
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class MusicalInstrument : MonoBehaviour
         {
             gameManager.bools.InventoryBools.hasInstrument = true;
             gameObject.SetActive(false);
+            carryFlute.SetActive(true);
             gameManager.DisplayInstrumentRecieved();
         }
     }
