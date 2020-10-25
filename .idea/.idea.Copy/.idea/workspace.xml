@@ -33,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/../Low Pixel Test/Assets/Scripts/FirstDoor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WendigoManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodManagers/ScorpittyFood.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WhaleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/MothManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodManagers/MusicalInstrument.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,6 +43,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SerpanceaeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/SnailbunnyFeedController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectControllers/BellController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/ThirdPersonCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WoodScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interaction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Journal.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,6 +68,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/MothManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/MusicalInstrument.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectControllers/BellController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/ScorpittyFood.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WoodScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SerpanceaeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WendigoManager.cs" />
       </list>
     </option>

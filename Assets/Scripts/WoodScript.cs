@@ -6,6 +6,8 @@ public class WoodScript : MonoBehaviour
 {
     
     public GameManager gameManager;
+
+    public GameObject carryPlanks;
     // Start is called before the first frame update
     
     
@@ -15,6 +17,7 @@ public class WoodScript : MonoBehaviour
         {
             
                 // Add to journal and provide wood
+                carryPlanks.SetActive(true);
                 gameManager.bools.InventoryBools.hasWood = true;
                 gameManager.DisplayWoodRecieved();
                 FMODUnity.RuntimeManager.PlayOneShot("event:/Planks/Planks_PickUp", GetComponent<Transform>().position);

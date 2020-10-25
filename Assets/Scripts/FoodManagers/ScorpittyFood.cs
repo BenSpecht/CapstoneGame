@@ -6,6 +6,8 @@ using UnityEngine;
 public class ScorpittyFood : MonoBehaviour
 {
     public GameManager gameManager;
+
+    public GameObject carryFood;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,7 @@ public class ScorpittyFood : MonoBehaviour
     {
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
+            carryFood.SetActive(true);
             gameObject.SetActive(false);
             gameManager.bools.FoodBools.scorpittyFood = true;
             gameManager.DisplayScorpittyFoodText();
