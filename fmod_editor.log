@@ -7,90 +7,13 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001BC15F51EC8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001C094FBF658 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
-[LOG] SoundI::release                          :  (000001BB8A9FEEC8)
-[LOG] SoundI::release                          :     CorvaninePup_Idle1 (000001BC974991E8)
-[LOG] SoundI::release                          :  (000001BB8A9FF8D8)
-[LOG] SoundI::release                          :     CorvaninePup_Idle1_1 (000001BC97496948)
-[LOG] SoundI::release                          :  (000001BB8A9FFA48)
-[LOG] SoundI::release                          :     CorvaninePup_Idle1_2 (000001BC9749A088)
-[LOG] SoundI::release                          :  (000001BB8AA01148)
-[LOG] SoundI::release                          :     CorvaninePup_Idle2 (000001BC97495288)
-[LOG] SoundI::release                          :  (000001BB8A9FFBB8)
-[LOG] SoundI::release                          :     CorvaninePup_Idle2_1 (000001BC97494C08)
-[LOG] SoundI::release                          :  (000001BB8A9FF768)
-[LOG] SoundI::release                          :     Whale_Call (000001BC97499048)
-[LOG] SoundI::release                          :  (000001BB8AA01598)
-[LOG] SoundI::release                          :     Whale_Call_1 (000001BC97496468)
-[LOG] SoundI::release                          :  (000001BB8AA030E8)
-[LOG] SoundI::release                          :     Whale_Call_2 (000001BC97497308)
-[LOG] SoundI::release                          :  (000001BB8A9FF318)
-[LOG] SoundI::release                          :     Whale_Call_3 (000001BC97499A08)
-[LOG] SoundI::release                          :  (000001BB8A9FF5F8)
-[LOG] SoundI::release                          :     Bug03_1 (000001BC97494248)
-[LOG] SoundI::release                          :  (000001BB8AA02B28)
-[LOG] SoundI::release                          :     Bug03_2 (000001BC97496C88)
-[LOG] SoundI::release                          :  (000001BB8AA00E68)
-[LOG] SoundI::release                          :     Bug03_3 (000001BC97498B68)
-[LOG] SoundI::release                          :  (000001BB8A9FEBE8)
-[LOG] SoundI::release                          :     Bug03_4 (000001BC97497CC8)
-[LOG] SoundI::release                          :  (000001BB8A9FE908)
-[LOG] SoundI::release                          :     Bug04_1 (000001BC97496608)
-[LOG] SoundI::release                          :  (000001BB8A9FE798)
-[LOG] SoundI::release                          :     Bug04_2 (000001BC97497B28)
-[LOG] SoundI::release                          :  (000001BB8AA03988)
-[LOG] SoundI::release                          :     Bug04_3 (000001BC97499BA8)
-[LOG] SoundI::release                          :  (000001BB8AA00738)
-[LOG] SoundI::release                          :     Bug04_4 (000001BC974962C8)
-[LOG] SoundI::release                          :  (000001BB8AA03AF8)
-[LOG] SoundI::release                          :     Bug01_1 (000001BC97498EA8)
-[LOG] SoundI::release                          : DarkWorld_Music_Loop (000001BCF82F4688)
-[LOG] SoundI::release                          :     DarkWorld_Music_Loop (000001B9E3404A48)
-[LOG] SoundI::release                          :     DarkWorld_Music_Loop (000001BC536EFA68)
-[LOG] SoundI::release                          : DarkWorld_Ambience_3 (000001BC40B43B58)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_3 (000001B9E3405408)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_3 (000001BC536EF3A8)
-[LOG] SoundI::release                          : DarkWorld_Ambience_4 (000001B980350A18)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_4 (000001B9E3405F68)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_4 (000001BC536EFC18)
-[LOG] SoundI::release                          : DarkWorld_Ambience_2 (000001BCF82F3908)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_2 (000001B9E34050C8)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_2 (000001BC536EF558)
-[LOG] SoundI::release                          : DarkWorld_Ambience_1 (000001BCF82F44D8)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_1 (000001B9E3405DC8)
-[LOG] SoundI::release                          :     DarkWorld_Ambience_1 (000001BC536EF048)
-[LOG] SoundI::release                          : River_Loop (000001B980350868)
-[LOG] SoundI::release                          :     River_Loop (000001B9E3407CA8)
-[LOG] SoundI::release                          :     River_Loop (000001BC96D385C8)
-[LOG] SoundI::release                          :  (000001BB8AA008A8)
-[LOG] SoundI::release                          :     Bug01_2 (000001BC97496E28)
-[LOG] SoundI::release                          :  (000001BB8AA036A8)
-[LOG] SoundI::release                          :     Bug01_3 (000001BC97498D08)
-[LOG] SoundI::release                          :  (000001BB8A9FED58)
-[LOG] SoundI::release                          :     Bug01_4 (000001BC974948C8)
-[LOG] SoundI::release                          :  (000001BB8A9FFD28)
-[LOG] SoundI::release                          :     Bug02_1 (000001BC97499EE8)
-[LOG] SoundI::release                          :  (000001BB8A9FE068)
-[LOG] SoundI::release                          :     Bug02_2 (000001BC97497648)
-[LOG] SoundI::release                          :  (000001BB8A9FFE98)
-[LOG] SoundI::release                          :     Bug02_3 (000001BC9749A228)
-[LOG] SoundI::release                          :  (000001BB8AA00FD8)
-[LOG] SoundI::release                          :     Bug02_4 (000001BC974967A8)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] SystemI::close                           : Closed.
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
@@ -101,6 +24,4 @@
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
 [LOG] SystemI::close                           : Closed.
