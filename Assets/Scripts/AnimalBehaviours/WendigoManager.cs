@@ -31,12 +31,15 @@ public class WendigoManager : MonoBehaviour
     {
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
-            thinkingText.text = "CALM BITCH";
+            thinkingText.text = "*Woah! He looks angry! There must be a way to calm him down… Maybe that song in the book*";
             
             anim.SetTrigger("calm");
             gameManager.AddWendigoToBook();
             gameManager.bools.AnimalsMetBools.WendigoMet = true;
-            
+
+            //hope this doesn't break lol
+            thinkingText.text = " ";
+
             Debug.Log("CALMu");
             playFlute.SetActive(true);
             carryFlute.SetActive(false);

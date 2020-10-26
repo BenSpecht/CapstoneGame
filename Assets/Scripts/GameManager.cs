@@ -280,7 +280,7 @@ public class GameManager : MonoBehaviour
     private IEnumerator SaveBabyText()
     {
         //ScreenText.saveBabyText.gameObject.SetActive(true);
-        thinkingText.text = "*Looks a baby is missing*";
+        thinkingText.text = "*Looks like a baby is missing*";
         yield return new WaitForSeconds(5);
         //ScreenText.saveBabyText.gameObject.SetActive(false);
         thinkingText.text = " ";
