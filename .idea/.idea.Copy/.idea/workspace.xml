@@ -42,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineBabyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SerpanceaeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/SnailbunnyFeedController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectControllers/BellController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/ThirdPersonCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WoodScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,6 +73,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WoodScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SerpanceaeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WendigoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuScript.cs" />
       </list>
     </option>
   </component>
@@ -119,6 +121,7 @@
       <workItem from="1603360416684" duration="3002000" />
       <workItem from="1603452854393" duration="3848000" />
       <workItem from="1603597662493" duration="10564000" />
+      <workItem from="1603691779822" duration="1213000" />
     </task>
     <servers />
   </component>
