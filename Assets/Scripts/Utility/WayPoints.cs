@@ -198,7 +198,7 @@ public class WayPoints : MonoBehaviour {
         position = Vector3.MoveTowards(position, position1,   speed*Time.deltaTime);
         transform.position = position;
 
-        if(transform.position == targetWayPoint.position)
+        if(Vector3.Distance(transform.position, targetWayPoint.position) < 0.01f)
         {
             currentWayPoint ++;
             if (gameManager.bools.WhalePathing.tutorialToForest)
