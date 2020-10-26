@@ -6,7 +6,8 @@ using UnityEngine;
 public class ElephantManager : MonoBehaviour
 {
     public GameManager gameManager;
-    
+    public GameObject glowLeaves;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +28,7 @@ public class ElephantManager : MonoBehaviour
             gameManager.AddElephantToBook();
             // Give key
             gameManager.bools.InventoryBools.hasKey = true;
+            glowLeaves.SetActive(true);
         }
     }
 }
