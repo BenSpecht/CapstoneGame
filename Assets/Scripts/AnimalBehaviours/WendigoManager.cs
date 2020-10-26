@@ -10,9 +10,6 @@ public class WendigoManager : MonoBehaviour
 
     private Animator anim;
 
-    public GameObject playFlute;
-
-    public GameObject carryFlute;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,10 +38,8 @@ public class WendigoManager : MonoBehaviour
             thinkingText.text = " ";
 
             Debug.Log("CALMu");
-            playFlute.SetActive(true);
-            carryFlute.SetActive(false);
             
-            //moth.GetComponent<Animator>().Play("Moth_fly_away");
+            
             //Julia doesn't know what she's doing, plz help her XD
             //gameObject.SetActive(false);
             //MAKE MOTH BECOME ULTIMATE LIFEFORM
@@ -59,8 +54,6 @@ public class WendigoManager : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             
-            playFlute.SetActive(false);
-            carryFlute.SetActive(true);
             
             
         }

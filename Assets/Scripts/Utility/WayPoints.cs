@@ -153,6 +153,7 @@ public class WayPoints : MonoBehaviour {
             if (currentWayPoint > whaleApproachDark.Length)
             {
                 currentWayPoint = 0;
+                gameManager.bools.WhalePathing.whaleCircleDark = false;
                 approachedDark = true;
                 targetWayPoint = null;
             }
@@ -232,7 +233,7 @@ public class WayPoints : MonoBehaviour {
                     targetWayPoint = whaleCircleDark[currentWayPoint];
                 }
             } else if (gameManager.bools.WhalePathing.whaleReadyToLeaveDark &&
-                       !gameManager.bools.WhalePathing.whaleCircleDark)
+                       !gameManager.bools.WhalePathing.whaleCircleDark && !gameManager.bools.WhalePathing.darkToFlower)
             {
                 if (currentWayPoint < whaleApproachDark.Length)
                 {
