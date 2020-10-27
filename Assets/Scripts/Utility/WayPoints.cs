@@ -173,6 +173,7 @@ public class WayPoints : MonoBehaviour {
                 gameManager.bools.WhalePathing.whaleAtFlower = true;
                 currentWayPoint = 0;
                 whaleManager.GetOffWhale();
+                gameManager.GameOverCheck();
                 targetWayPoint = null;
             }
             else

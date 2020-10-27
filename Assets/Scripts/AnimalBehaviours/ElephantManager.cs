@@ -35,6 +35,8 @@ public class ElephantManager : MonoBehaviour
             // Give key
             gameManager.bools.InventoryBools.hasKey = true;
             glowLeaves.SetActive(true);
+            
+            gameManager.TreeLightAnimation();
         }
     }
 }

@@ -53,7 +53,7 @@ public class BellController : MonoBehaviour
                 MainCamera.GetComponent<CinemachineBrain>().enabled = true;
             
                 // Set VCam prio to high
-                BellCamera.GetComponent<CinemachineVirtualCamera>().Priority = 50000;
+                BellCamera.GetComponent<CinemachineVirtualCamera>().Priority = 1000000;
             
                 // Move player to location
                 Player.transform.position = NewPlayerPosition.transform.position;

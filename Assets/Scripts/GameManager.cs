@@ -10,6 +10,7 @@ using UnityEngine.Rendering;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.ThirdPerson;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 [Serializable]
 public struct ScreenText
@@ -139,11 +140,13 @@ public class GameManager : MonoBehaviour
 
     public GameObject mainCamera;
     public GameObject flowerCamera;
+    public GameObject treeCamera;
     public bool hasBook;
 
     public GameObject flower;
 
     private bool runFlowerAnimation = false;
+    private static readonly int PlayFinal = Animator.StringToHash("PlayFinal");
 
     // Start is called before the first frame update
     void Start()
@@ -162,10 +165,24 @@ public class GameManager : MonoBehaviour
         {
             DarkWorldLeaveCheck();
         }
-
-        GameOverCheck();
-
+        
         textmesh.rotation = Quaternion.LookRotation(textmesh.position - Camera.main.transform.position);
+
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            player.GetComponent<ThirdPersonCharacter>().enabled = false;
+            player.GetComponent<ThirdPersonUserControl>().enabled = false;
+            player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+
+            mainCamera.GetComponent<MouseOrbitImproved>().enabled = false;
+            mainCamera.GetComponent<CinemachineBrain>().enabled = true;
+
+            flowerCamera.GetComponent<CinemachineVirtualCamera>().Priority = 9999999;
+            flower.GetComponent<Animator>().Play("Take 001");
+            flowerCamera.GetComponent<Animator>().Play("FlowerOpen");
+            runFlowerAnimation = true;
+        }
     }
 
     private void DarkWorldLeaveCheck()
@@ -188,7 +205,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void GameOverCheck()
+    public void GameOverCheck()
     {
         if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.MantarayMet &&
             bools.AnimalsMetBools.OctopusMet && bools.AnimalsMetBools.ScorpittyMet && bools.AnimalsMetBools.SerpMet &&
@@ -197,11 +214,12 @@ public class GameManager : MonoBehaviour
         {
             player.GetComponent<ThirdPersonCharacter>().enabled = false;
             player.GetComponent<ThirdPersonUserControl>().enabled = false;
+            player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
 
             mainCamera.GetComponent<MouseOrbitImproved>().enabled = false;
             mainCamera.GetComponent<CinemachineBrain>().enabled = true;
 
-            flowerCamera.GetComponent<CinemachineVirtualCamera>().Priority = 999999;
+            flowerCamera.GetComponent<CinemachineVirtualCamera>().Priority = 9999999;
             flower.GetComponent<Animator>().Play("Take 001");
             flowerCamera.GetComponent<Animator>().Play("FlowerOpen");
             runFlowerAnimation = true;
@@ -213,12 +231,34 @@ public class GameManager : MonoBehaviour
         flowerCamera.GetComponent<Animator>().enabled = false;
         player.GetComponent<ThirdPersonCharacter>().enabled = true;
         player.GetComponent<ThirdPersonUserControl>().enabled = true;
+        player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
 
         mainCamera.GetComponent<MouseOrbitImproved>().enabled = true;
         mainCamera.GetComponent<CinemachineBrain>().enabled = false;
 
         flowerCamera.GetComponent<CinemachineVirtualCamera>().Priority = 1;
         bools.WhalePathing.whaleReadyToLeaveDark = true;
+    }
+
+    public void TreeLightAnimation()
+    {
+        player.GetComponent<ThirdPersonCharacter>().enabled = false;
+        player.GetComponent<ThirdPersonUserControl>().enabled = false;
+        player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+
+        mainCamera.GetComponent<MouseOrbitImproved>().enabled = false;
+        mainCamera.GetComponent<CinemachineBrain>().enabled = true;
+
+        treeCamera.GetComponent<CinemachineVirtualCamera>().Priority = 9999999;
+        treeCamera.GetComponent<Animator>().Play("TreeLight");
+        // flowerCamera.GetComponent<Animator>().SetBool(PlayFinal, true);
+        // runFlowerAnimation = true;
+    }
+
+    public void TreeLightAnimationOver()
+    {
+        SceneManager.LoadScene("Home_menu");
     }
 
     public void AddCorvanineToBook()
@@ -491,6 +531,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator WhaleForestPickup()
     {
+        yield return new WaitForSeconds(4);
         thinkingText.text = "*I think the Whale is coming to pick me up*";
                           
         //ScreenText.befriendSuccessText.gameObject.SetActive(true);
