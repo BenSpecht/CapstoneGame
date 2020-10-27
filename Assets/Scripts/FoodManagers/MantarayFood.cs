@@ -23,6 +23,7 @@ public class MantarayFood : MonoBehaviour
     {
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
+            gameManager.DisplayMantaFoodText();
             gameManager.bools.FoodBools.mantarayFood = true;
             gameObject.SetActive(false);
         }

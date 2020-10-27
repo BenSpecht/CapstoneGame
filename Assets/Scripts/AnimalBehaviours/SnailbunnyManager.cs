@@ -36,6 +36,7 @@ public class SnailbunnyManager : MonoBehaviour
 
         if (Vector3.Distance(transform.position, runTarget.transform.position) < 0.001f)
         {
+            gameManager.DisplayBerriesFedText();
             runTarget.SetActive(false);
             gameManager.bools.FoodBools.snailBunnyComingToFood = false;
             gameManager.AddSnailBunnyToBook();

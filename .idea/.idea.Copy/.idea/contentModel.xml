@@ -181,6 +181,7 @@
             <e p="CameraListenerController.cs" t="Include" />
             <e p="FlowerListener.cs" t="Include" />
             <e p="IsolatedMantaray.cs" t="Include" />
+            <e p="PostProcessingController.cs" t="Include" />
             <e p="SnailbunnyFeedController.cs" t="Include" />
             <e p="WayPoints.cs" t="Include" />
             <e p="WendigoPlayMusic.cs" t="Include" />

@@ -9,6 +9,7 @@ public class BridgeManager : MonoBehaviour
     public GameObject repairText;
     public GameObject brokenBridge;
     public GameObject repairedBridge;
+    public GameObject plankscarry;
     
     // Start is called before the first frame update
     void Start()
@@ -34,6 +35,8 @@ public class BridgeManager : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.E))
             {
+                plankscarry.SetActive(false);
+                gameManager.DisplayRepairtext();
                 brokenBridge.SetActive(false);
                 repairedBridge.SetActive(true);
                 FMODUnity.RuntimeManager.PlayOneShot("event:/Planks/Planks_Bridge", GetComponent<Transform>().position);

@@ -29,28 +29,34 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Fade.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Low Pixel Test/Assets/Scripts/FirstDoor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/MantarayManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/ScorpittyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WendigoManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodManagers/ScorpittyFood.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WhaleManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineBabyManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/OctopusManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SerpanceaeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectControllers/BellController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WoodScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Journal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Fade.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodManagers/ScorpittyFood.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/MothManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodManagers/MusicalInstrument.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodManagers/SnailbunnyFood.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineBabyManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SerpanceaeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodManagers/WhaleFood.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodManagers/MantarayFood.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/SnailbunnyFeedController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodManagers/OctopusBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectControllers/BellController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/ThirdPersonCharacter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WoodScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interaction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Journal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/Tutorial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SnailbunnyManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -65,15 +71,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/Tutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LightManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/MothManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/MusicalInstrument.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectControllers/BellController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/ScorpittyFood.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WoodScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SerpanceaeManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WendigoManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/SnailbunnyFood.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SnailbunnyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/OctopusBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/OctopusManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/WhaleFood.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/MantarayFood.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/MantarayManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/ScorpittyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WendigoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -122,6 +136,7 @@
       <workItem from="1603452854393" duration="3848000" />
       <workItem from="1603597662493" duration="10564000" />
       <workItem from="1603691779822" duration="1213000" />
+      <workItem from="1603757539528" duration="4494000" />
     </task>
     <servers />
   </component>
@@ -150,5 +165,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="978" y="172" key="SettingsEditor/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1602426805103" />
+    <state x="3123" y="248" key="run.anything.popup" timestamp="1603759030392">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3123" y="248" key="run.anything.popup/0.0.2560.1040/2560.0.1920.1040@2560.0.1920.1040" timestamp="1603759030392" />
   </component>
 </project>

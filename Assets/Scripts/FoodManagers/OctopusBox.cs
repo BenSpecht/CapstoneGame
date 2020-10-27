@@ -24,6 +24,7 @@ public class OctopusBox : MonoBehaviour
     {
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
+            gameManager.DisplayFoundJartext();
             gameObject.SetActive(false);
             gameManager.bools.InventoryBools.hasOctopusBox = true;
         }

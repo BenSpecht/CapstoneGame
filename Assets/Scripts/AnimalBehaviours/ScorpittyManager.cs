@@ -10,6 +10,8 @@ public class ScorpittyManager : MonoBehaviour
     
     public GameManager gameManager;
 
+    public GameObject scropFoodCarry;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +59,8 @@ public class ScorpittyManager : MonoBehaviour
                 //FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Feed_Generic", GetComponent<Transform>().position);
 
                 // Add to book
+                scropFoodCarry.SetActive(false);
+                gameManager.DisplayScropFedText();
                 gameManager.AddScorpittyToBook();
                 gameManager.bools.AnimalsMetBools.ScorpittyMet = true;
             }

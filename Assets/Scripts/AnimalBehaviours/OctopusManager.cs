@@ -34,6 +34,7 @@ public class OctopusManager : MonoBehaviour
 
         if (Vector3.Distance(transform.position, target.position) < 0.001f)
         {
+            gameManager.DisplayJarPlacedText();
             return true;
         }
 

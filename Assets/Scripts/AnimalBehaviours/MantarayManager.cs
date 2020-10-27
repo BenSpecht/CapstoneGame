@@ -27,6 +27,7 @@ public class MantarayManager : MonoBehaviour
         {
             if (gameManager.bools.FoodBools.mantarayFood)
             {
+                gameManager.DisplayMantaFedText();
                 // Stop mantaray movement
                 gameObject.GetComponent<IsolatedMantaray>().enabled = false;
                 // Play mantaray eating animation

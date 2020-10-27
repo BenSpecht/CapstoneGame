@@ -23,6 +23,7 @@ public class WhaleFood : MonoBehaviour
     {
         if (other.CompareTag("Player") && Input.GetKey(KeyCode.E))
         {
+            gameManager.DisplayWhaleFedText();
             gameManager.bools.FoodBools.whaleFood = true;
             gameObject.SetActive(false);
         }

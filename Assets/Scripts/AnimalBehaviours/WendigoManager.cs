@@ -31,6 +31,7 @@ public class WendigoManager : MonoBehaviour
             thinkingText.text = "*Woah! He looks angry! There must be a way to calm him down… Maybe that song in the book*";
             
             anim.SetTrigger("calm");
+            gameManager.DisplayWendiCalm();
             gameManager.AddWendigoToBook();
             gameManager.bools.AnimalsMetBools.WendigoMet = true;
 

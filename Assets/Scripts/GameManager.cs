@@ -21,6 +21,16 @@ public struct ScreenText
     public Text instrumentText;
     public Text befriendText;
     public Text befriendSuccessText;
+    public Text foundJartext;
+    public Text placeJartext;
+    public Text octoJartext;
+    public Text rayFoodtext;
+    public Text rayHappytext;
+    public Text foundBerriestext;
+    public Text placeBerriestext;
+    public Text bunnieseattext;
+    public Text whalePickuptext;
+    public Text whaleDarkPickuptext;
 }
 
 [Serializable]
@@ -163,6 +173,7 @@ public class GameManager : MonoBehaviour
         if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.SerpMet && bools.AnimalsMetBools.WendigoMet &&
             bools.AnimalsMetBools.ScorpittyMet)
         {
+            DisplayWhalePickUp();
             bools.WhalePathing.whaleReadyToLeaveDark = true;
         }
     }
@@ -172,6 +183,7 @@ public class GameManager : MonoBehaviour
         if (bools.AnimalsMetBools.MantarayMet && bools.AnimalsMetBools.OctopusMet &&
             bools.AnimalsMetBools.SnailbunnyMet)
         {
+            DisplayWhalePickUp();
             bools.WhalePathing.whaleReadyToLeaveForest = true;
         }
     }
@@ -368,6 +380,177 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(5);
         //ScreenText.befriendSuccessText.gameObject.SetActive(false);
         thinkingText.text = " ";
+    }
+    
+    private IEnumerator JarFound()
+    {
+        thinkingText.text = "*A jar! Maybe I can catch something in it*";
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+
+    public void DisplayFoundJartext()
+    {
+        StartCoroutine(JarFound());
+    }
+    
+    private IEnumerator JarPlaced()
+    {
+        thinkingText.text = "*looks like these guys love to hide in small spaces*";
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+
+    public void DisplayJarPlacedText()
+    {
+        StartCoroutine(JarPlaced());
+
+    }
+    
+    private IEnumerator BerriesFound()
+    {
+        thinkingText.text = "*I bet one of these animals eats berries*";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+
+    public void DispalyBerriesFoundText()
+    {
+        StartCoroutine(BerriesFound());
+
+
+    }
+    private IEnumerator BerriesFed()
+    {
+        thinkingText.text = "*I got one to come out! They must love this food*";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+
+    public void DisplayBerriesFedText()
+    {
+        StartCoroutine(BerriesFed());
+
+    }
+    
+    private IEnumerator WhaleFed()
+    {
+        thinkingText.text = "*That creature looks hungry! Maybe if I feed her, she’ll let me ride her across to that tree*";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+    
+    public void DisplayWhaleFedText()
+    {
+        StartCoroutine(WhaleFed());
+
+    }
+    private IEnumerator MantaFoodFound()
+    {
+        thinkingText.text = "*More corral! This one must be for another fishy creature*";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+    
+    public void DisplayMantaFoodText()
+    {
+        StartCoroutine(MantaFoodFound());
+
+    }
+    
+    private IEnumerator MantaFed()
+    {
+        thinkingText.text = "*Wow, they really love their corral! Fly away now little friend*";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+    public void DisplayMantaFedText()
+    {
+        StartCoroutine(MantaFed());
+
+    }
+
+    private IEnumerator WhaleForestPickup()
+    {
+        thinkingText.text = "*I think the Whale is coming to pick me up*";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+
+    public void DisplayWhalePickUp()
+    {
+        StartCoroutine(WhaleForestPickup());
+
+    }
+    
+    private IEnumerator ScropFed()
+    {
+        thinkingText.text = "*Geez, this kitty loves meat, but it's already running off again*";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+
+    public void DisplayScropFedText()
+    {
+        StartCoroutine(ScropFed());
+
+    }
+    
+    private IEnumerator WendiCalm()
+    {
+        thinkingText.text = "*Looks like he’s calmed down now. You’re not so scary after all*";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+
+    public void DisplayWendiCalm()
+    {
+        StartCoroutine(WendiCalm());
+
+    }
+    
+    private IEnumerator BridgeFix()
+    {
+        thinkingText.text = "*That should work*";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+
+    public void DisplayRepairtext()
+    {
+        StartCoroutine(BridgeFix());
+
     }
 
     
