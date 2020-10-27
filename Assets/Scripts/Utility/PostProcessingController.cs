@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 public class PostProcessingController : MonoBehaviour
 {
@@ -39,6 +40,15 @@ public class PostProcessingController : MonoBehaviour
                 nightlight.SetActive(true);
                 daylight.SetActive(false);
                 RenderSettings.skybox = skyboxnight;
+
+                dayCamera.GetComponent<PostProcessDebug>().enabled = false;
+                dayCamera.GetComponent<PostProcessLayer>().enabled = false;
+                dayCamera.GetComponent<PostProcessVolume>().enabled = false;
+
+                nightCamera.GetComponent<PostProcessDebug>().enabled = true;
+                nightCamera.GetComponent<PostProcessLayer>().enabled = true;
+                nightCamera.GetComponent<PostProcessVolume>().enabled = true;
+                
                 // dayCamera.SetActive(false);
                 // nightCamera.SetActive(true);
                 //lighting.intensity = Mathf.PingPong(Time.time, 2);
@@ -50,6 +60,14 @@ public class PostProcessingController : MonoBehaviour
                 nightCamera.GetComponent<CinemachineVirtualCamera>().Priority = 0;
                 daylight.SetActive(true);
                 nightlight.SetActive(false);
+                
+                dayCamera.GetComponent<PostProcessDebug>().enabled = true;
+                dayCamera.GetComponent<PostProcessLayer>().enabled = true;
+                dayCamera.GetComponent<PostProcessVolume>().enabled = true;
+
+                nightCamera.GetComponent<PostProcessDebug>().enabled = false;
+                nightCamera.GetComponent<PostProcessLayer>().enabled = false;
+                nightCamera.GetComponent<PostProcessVolume>().enabled = false;
            
                 // skybox.SetFloat("_Blend", )
            
