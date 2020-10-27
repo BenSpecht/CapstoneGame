@@ -22,6 +22,12 @@ public class ElephantManager : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (other.CompareTag("Player"))
+        {
+            
+            gameManager.DisplayInteract();
+        }
+        Debug.Log("Eleinteract");
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
             // Add elephant to book

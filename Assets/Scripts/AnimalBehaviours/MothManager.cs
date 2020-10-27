@@ -25,6 +25,11 @@ public class MothManager : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            
+            gameManager.DisplayInteract();
+        }
+        if (other.CompareTag("Player"))
+        {
             thinkingText.text = "*What a pretty moth*";
             
             
@@ -36,6 +41,7 @@ public class MothManager : MonoBehaviour
             
             anim.SetTrigger("fly");
             gameManager.AddMothToBook();
+            gameManager.bools.AnimalsMetBools.MothMet = true;
             
             Debug.Log("FLY BASTARD");
             //moth.GetComponent<Animator>().Play("Moth_fly_away");

@@ -32,6 +32,11 @@ public class ScorpittyManager : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            
+            gameManager.DisplayInteract();
+        }
+        if (other.CompareTag("Player"))
+        {
             Debug.Log("Player Detected");
             // Animation Control
             if (gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Scorpitty_walk"))

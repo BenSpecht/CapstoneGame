@@ -26,6 +26,11 @@ public class WendigoManager : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (other.CompareTag("Player"))
+        {
+            
+            gameManager.DisplayInteract();
+        }
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
             thinkingText.text = "*Woah! He looks angry! There must be a way to calm him down… Maybe that song in the book*";

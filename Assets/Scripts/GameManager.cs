@@ -171,7 +171,7 @@ public class GameManager : MonoBehaviour
     private void DarkWorldLeaveCheck()
     {
         if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.SerpMet && bools.AnimalsMetBools.WendigoMet &&
-            bools.AnimalsMetBools.ScorpittyMet)
+            bools.AnimalsMetBools.ScorpittyMet && bools.AnimalsMetBools.MothMet)
         {
             DisplayWhalePickUp();
             bools.WhalePathing.whaleReadyToLeaveDark = true;
@@ -192,7 +192,7 @@ public class GameManager : MonoBehaviour
     {
         if (bools.AnimalsMetBools.CorvinineMet && bools.AnimalsMetBools.MantarayMet &&
             bools.AnimalsMetBools.OctopusMet && bools.AnimalsMetBools.ScorpittyMet && bools.AnimalsMetBools.SerpMet &&
-            bools.AnimalsMetBools.WhaleMet && bools.AnimalsMetBools.WendigoMet && bools.AnimalsMetBools.SnailbunnyMet &&
+            bools.AnimalsMetBools.WhaleMet && bools.AnimalsMetBools.WendigoMet && bools.AnimalsMetBools.MothMet && bools.AnimalsMetBools.SnailbunnyMet &&
             !runFlowerAnimation)
         {
             player.GetComponent<ThirdPersonCharacter>().enabled = false;
@@ -445,7 +445,7 @@ public class GameManager : MonoBehaviour
     
     private IEnumerator WhaleFed()
     {
-        thinkingText.text = "*That creature looks hungry! Maybe if I feed her, she’ll let me ride her across to that tree*";
+        thinkingText.text = "*That creature looks hungry!*";
                           
         //ScreenText.befriendSuccessText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
@@ -552,6 +552,36 @@ public class GameManager : MonoBehaviour
         StartCoroutine(BridgeFix());
 
     }
-
     
+    private IEnumerator Interact()
+    {
+        thinkingText.text = "*Hmmm*";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+    
+    public void DisplayInteract()
+    {
+        //StartCoroutine(Interact());
+
+    }
+
+    private IEnumerator Interactfix()
+    {
+        thinkingText.text = " ";
+                          
+        //ScreenText.befriendSuccessText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //ScreenText.befriendSuccessText.gameObject.SetActive(false);
+        thinkingText.text = " ";
+    }
+
+    public void FixInteract()
+    {
+        StartCoroutine(Interactfix());
+
+    }
 }

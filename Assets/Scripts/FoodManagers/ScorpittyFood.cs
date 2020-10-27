@@ -22,6 +22,12 @@ public class ScorpittyFood : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (other.CompareTag("Player"))
+        {
+            
+            gameManager.DisplayInteract();
+        }
+       
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
             carryFood.SetActive(true);

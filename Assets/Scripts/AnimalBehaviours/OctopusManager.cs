@@ -7,7 +7,7 @@ public class OctopusManager : MonoBehaviour
 {
     public GameManager gameManager;
 
-    
+    public GameObject carryJar;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +34,7 @@ public class OctopusManager : MonoBehaviour
 
         if (Vector3.Distance(transform.position, target.position) < 0.001f)
         {
+            
             gameManager.DisplayJarPlacedText();
             return true;
         }

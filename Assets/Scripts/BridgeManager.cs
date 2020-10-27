@@ -25,6 +25,11 @@ public class BridgeManager : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (other.CompareTag("Player") && !gameManager.bools.InventoryBools.hasWood)
+        {
+            
+            gameManager.DisplayInteract();
+        }
         Debug.Log("Beep");
         if (other.CompareTag("Player"))
         {
@@ -33,8 +38,9 @@ public class BridgeManager : MonoBehaviour
             //     repairText.SetActive(true);
             // }
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) && gameManager.bools.InventoryBools.hasWood)
             {
+                gameManager.bools.InventoryBools.hasWood = false;
                 plankscarry.SetActive(false);
                 gameManager.DisplayRepairtext();
                 brokenBridge.SetActive(false);

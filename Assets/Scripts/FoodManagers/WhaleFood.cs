@@ -21,6 +21,12 @@ public class WhaleFood : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (other.CompareTag("Player"))
+        {
+            
+            gameManager.DisplayInteract();
+        }
+        Debug.Log("Whalefood");
         if (other.CompareTag("Player") && Input.GetKey(KeyCode.E))
         {
             gameManager.DisplayWhaleFedText();

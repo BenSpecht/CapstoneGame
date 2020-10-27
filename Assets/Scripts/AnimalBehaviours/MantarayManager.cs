@@ -6,6 +6,8 @@ using UnityEngine;
 public class MantarayManager : MonoBehaviour
 {
     public GameManager gameManager;
+
+    public GameObject carrymantafood;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,7 @@ public class MantarayManager : MonoBehaviour
         {
             if (gameManager.bools.FoodBools.mantarayFood)
             {
+                carrymantafood.SetActive(false);
                 gameManager.DisplayMantaFedText();
                 // Stop mantaray movement
                 gameObject.GetComponent<IsolatedMantaray>().enabled = false;

@@ -24,6 +24,12 @@ public class CorvanineBabyManager : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (other.CompareTag("Player"))
+        {
+            
+            gameManager.DisplayInteract();
+        }
+        Debug.Log("babyhmm");
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
             gameManager.bools.InventoryBools.hasCovanineBaby = true;

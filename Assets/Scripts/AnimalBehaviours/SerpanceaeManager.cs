@@ -30,6 +30,11 @@ public class SerpanceaeManager : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            
+            gameManager.DisplayInteract();
+        }
+        if (other.CompareTag("Player"))
+        {
             foreach (var serpanceae in serpanceaeMembers)
             {
                 serpanceae.GetComponent<Animator>().SetBool(PlayerInRange, true);

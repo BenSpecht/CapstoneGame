@@ -55,6 +55,11 @@ public class Tutorial : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (other.CompareTag("Player"))
+        {
+            
+           gameManager.FixInteract();
+        }
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
             bookup = true;

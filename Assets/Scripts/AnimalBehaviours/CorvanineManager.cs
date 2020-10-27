@@ -27,6 +27,11 @@ namespace AnimalBehaviours
 
         private void OnTriggerStay(Collider other)
         {
+            if (other.CompareTag("Player"))
+            {
+            
+                gameManager.DisplayInteract();
+            }
             if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
             {
                 if (!gameManager.bools.InventoryBools.hasCovanineBaby)

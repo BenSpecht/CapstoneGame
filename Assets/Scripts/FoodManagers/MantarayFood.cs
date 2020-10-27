@@ -6,6 +6,9 @@ using UnityEngine;
 public class MantarayFood : MonoBehaviour
 {
     public GameManager gameManager;
+
+    public GameObject mantafoodcarry;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -21,8 +24,15 @@ public class MantarayFood : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (other.CompareTag("Player"))
+        {
+            
+            gameManager.DisplayInteract();
+        }
+        Debug.Log("Mantafood");
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
+            mantafoodcarry.SetActive(true);
             gameManager.DisplayMantaFoodText();
             gameManager.bools.FoodBools.mantarayFood = true;
             gameObject.SetActive(false);

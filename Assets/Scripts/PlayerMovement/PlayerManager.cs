@@ -10,6 +10,10 @@ public class PlayerManager : MonoBehaviour
     public GameObject octopusBox;
     public GameObject snailBunny;
 
+    public GameObject carryJar;
+    public GameObject carryBerries;
+    public GameObject dropIcon;
+
     public GameObject snailBunnyFoodGround;
     
     // Start is called before the first frame update
@@ -24,7 +28,8 @@ public class PlayerManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R) && gameManager.bools.InventoryBools.hasOctopusBox)
         {
             // Drop box in front of player
-            
+            carryJar.SetActive(false);
+            dropIcon.SetActive(false);
             octopusBox.SetActive(true);
             
             var position = gameObject.transform.position;
@@ -36,6 +41,8 @@ public class PlayerManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R) && gameManager.bools.FoodBools.snailbunnyFood)
         {
             snailBunnyFoodGround.SetActive(true);
+            carryBerries.SetActive(false);
+            dropIcon.SetActive(false);
 
             var position = gameObject.transform.position;
             snailBunnyFoodGround.transform.position = position;
