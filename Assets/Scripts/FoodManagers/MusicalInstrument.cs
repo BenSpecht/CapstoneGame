@@ -33,7 +33,6 @@ public class MusicalInstrument : MonoBehaviour
             gameObject.SetActive(false);
             carryFlute.SetActive(true);
             gameManager.DisplayInstrumentRecieved();
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PickUp_Item", GetComponent<Transform>().position);
         }
     }
 }

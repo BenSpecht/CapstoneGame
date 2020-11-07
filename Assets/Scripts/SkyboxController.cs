@@ -31,35 +31,35 @@ public class SkyboxController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+       // if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            nightCamera.GetComponent<CinemachineVirtualCamera>().Priority = 0;
-           daylight.SetActive(true);
-           nightlight.SetActive(false);
-           
+          //  nightCamera.GetComponent<CinemachineVirtualCamera>().Priority = 0;
+         //  daylight.SetActive(true);
+          // nightlight.SetActive(false);
+          
            // skybox.SetFloat("_Blend", )
            
-           RenderSettings.skybox = skyboxday;
+          // RenderSettings.skybox = skyboxday;
            
            //  dayCamera.SetActive(true);
            //  nightCamera.SetActive(false);
            //  //lighting.intensity = Mathf.PingPong(Time.time, 1);
 
-           dayCamera.GetComponent<CinemachineVirtualCamera>().Priority = 100000;
+          // dayCamera.GetComponent<CinemachineVirtualCamera>().Priority = 100000;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        //if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            dayCamera.GetComponent<CinemachineVirtualCamera>().Priority = 0;
+           // dayCamera.GetComponent<CinemachineVirtualCamera>().Priority = 0;
             
-            nightlight.SetActive(true);
-            daylight.SetActive(false);
-            RenderSettings.skybox = skyboxnight;
+           // nightlight.SetActive(true);
+            //daylight.SetActive(false);
+           // RenderSettings.skybox = skyboxnight;
             // dayCamera.SetActive(false);
             // nightCamera.SetActive(true);
             //lighting.intensity = Mathf.PingPong(Time.time, 2);
 
-            nightCamera.GetComponent<CinemachineVirtualCamera>().Priority = 100000;
+            //nightCamera.GetComponent<CinemachineVirtualCamera>().Priority = 100000;
 
         }
     }

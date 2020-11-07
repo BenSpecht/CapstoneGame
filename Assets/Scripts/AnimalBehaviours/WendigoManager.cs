@@ -40,10 +40,6 @@ public class WendigoManager : MonoBehaviour
             gameManager.AddWendigoToBook();
             gameManager.bools.AnimalsMetBools.WendigoMet = true;
 
-            //Play Wendigo Flute
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PanFlute_Wendigo", GetComponent<Transform>().position);
-            
-
             //hope this doesn't break lol
             thinkingText.text = " ";
 

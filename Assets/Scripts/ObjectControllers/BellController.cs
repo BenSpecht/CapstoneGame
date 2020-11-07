@@ -45,9 +45,6 @@ public class BellController : MonoBehaviour
                 // Ring bell
                 FMODUnity.RuntimeManager.PlayOneShot("event:/TowerBell", GetComponent<Transform>().position);
 
-                //Stop Darkworld music
-
-
                 // Disable Player Control
                 gameManager.bools.ControlBools.playerControl = false;
             

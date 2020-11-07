@@ -93,7 +93,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>75</value>
+			<value>85</value>
 		</property>
 		<property name="length">
 			<value>3.5</value>
@@ -121,7 +121,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{bd3bdd7a-5b24-4a0f-a2ed-32c2c3964bce}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-4</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -196,10 +196,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{95ee681e-0964-4ed1-8d97-8d5fd39bdb55}" />
 	<object class="MixerBusFader" id="{1474dd9b-9211-49a9-9544-7d980c6379fc}" />
-	<object class="SpatialiserEffect" id="{92925e84-5e0b-4ace-984c-d354f43a5f8d}">
-		<property name="minimumDistance">
-			<value>3</value>
-		</property>
-	</object>
+	<object class="SpatialiserEffect" id="{92925e84-5e0b-4ace-984c-d354f43a5f8d}" />
 	<object class="MixerBusFader" id="{45c79cd0-066d-44d7-a455-e9290b79c10b}" />
 </objects>

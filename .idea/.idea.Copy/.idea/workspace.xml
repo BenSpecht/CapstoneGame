@@ -74,7 +74,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Fade.cs" />
         <option value="$PROJECT_DIR$/Assets/Shaders/Fade.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LightManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectControllers/BellController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SnailbunnyManager.cs" />
@@ -100,6 +99,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/SnailbunnyFood.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" />
       </list>
     </option>
   </component>
@@ -149,6 +149,7 @@
       <workItem from="1603597662493" duration="10564000" />
       <workItem from="1603691779822" duration="1213000" />
       <workItem from="1603757539528" duration="13007000" />
+      <workItem from="1604743681242" duration="1309000" />
     </task>
     <servers />
   </component>

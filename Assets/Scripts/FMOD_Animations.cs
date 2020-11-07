@@ -58,16 +58,10 @@ public class FMOD_Animations : MonoBehaviour
 
     }
 
-    //Whale Animations
     void PlayWhale_Idle(string path)
     {
         FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
     }
 
-    //Octopus Animations
-    void PlayOctopus_Idle(string path)
-    {
-        FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
-    }
 }
     
