@@ -1,70 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9187700352119834481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Journal/Journal_NewTask
-  m_EditorClassIdentifier: 
-  Path: event:/Journal/Journal_NewTask
-  guid: a6b6b0bd770d414482ec2016f22c2216
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 694
---- !u!114 &-8825929237334891468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: CapstoneFMOD/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637403812890000000
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &-7973789540756854178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Journal/Journal_Open
-  m_EditorClassIdentifier: 
-  Path: event:/Journal/Journal_Open
-  guid: 993cc37caefd524b8b09eab2677f9a70
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 732
---- !u!114 &-7704698134648951715
+--- !u!114 &-9093521390029594774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Animals/Whale/Whale_HopOnOff
   guid: 9eff3fc8825139449de42ff47e7bed6e
-  Banks: []
+  Banks:
+  - {fileID: -2075052465855567310}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -86,7 +23,280 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3500
---- !u!114 &-7642327762081409490
+--- !u!114 &-8967791421820735998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TowerBell
+  m_EditorClassIdentifier: 
+  Path: event:/TowerBell
+  guid: bbc8c50265fccb4ebe0ee4e5b3c480e4
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 13633
+--- !u!114 &-8521410122155144946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/ForestAnimals/Octopus/Octopus_Walk
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/ForestAnimals/Octopus/Octopus_Walk
+  guid: 984767633f877a4a9eeb6f6a193efc7e
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-8358600708364273134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Planks/Planks_PickUp
+  m_EditorClassIdentifier: 
+  Path: event:/Planks/Planks_PickUp
+  guid: bac8567a10893a448be38bf4ecbb1f06
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 440
+--- !u!114 &-7826267445886017898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
+  m_EditorClassIdentifier: 
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-7627593614515730758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Elephant_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Elephant_Music
+  guid: 0cfb4a347636e142a41ac4c5a5509a8f
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 207400
+--- !u!114 &-7598981444670653653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footsteps
+  guid: 27ee6f8c103af74ba73c85b854b6c5aa
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 350
+--- !u!114 &-7516881154950736692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/DarkWorld_River_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/DarkWorld_River_Loop
+  guid: 0900c2054243f748a0075d215a74aa8e
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 7.6
+  MaxDistance: 25
+  Length: 45506
+--- !u!114 &-7448950745385740633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Journal/Journal_CompleteTask
+  m_EditorClassIdentifier: 
+  Path: event:/Journal/Journal_CompleteTask
+  guid: 0e67e765317df74f9705b3718cd71ae6
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 566
+--- !u!114 &-7426488490439476443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/OceanForest_Waterfall_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/OceanForest_Waterfall_Loop
+  guid: bbb774c3c177284bbff26f7e47d817c7
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 7.6
+  MaxDistance: 25
+  Length: 45506
+--- !u!114 &-7363784215359331861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Planks/Planks_PickUp
+  m_EditorClassIdentifier: 
+  Path: event:/Planks/Planks_PickUp
+  guid: bac8567a10893a448be38bf4ecbb1f06
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 440
+--- !u!114 &-7303955221589954555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/Whale/Whale_OnOff
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/Whale/Whale_OnOff
+  guid: 58941b4f356cfc4ca3f180e675427ec5
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3353
+--- !u!114 &-7125943946796101585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/DarkWorld_MusicLoop
+  m_EditorClassIdentifier: 
+  Path: event:/Music/DarkWorld_MusicLoop
+  guid: 95e3f7cdf67ea347b308456abc5a0bf9
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 149500
+--- !u!114 &-7085991002460454418
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,72 +318,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1276
---- !u!114 &-6987106892169085916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/PickUp_Item
-  m_EditorClassIdentifier: 
-  Path: event:/Player/PickUp_Item
-  guid: a9ae1f887229f04fad8155b14759fc17
-  Banks: []
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1841
---- !u!114 &-6517517114837774425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Land
-  m_EditorClassIdentifier: 
-  Path: event:/Player/Land
-  guid: 50bb93301c7d3143a6eb11c5d1075da9
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 380
---- !u!114 &-5679795224847875936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: CapstoneFMOD/Build/Desktop/Master.strings.bank
-  SubDir: 
-  lastModified: 637403843250000000
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 2274
-  Exists: 1
---- !u!114 &-5421213009498625856
+--- !u!114 &-5980913395047974818
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,16 +332,86 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Music/Wendigo_Music
   guid: e7e8e821e1169b4fa6f370be0d907f46
-  Banks: []
+  Banks:
+  - {fileID: 2370519455946628482}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 6491832958466934541}
+  - {fileID: 6326081567182882165}
   MinDistance: 0
   MaxDistance: 0
-  Length: 236394
---- !u!114 &-4106966816935673090
+  Length: 127705
+--- !u!114 &-5857756544186918189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Ocean_MusicLoop
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Ocean_MusicLoop
+  guid: e65a80974d4a344c850e239d4ea7dc6d
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 209101
+--- !u!114 &-5839178267723224904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: 
+  guid: bbf0869940a450488ba5248309ccfd1a
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1276
+--- !u!114 &-5552314659948338606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music_FERAStart
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music_FERAStart
+  guid: 474ef349f776eb41ac0d2353511e3cdb
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8249
+--- !u!114 &-5492076641449555306
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,7 +426,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Stand
   guid: 87456a054b3f714d8495f2591de36fbf
   Banks:
-  - {fileID: -715344700967673245}
+  - {fileID: 2370519455946628482}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -219,7 +434,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 553
---- !u!114 &-4011586942055574447
+--- !u!114 &-4894929388662611839
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -229,34 +444,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/ForestAnimals/SnailBunny/SnailBunny_Idle
+  m_Name: 
   m_EditorClassIdentifier: 
-  Path: event:/Animals/ForestAnimals/SnailBunny/SnailBunny_Idle
-  guid: 4199195e59e81c44b056fc463f13b57e
+  Path: 
+  guid: bbf0869940a450488ba5248309ccfd1a
   Banks: []
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 7
-  Length: 2500
---- !u!114 &-3855569754979613554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/DarkAnimals/Corvanine/Corvanine_Howl
-  m_EditorClassIdentifier: 
-  Path: event:/Animals/DarkAnimals/Corvanine/Corvanine_Howl
-  guid: 32899383266d1343bae649baa5971775
-  Banks:
-  - {fileID: -715344700967673245}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -264,7 +456,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1276
---- !u!114 &-3040160179959964434
+--- !u!114 &-4771812779243337399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -274,12 +466,58 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/DarkWorld_Bed
+  m_Name: event:/Music/Ocean_MusicLoop
   m_EditorClassIdentifier: 
-  Path: event:/Ambience/DarkWorld_Bed
-  guid: fb81852ac4c5fb488d24bc81258da677
+  Path: event:/Music/Ocean_MusicLoop
+  guid: e65a80974d4a344c850e239d4ea7dc6d
   Banks:
-  - {fileID: -715344700967673245}
+  - {fileID: 2370519455946628482}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 113096
+--- !u!114 &-4742204537042212139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TowerBell
+  m_EditorClassIdentifier: 
+  Path: event:/TowerBell
+  guid: bbc8c50265fccb4ebe0ee4e5b3c480e4
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 13633
+--- !u!114 &-4679818355512371420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/WhaleStation_Bed
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/WhaleStation_Bed
+  guid: 80605e721e2cfe4aadd38d241a7e582d
+  Banks:
+  - {fileID: -2075052465855567310}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -287,76 +525,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
---- !u!114 &-2939413661736091888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Hiss
-  m_EditorClassIdentifier: 
-  Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Hiss
-  guid: 02258dd1ac3f2c49bd0c8988af0419cc
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 6
-  MaxDistance: 9
-  Length: 1344
---- !u!114 &-2529794766697736830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Planks/Planks_Bridge
-  m_EditorClassIdentifier: 
-  Path: event:/Planks/Planks_Bridge
-  guid: fcb552a4aeaf8342b7161a6d8a7f9f70
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 383
---- !u!114 &-2479514677280427541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
-  m_EditorClassIdentifier: 
-  Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
-  guid: aa440b0484301c4da54b1c260b6d8f52
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 296
---- !u!114 &-2375986887463213162
+--- !u!114 &-4493198663592116604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -371,7 +540,7 @@ MonoBehaviour:
   Path: event:/Animals/Whale/Whale_OnOff
   guid: 58941b4f356cfc4ca3f180e675427ec5
   Banks:
-  - {fileID: -715344700967673245}
+  - {fileID: 2370519455946628482}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -379,29 +548,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3353
---- !u!114 &-2142045400660285679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/PanFlute_Wendigo
-  m_EditorClassIdentifier: 
-  Path: event:/Player/PanFlute_Wendigo
-  guid: 2b74c63d8b83a947bb8b05061732c1ca
-  Banks: []
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 9500
---- !u!114 &-1972932207356451181
+--- !u!114 &-4369812073960924609
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -416,7 +563,7 @@ MonoBehaviour:
   Path: event:/Player/PanFlute_FlowerSnake
   guid: 9cd4bcf3aaf5ab40867130dc9ea43868
   Banks:
-  - {fileID: -715344700967673245}
+  - {fileID: -2075052465855567310}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -424,7 +571,211 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 5339
---- !u!114 &-1918005928185114453
+--- !u!114 &-3474117638320201147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Planks/Planks_Drop
+  m_EditorClassIdentifier: 
+  Path: event:/Planks/Planks_Drop
+  guid: 3ecfce13dde83a45a43f65aea9d4b05b
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 540
+--- !u!114 &-3452776369585455371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Journal/Journal_PageFlip
+  m_EditorClassIdentifier: 
+  Path: event:/Journal/Journal_PageFlip
+  guid: f6de75e19a30204bb171731bb51be729
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1500
+--- !u!114 &-3390541313342709022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/DarkWorld_MusicLoop
+  m_EditorClassIdentifier: 
+  Path: event:/Music/DarkWorld_MusicLoop
+  guid: 95e3f7cdf67ea347b308456abc5a0bf9
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 149500
+--- !u!114 &-3357454798944771703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle2
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle2
+  guid: 81ac3def58924f43a922ff98eadbe6a4
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
+--- !u!114 &-3269732806323284617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
+  m_EditorClassIdentifier: 
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-3256203362869234483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Journal/Journal_PageFlip
+  m_EditorClassIdentifier: 
+  Path: event:/Journal/Journal_PageFlip
+  guid: f6de75e19a30204bb171731bb51be729
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1500
+--- !u!114 &-3145058270268157641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Land
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Land
+  guid: 50bb93301c7d3143a6eb11c5d1075da9
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 380
+--- !u!114 &-3113356738497773723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Hiss
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Hiss
+  guid: 02258dd1ac3f2c49bd0c8988af0419cc
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 6
+  MaxDistance: 9
+  Length: 1344
+--- !u!114 &-3101751404070765392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Elephant_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Elephant_Music
+  guid: 0cfb4a347636e142a41ac4c5a5509a8f
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 207400
+--- !u!114 &-2766246846313568096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -439,6 +790,1129 @@ MonoBehaviour:
   Path: event:/Player/Feed_Generic
   guid: b1725a77b2d4c042add4dbb668983654
   Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1577
+--- !u!114 &-2755284150412785836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/OceanForest_Bed
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/OceanForest_Bed
+  guid: 5a7618c28bd83048a4232e9323de549e
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10000
+--- !u!114 &-2656103304284366878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/ForestAnimals/Octopus/Octopus_Idle
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/ForestAnimals/Octopus/Octopus_Idle
+  guid: 8c632482aa4fc9469e5dfc47be3bc8ea
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &-2553958173976679549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Hiss
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Hiss
+  guid: 02258dd1ac3f2c49bd0c8988af0419cc
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 6
+  MaxDistance: 9
+  Length: 1344
+--- !u!114 &-2437198366158548374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Feed_Generic
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Feed_Generic
+  guid: b1725a77b2d4c042add4dbb668983654
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1577
+--- !u!114 &-2415544954919493880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
+  m_EditorClassIdentifier: 
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-2410846929377201391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/WhaleStation_Bed
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/WhaleStation_Bed
+  guid: 80605e721e2cfe4aadd38d241a7e582d
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &-2270232683690530649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/ForestAnimals/SnailBunny/SnailBunny_Idle
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/ForestAnimals/SnailBunny/SnailBunny_Idle
+  guid: 4199195e59e81c44b056fc463f13b57e
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 7
+  Length: 2500
+--- !u!114 &-2075052465855567310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637403766010000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1913730141755175944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/DarkAnimals/Corvanine/Corvanine_Howl
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/DarkAnimals/Corvanine/Corvanine_Howl
+  guid: 32899383266d1343bae649baa5971775
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1276
+--- !u!114 &-1822866266456442972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PickUp_Item
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PickUp_Item
+  guid: a9ae1f887229f04fad8155b14759fc17
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3000
+--- !u!114 &-1794563530145665016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Journal/Journal_Open
+  m_EditorClassIdentifier: 
+  Path: event:/Journal/Journal_Open
+  guid: 993cc37caefd524b8b09eab2677f9a70
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 732
+--- !u!114 &-1450057909969436503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: 
+  guid: bbf0869940a450488ba5248309ccfd1a
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1276
+--- !u!114 &-1042997762495434270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle2
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle2
+  guid: 81ac3def58924f43a922ff98eadbe6a4
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
+--- !u!114 &-684255983020622508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Planks/Planks_Drop
+  m_EditorClassIdentifier: 
+  Path: event:/Planks/Planks_Drop
+  guid: 3ecfce13dde83a45a43f65aea9d4b05b
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 540
+--- !u!114 &-276472163952906729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/OceanForest_Bed
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/OceanForest_Bed
+  guid: 5a7618c28bd83048a4232e9323de549e
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 3142892762312186564}
+  - {fileID: -2075052465855567310}
+  EditorEvents:
+  - {fileID: -2553958173976679549}
+  - {fileID: -7516881154950736692}
+  - {fileID: 3310651997563629212}
+  - {fileID: -3101751404070765392}
+  - {fileID: -7448950745385740633}
+  - {fileID: 7529154819839097812}
+  - {fileID: 917992981800317532}
+  - {fileID: 3341097513891793124}
+  - {fileID: 8958365488062056878}
+  - {fileID: -3474117638320201147}
+  - {fileID: 5708221062190701702}
+  - {fileID: -5552314659948338606}
+  - {fileID: -3145058270268157641}
+  - {fileID: -7303955221589954555}
+  - {fileID: -2755284150412785836}
+  - {fileID: -4679818355512371420}
+  - {fileID: -1042997762495434270}
+  - {fileID: 5743398260696382752}
+  - {fileID: 2403713149965539132}
+  - {fileID: 8906920347460771189}
+  - {fileID: -2656103304284366878}
+  - {fileID: -3390541313342709022}
+  - {fileID: 7650076699929763174}
+  - {fileID: 4967290801524120110}
+  - {fileID: -4369812073960924609}
+  - {fileID: -9093521390029594774}
+  - {fileID: 436278484023739925}
+  - {fileID: 1190808864685170927}
+  - {fileID: 2405323071095041619}
+  - {fileID: -2437198366158548374}
+  - {fileID: -8358600708364273134}
+  - {fileID: 6465412355073368790}
+  - {fileID: -4742204537042212139}
+  - {fileID: -5857756544186918189}
+  - {fileID: 5928975476478642450}
+  - {fileID: 7841546203285658891}
+  - {fileID: -3452776369585455371}
+  - {fileID: 4269910501918647362}
+  - {fileID: 4121747142580741420}
+  - {fileID: -5839178267723224904}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -2075052465855567310}
+  StringsBanks:
+  - {fileID: 3142892762312186564}
+  stringsBankWriteTime: 637403766010000000
+  cacheVersion: 5
+--- !u!114 &204750754613780954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: 
+  guid: bbf0869940a450488ba5248309ccfd1a
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1276
+--- !u!114 &436278484023739925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Journal/Journal_NewTask
+  m_EditorClassIdentifier: 
+  Path: event:/Journal/Journal_NewTask
+  guid: a6b6b0bd770d414482ec2016f22c2216
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 694
+--- !u!114 &570201837763732495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
+  m_EditorClassIdentifier: 
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &834644837289766018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637403698510000000
+  LoadResult: 0
+<<<<<<< HEAD
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7973789540756854178
+=======
+  FileSizes:
+  - Name: Desktop
+    Value: 2766
+  Exists: 1
+--- !u!114 &904266603937309932
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PanFlute_FlowerSnake
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PanFlute_FlowerSnake
+  guid: 9cd4bcf3aaf5ab40867130dc9ea43868
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5339
+--- !u!114 &917992981800317532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PanFlute_Wendigo
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Animals/Whale/Whale_HopOnOff
+  guid: 9eff3fc8825139449de42ff47e7bed6e
+  Banks: []
+=======
+  Path: event:/Player/PanFlute_Wendigo
+  guid: 2b74c63d8b83a947bb8b05061732c1ca
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9500
+--- !u!114 &1023436847512848698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
+  m_EditorClassIdentifier: 
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &1190808864685170927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PickUp_Item
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PickUp_Item
+  guid: a9ae1f887229f04fad8155b14759fc17
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1841
+--- !u!114 &1546409466169196210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Jump
+  guid: 2c1705e3e75824438bec03b569dc5bf2
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 400
+--- !u!114 &2076437217833643184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
+  guid: aa440b0484301c4da54b1c260b6d8f52
+  Banks:
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 296
+--- !u!114 &2370519455946628482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637403698510000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2403713149965539132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Stand
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: 
+  guid: bbf0869940a450488ba5248309ccfd1a
+  Banks: []
+=======
+  Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Stand
+  guid: 87456a054b3f714d8495f2591de36fbf
+  Banks:
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 553
+--- !u!114 &2405323071095041619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Player/PickUp_Item
+  guid: a9ae1f887229f04fad8155b14759fc17
+  Banks: []
+=======
+  Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
+  guid: aa440b0484301c4da54b1c260b6d8f52
+  Banks:
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 296
+--- !u!114 &2571726522823237906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Journal/Journal_CompleteTask
+  m_EditorClassIdentifier: 
+  Path: event:/Journal/Journal_CompleteTask
+  guid: 0e67e765317df74f9705b3718cd71ae6
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+<<<<<<< HEAD
+  MinDistance: 10000
+  MaxDistance: 10000
+  Length: 380
+--- !u!114 &-5679795224847875936
+=======
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 566
+--- !u!114 &3142892762312186564
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.strings.bank
+<<<<<<< HEAD
+  SubDir: 
+  lastModified: 637403843250000000
+=======
+  Name: Master.strings
+  lastModified: 637403766010000000
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2274
+  Exists: 1
+--- !u!114 &3310651997563629212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/Whale/Whale_Tutorial
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Music/Wendigo_Music
+  guid: e7e8e821e1169b4fa6f370be0d907f46
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+=======
+  Path: event:/Animals/Whale/Whale_Tutorial
+  guid: 0bd6cd6858a2c2498f4c89185e02c97f
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &3324710312239476475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PanFlute_Wendigo
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PanFlute_Wendigo
+  guid: 2b74c63d8b83a947bb8b05061732c1ca
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9500
+--- !u!114 &3341097513891793124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Jump
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Animals/ForestAnimals/SnailBunny/SnailBunny_Idle
+  guid: 4199195e59e81c44b056fc463f13b57e
+  Banks: []
+=======
+  Path: event:/Player/Jump
+  guid: 2c1705e3e75824438bec03b569dc5bf2
+  Banks:
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 400
+--- !u!114 &4121747142580741420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Planks/Planks_Bridge
+  m_EditorClassIdentifier: 
+  Path: event:/Planks/Planks_Bridge
+  guid: fcb552a4aeaf8342b7161a6d8a7f9f70
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 383
+--- !u!114 &4190817933018309013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/DarkWorld_Bed
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/DarkWorld_Bed
+  guid: fb81852ac4c5fb488d24bc81258da677
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &4254859297972692857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Hiss
+  guid: 02258dd1ac3f2c49bd0c8988af0419cc
+  Banks:
+  - {fileID: -715344700967673245}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 6
+  MaxDistance: 9
+  Length: 1344
+--- !u!114 &-2529794766697736830
+=======
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &4269910501918647362
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/DarkWorld_Bed
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/DarkWorld_Bed
+  guid: fb81852ac4c5fb488d24bc81258da677
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+=======
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &4816701587772400188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
+  guid: aa440b0484301c4da54b1c260b6d8f52
+  Banks:
+  - {fileID: -715344700967673245}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 296
+--- !u!114 &-2375986887463213162
+=======
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &4967290801524120110
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Journal/Journal_Open
+  m_EditorClassIdentifier: 
+  Path: event:/Journal/Journal_Open
+  guid: 993cc37caefd524b8b09eab2677f9a70
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 732
+--- !u!114 &5277972963419930221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music_FERAStart
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Player/PanFlute_Wendigo
+  guid: 2b74c63d8b83a947bb8b05061732c1ca
+  Banks: []
+=======
+  Path: event:/Music/Music_FERAStart
+  guid: 474ef349f776eb41ac0d2353511e3cdb
+  Banks:
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8249
+--- !u!114 &5492130681286693622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Land
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Land
+  guid: 50bb93301c7d3143a6eb11c5d1075da9
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 380
+--- !u!114 &5708221062190701702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/ForestAnimals/SnailBunny/SnailBunny_Idle
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/ForestAnimals/SnailBunny/SnailBunny_Idle
+  guid: 4199195e59e81c44b056fc463f13b57e
+  Banks:
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
   IsStream: 0
   Is3D: 1
@@ -465,58 +1939,17 @@ MonoBehaviour:
   - {fileID: -715344700967673245}
   IsStream: 1
   Is3D: 0
+=======
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
-  MaxDistance: 0
-  Length: 10000
---- !u!114 &-1589234796981537138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle2
-  m_EditorClassIdentifier: 
-  Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle2
-  guid: 81ac3def58924f43a922ff98eadbe6a4
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1200
---- !u!114 &-1434243191323502876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Journal/Journal_PageFlip
-  m_EditorClassIdentifier: 
-  Path: event:/Journal/Journal_PageFlip
-  guid: f6de75e19a30204bb171731bb51be729
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1500
---- !u!114 &-1428484454863997793
+  MaxDistance: 7
+  Length: 2500
+--- !u!114 &5743398260696382752
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -528,6 +1961,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Animals/Whale/Whale_Idle
   m_EditorClassIdentifier: 
+  Path: event:/Animals/Whale/Whale_Idle
+  guid: 821d734781ba5a47963a07192a5efe5e
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3400
+--- !u!114 &5928975476478642450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Wendigo_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Wendigo_Music
+  guid: e7e8e821e1169b4fa6f370be0d907f46
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+  IsStream: 0
+=======
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4816701587772400188}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 236394
+--- !u!114 &6055346276745420227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/Whale/Whale_Tutorial
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Animals/Whale/Whale_Idle
   guid: 821d734781ba5a47963a07192a5efe5e
   Banks: []
@@ -580,6 +2070,20 @@ MonoBehaviour:
   FileSizes: []
   Exists: 1
 --- !u!114 &-582531540436613268
+=======
+  Path: event:/Animals/Whale/Whale_Tutorial
+  guid: 0bd6cd6858a2c2498f4c89185e02c97f
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &6091886517461378444
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -589,19 +2093,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Music_FERAStart
+  m_Name: event:/Planks/Planks_Bridge
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Music/Music_FERAStart
   guid: 474ef349f776eb41ac0d2353511e3cdb
   Banks: []
+=======
+  Path: event:/Planks/Planks_Bridge
+  guid: fcb552a4aeaf8342b7161a6d8a7f9f70
+  Banks:
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 8249
---- !u!114 &11400000
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 383
+--- !u!114 &6326081567182882165
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -610,9 +2121,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   EditorBanks:
   - {fileID: -5679795224847875936}
   - {fileID: -715344700967673245}
@@ -655,6 +2167,17 @@ MonoBehaviour:
   stringsBankWriteTime: 637403843250000000
   cacheVersion: 3
 --- !u!114 &402206337002799939
+=======
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &6465412355073368790
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -664,20 +2187,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/DarkAnimals/ScorpionCat/ScorpionCat_Meow
+  m_Name: event:/Ambience/OceanForest_Waterfall_Loop
   m_EditorClassIdentifier: 
-  Path: event:/Animals/DarkAnimals/ScorpionCat/ScorpionCat_Meow
-  guid: eee3b29c91f8884885d04e201a54b057
+  Path: event:/Ambience/OceanForest_Waterfall_Loop
+  guid: bbb774c3c177284bbff26f7e47d817c7
   Banks:
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
   IsStream: 0
+=======
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
---- !u!114 &849426291348309318
+  MinDistance: 10
+  MaxDistance: 40
+  Length: 45506
+--- !u!114 &6564076590571755201
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -687,20 +2215,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Jump
+  m_Name: 
   m_EditorClassIdentifier: 
-  Path: event:/Player/Jump
-  guid: 2c1705e3e75824438bec03b569dc5bf2
+  Path: 
+  guid: bbf0869940a450488ba5248309ccfd1a
   Banks:
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+<<<<<<< HEAD
   Length: 400
 --- !u!114 &1241923132021517118
+=======
+  Length: 1276
+--- !u!114 &6736581716769530670
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -710,58 +2247,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/ForestAnimals/Octopus/Octopus_Walk
+  m_Name: event:/Animals/Whale/Whale_HopOnOff
   m_EditorClassIdentifier: 
-  Path: event:/Animals/ForestAnimals/Octopus/Octopus_Walk
-  guid: 984767633f877a4a9eeb6f6a193efc7e
+  Path: event:/Animals/Whale/Whale_HopOnOff
+  guid: 9eff3fc8825139449de42ff47e7bed6e
   Banks:
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 600
---- !u!114 &1548154884824195681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/DarkWorld_MusicLoop
-  m_EditorClassIdentifier: 
-  Path: event:/Music/DarkWorld_MusicLoop
-  guid: 95e3f7cdf67ea347b308456abc5a0bf9
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 149500
---- !u!114 &1770777056151675402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/ForestAnimals/Octopus/Octopus_Idle
-  m_EditorClassIdentifier: 
-  Path: event:/Animals/ForestAnimals/Octopus/Octopus_Idle
-  guid: 8c632482aa4fc9469e5dfc47be3bc8ea
-  Banks:
-  - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -769,53 +2264,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3500
---- !u!114 &3101340162306028082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/WhaleStation_Bed
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience/WhaleStation_Bed
-  guid: 80605e721e2cfe4aadd38d241a7e582d
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 5000
---- !u!114 &3185496724429060812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Planks/Planks_PickUp
-  m_EditorClassIdentifier: 
-  Path: event:/Planks/Planks_PickUp
-  guid: bac8567a10893a448be38bf4ecbb1f06
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 440
---- !u!114 &4685624836694255111
+--- !u!114 &6767975417335952024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -830,7 +2279,11 @@ MonoBehaviour:
   Path: event:/Ambience/DarkWorld_River_Loop
   guid: 0900c2054243f748a0075d215a74aa8e
   Banks:
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -838,7 +2291,7 @@ MonoBehaviour:
   MinDistance: 7.6
   MaxDistance: 25
   Length: 45506
---- !u!114 &4804974356129747359
+--- !u!114 &7232979222253493443
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -848,128 +2301,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/OceanForest_Waterfall_Loop
+  m_Name: event:/Animals/ForestAnimals/Octopus/Octopus_Idle
   m_EditorClassIdentifier: 
-  Path: event:/Ambience/OceanForest_Waterfall_Loop
-  guid: bbb774c3c177284bbff26f7e47d817c7
-  Banks: []
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 10
-  MaxDistance: 40
-  Length: 45506
---- !u!114 &5087580746868188561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Ocean_MusicLoop
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Ocean_MusicLoop
-  guid: e65a80974d4a344c850e239d4ea7dc6d
+  Path: event:/Animals/ForestAnimals/Octopus/Octopus_Idle
+  guid: 8c632482aa4fc9469e5dfc47be3bc8ea
   Banks:
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 101200
---- !u!114 &5264712799176518800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Planks/Planks_Drop
-  m_EditorClassIdentifier: 
-  Path: event:/Planks/Planks_Drop
-  guid: 3ecfce13dde83a45a43f65aea9d4b05b
-  Banks:
-  - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 540
---- !u!114 &5319634023391800821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Footsteps
-  m_EditorClassIdentifier: 
-  Path: event:/Player/Footsteps
-  guid: 27ee6f8c103af74ba73c85b854b6c5aa
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 350
---- !u!114 &6003361156714299151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/Whale/Whale_Tutorial
-  m_EditorClassIdentifier: 
-  Path: event:/Animals/Whale/Whale_Tutorial
-  guid: 0bd6cd6858a2c2498f4c89185e02c97f
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 2
-  MaxDistance: 20
-  Length: 10000
---- !u!114 &6491832958466934541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
-  m_EditorClassIdentifier: 
-  Name: Wendigo_Calm
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 1
---- !u!114 &7047412926011600205
+  Length: 3500
+--- !u!114 &7377468583906935862
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -984,7 +2333,304 @@ MonoBehaviour:
   Path: event:/Journal/Journal_Close
   guid: 8c5a840da429054ca3d8b0db702c566f
   Banks:
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+  IsStream: 1
+=======
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 512
+--- !u!114 &7529154819839097812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footsteps
+  guid: 27ee6f8c103af74ba73c85b854b6c5aa
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+<<<<<<< HEAD
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 440
+--- !u!114 &4685624836694255111
+=======
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 350
+--- !u!114 &7630999697556683677
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Ambience/DarkWorld_River_Loop
+  guid: 0900c2054243f748a0075d215a74aa8e
+  Banks:
+  - {fileID: -715344700967673245}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 7.6
+  MaxDistance: 25
+  Length: 45506
+--- !u!114 &4804974356129747359
+=======
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &7650076699929763174
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/ForestAnimals/Octopus/Octopus_Walk
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Ambience/OceanForest_Waterfall_Loop
+  guid: bbb774c3c177284bbff26f7e47d817c7
+  Banks: []
+  IsStream: 1
+=======
+  Path: event:/Animals/ForestAnimals/Octopus/Octopus_Walk
+  guid: 984767633f877a4a9eeb6f6a193efc7e
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &7689798490109947210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  Path: event:/Music/Ocean_MusicLoop
+  guid: e65a80974d4a344c850e239d4ea7dc6d
+  Banks:
+  - {fileID: -715344700967673245}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 101200
+--- !u!114 &5264712799176518800
+=======
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &7841546203285658891
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/DarkAnimals/ScorpionCat/ScorpionCat_Meow
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/DarkAnimals/ScorpionCat/ScorpionCat_Meow
+  guid: eee3b29c91f8884885d04e201a54b057
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &7944170895873378693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/Whale/Whale_Idle
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/Whale/Whale_Idle
+  guid: 821d734781ba5a47963a07192a5efe5e
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3400
+--- !u!114 &8147584858736076824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: 
+  guid: bbf0869940a450488ba5248309ccfd1a
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1276
+--- !u!114 &8524207757802219391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Journal/Journal_NewTask
+  m_EditorClassIdentifier: 
+  Path: event:/Journal/Journal_NewTask
+  guid: a6b6b0bd770d414482ec2016f22c2216
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 694
+--- !u!114 &8891331396123847742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/DarkAnimals/ScorpionCat/ScorpionCat_Meow
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/DarkAnimals/ScorpionCat/ScorpionCat_Meow
+  guid: eee3b29c91f8884885d04e201a54b057
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &8906920347460771189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Journal/Journal_Close
+  m_EditorClassIdentifier: 
+  Path: event:/Journal/Journal_Close
+  guid: 8c5a840da429054ca3d8b0db702c566f
+  Banks:
+<<<<<<< HEAD
+  - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -992,7 +2638,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 512
---- !u!114 &8671149659048786309
+--- !u!114 &8958365488062056878
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1002,38 +2648,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Journal/Journal_CompleteTask
+  m_Name: event:/Animals/DarkAnimals/Corvanine/Corvanine_Howl
   m_EditorClassIdentifier: 
-  Path: event:/Journal/Journal_CompleteTask
-  guid: 0e67e765317df74f9705b3718cd71ae6
-  Banks:
-  - {fileID: -715344700967673245}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 566
---- !u!114 &9157199437485582913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Elephant_Music
-  m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Path: event:/Music/Elephant_Music
   guid: 0cfb4a347636e142a41ac4c5a5509a8f
   Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
+=======
+  Path: event:/Animals/DarkAnimals/Corvanine/Corvanine_Howl
+  guid: 32899383266d1343bae649baa5971775
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 207400
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1276
