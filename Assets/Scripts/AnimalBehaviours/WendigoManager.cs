@@ -8,6 +8,10 @@ public class WendigoManager : MonoBehaviour
     public GameManager gameManager;
     public TextMeshPro thinkingText;
 
+    public GameObject Wendigo_Music;
+    public GameObject DarkWorld_Music_Loop;
+
+
     private Animator anim;
 
     // Start is called before the first frame update
@@ -42,15 +46,19 @@ public class WendigoManager : MonoBehaviour
 
             FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PanFlute_Wendigo", gameObject.transform.position);
 
+
+
             //hope this doesn't break lol
             thinkingText.text = " ";
 
             Debug.Log("CALMu");
-            
-            
+
+
             //Julia doesn't know what she's doing, plz help her XD
             //gameObject.SetActive(false);
             //MAKE MOTH BECOME ULTIMATE LIFEFORM
+
+
         }
         
         
@@ -61,10 +69,13 @@ public class WendigoManager : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            
-            
-            
+
+            Wendigo_Music.SetActive(false);
+            DarkWorld_Music_Loop.SetActive(true);
+
         }
+
+
     }
 
     public void WendigoAwaken()

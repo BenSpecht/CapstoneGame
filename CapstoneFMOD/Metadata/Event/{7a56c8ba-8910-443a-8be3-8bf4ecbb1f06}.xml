@@ -5,7 +5,7 @@
 			<value>Planks_PickUp</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3df5d885-0cad-4ae2-9257-267c336cfcb3}</destination>
@@ -117,6 +117,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{962f6743-55b1-4270-9c9d-c1af04e17f5b}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -142,6 +145,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{101727ea-d3e1-4329-9749-cbe332269f94}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -157,6 +163,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{295cf682-6e8d-4521-831e-7f800e75b2ac}">
 		<relationship name="effects">
+			<destination>{f6cc82d9-e799-4b82-984a-6fcb201eecbc}</destination>
 			<destination>{3333d371-5e42-4e2b-9abc-d9af3a5eec01}</destination>
 		</relationship>
 	</object>
@@ -176,6 +183,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b6606635-dfc6-4dfd-b312-65e187715ebf}" />
+	<object class="SpatialiserEffect" id="{f6cc82d9-e799-4b82-984a-6fcb201eecbc}">
+		<property name="minimumDistance">
+			<value>7</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{3333d371-5e42-4e2b-9abc-d9af3a5eec01}" />
 	<object class="MultibandEqEffect" id="{704b2cb2-ab35-4984-a0ef-5de8131bf5c9}">
 		<property name="filterTypeA">

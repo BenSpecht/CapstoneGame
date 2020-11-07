@@ -53,15 +53,15 @@ public class ScorpittyManager : MonoBehaviour
                 // Animation Control
                 gameObject.GetComponent<Animator>().Play("Scorpitty_meow");
 
-                //Scorpitty Sounds
+                /*Scorpitty Sounds
                 void PlayScorpitty_Meow(string path)
                 {
 
-                    FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
+                FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
 
-                }
+                }*/
 
-                //FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Feed_Generic", GetComponent<Transform>().position);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Feed_Generic", GetComponent<Transform>().position);
 
                 // Add to book
                 scropFoodCarry.SetActive(false);

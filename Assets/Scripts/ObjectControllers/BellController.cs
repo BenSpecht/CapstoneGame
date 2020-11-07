@@ -17,6 +17,9 @@ public class BellController : MonoBehaviour
 
     public GameObject wendi;
 
+    public GameObject Wendigo_Music;
+    public GameObject DarkWorld_Music_Loop;
+
     public bool flute;
     
     // Start is called before the first frame update
@@ -62,6 +65,9 @@ public class BellController : MonoBehaviour
                 BellCamera.GetComponent<Animation>().Play();
                 //Wendigo.GetComponent<WendigoManager>().WendigoAwaken();
                 wendi.gameObject.SetActive(true);
+
+                Wendigo_Music.SetActive(true);
+                DarkWorld_Music_Loop.SetActive(false);
             }
             
             
@@ -91,6 +97,8 @@ public class BellController : MonoBehaviour
         
         // Return player control
         gameManager.bools.ControlBools.playerControl = true;
+
+
 
     } 
 }

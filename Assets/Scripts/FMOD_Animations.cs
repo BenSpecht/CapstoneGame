@@ -12,13 +12,14 @@ public class FMOD_Animations : MonoBehaviour
 
     }
 
-    //Scorpitty Animations
-    void PlayScorpionCat_Meow(string path)
+    /*Scorpitty Animations
+    void PlayScorpittyCat_Meow(string path)
     {
 
         FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
 
     }
+    */
 
     //Serpancae Animations
     void PlaySerpanceae_Stand(string path)
