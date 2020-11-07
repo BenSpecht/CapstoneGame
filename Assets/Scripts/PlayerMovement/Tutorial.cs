@@ -70,7 +70,6 @@ public class Tutorial : MonoBehaviour
             popuptext2.SetActive(false);
             groundbook.SetActive(false);
             opentext.SetActive(true);
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PickUp_Item", GetComponent<Transform>().position);
         }
     }
 }

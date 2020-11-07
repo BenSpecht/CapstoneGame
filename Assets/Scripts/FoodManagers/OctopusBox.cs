@@ -39,7 +39,6 @@ public class OctopusBox : MonoBehaviour
             gameObject.SetActive(false);
             carryJar.SetActive(true);
             gameManager.bools.InventoryBools.hasOctopusBox = true;
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PickUp_Item", GetComponent<Transform>().position);
         }
     }
 }

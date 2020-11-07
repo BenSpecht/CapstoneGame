@@ -37,8 +37,6 @@ public class MantarayManager : MonoBehaviour
                 gameObject.GetComponent<Animator>().Play("Eat");
                 gameManager.AddMantarayToBook();
                 gameManager.bools.AnimalsMetBools.MantarayMet = true;
-                //Play eat sound
-                FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Feed_Generic", GetComponent<Transform>().position);
             }
         }
     }

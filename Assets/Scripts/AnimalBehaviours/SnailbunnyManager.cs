@@ -41,7 +41,6 @@ public class SnailbunnyManager : MonoBehaviour
             gameManager.bools.FoodBools.snailBunnyComingToFood = false;
             gameManager.AddSnailBunnyToBook();
             gameManager.bools.AnimalsMetBools.SnailbunnyMet = true;
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PickUp_Item", GetComponent<Transform>().position);
         }
     }
 }

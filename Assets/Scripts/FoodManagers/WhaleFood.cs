@@ -32,8 +32,6 @@ public class WhaleFood : MonoBehaviour
             gameManager.DisplayWhaleFedText();
             gameManager.bools.FoodBools.whaleFood = true;
             gameObject.SetActive(false);
-
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PickUp_Item", GetComponent<Transform>().position);
         }
     }
 }

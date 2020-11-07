@@ -61,7 +61,7 @@ public class ScorpittyManager : MonoBehaviour
 
                 }
 
-                FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Feed_Generic", GetComponent<Transform>().position);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Player/Feed_Generic", GetComponent<Transform>().position);
 
                 // Add to book
                 scropFoodCarry.SetActive(false);
