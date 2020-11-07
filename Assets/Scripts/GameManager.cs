@@ -252,9 +252,12 @@ public class GameManager : MonoBehaviour
 
         treeCamera.GetComponent<CinemachineVirtualCamera>().Priority = 9999999;
         treeCamera.GetComponent<Animator>().Play("TreeLight");
-        // flowerCamera.GetComponent<Animator>().SetBool(PlayFinal, true);
-        // runFlowerAnimation = true;
-    }
+
+        //Play Fera Jingle
+        FMODUnity.RuntimeManager.PlayOneShot("event:Music/Music_FERAStart", GetComponent<Transform>().position);
+            // flowerCamera.GetComponent<Animator>().SetBool(PlayFinal, true);
+            // runFlowerAnimation = true;
+        }
 
     public void TreeLightAnimationOver()
     {

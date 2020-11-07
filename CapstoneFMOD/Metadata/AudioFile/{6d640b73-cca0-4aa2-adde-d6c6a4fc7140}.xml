@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6d640b73-cca0-4aa2-adde-d6c6a4fc7140}">
+		<property name="assetPath">
+			<value>Music/Wendigo theme Lock candidate 2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>127.70587500000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a92529b8-2d2c-4835-a9a7-b4743b92a9a4}</destination>
+		</relationship>
+	</object>
+</objects>

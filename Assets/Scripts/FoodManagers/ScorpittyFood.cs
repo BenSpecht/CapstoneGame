@@ -34,6 +34,7 @@ public class ScorpittyFood : MonoBehaviour
             gameObject.SetActive(false);
             gameManager.bools.FoodBools.scorpittyFood = true;
             gameManager.DisplayScorpittyFoodText();
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PickUp_Item", GetComponent<Transform>().position);
         }
     }
 }

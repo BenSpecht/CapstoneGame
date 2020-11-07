@@ -36,7 +36,8 @@ public class CorvanineBabyManager : MonoBehaviour
             carry.SetActive(true);
             gameObject.SetActive(false);
             gameManager.DisplayBabySaved();
-            
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PickUp_Item", GetComponent<Transform>().position);
+
         }
     }
 }
