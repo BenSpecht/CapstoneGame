@@ -56,7 +56,11 @@
 			<destination>{d26cedd2-414d-47da-a13f-97f601c6270b}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{d5d76c59-8999-46da-999e-0647fe956f87}" />
+	<object class="EventAutomatableProperties" id="{d5d76c59-8999-46da-999e-0647fe956f87}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{3049c2ba-9cf5-47af-90ec-0724ea0176f0}" />
 	<object class="GroupTrack" id="{2d529db9-24ec-4ce9-8573-c3beeb4534ed}">
 		<relationship name="modules">
@@ -101,7 +105,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{576dee47-3896-4f49-a655-9f8f9ece100d}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-17</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -140,7 +144,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{dfd8aff7-17cc-498c-b35a-ba9c1a16619b}" />
 	<object class="MixerBusFader" id="{756a6e5a-7d1b-4de9-8c98-0b5a24f1407b}" />
-	<object class="SpatialiserEffect" id="{5e56d2df-68d4-4986-938e-a653c414a05c}" />
+	<object class="SpatialiserEffect" id="{5e56d2df-68d4-4986-938e-a653c414a05c}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>4</value>
+		</property>
+		<property name="minimumExtent">
+			<value>180</value>
+		</property>
+	</object>
 	<object class="MultibandEqEffect" id="{15da83bb-8c67-47fa-b499-3c6b0f8f9c6c}">
 		<property name="filterTypeA">
 			<value>4</value>

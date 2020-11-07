@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{05c20009-4342-48f7-a007-5d215a74aa8e}">
 		<property name="name">
-			<value>DarkWorld_River_Loop</value>
+			<value>WaterfallLoop</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -96,7 +96,10 @@
 	<object class="MixerBusPanner" id="{d4f5440d-a0c5-479c-96a9-2f52deab3cf3}" />
 	<object class="SingleSound" id="{d02b3dc1-7cda-43b3-a327-dab822cdaace}">
 		<property name="length">
-			<value>45.506984126984129</value>
+			<value>41.489740757895241</value>
+		</property>
+		<property name="pitch">
+			<value>1.60000002</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{ce7cbf83-2240-4238-b351-b4846d334f93}</destination>
@@ -104,7 +107,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b3c40dce-f544-427e-b4c5-f8583f7b270d}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -124,7 +127,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>45.506984126984129</value>
+			<value>41.489740757895241</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{dc7f2913-0a45-4653-88bc-9f155744cd22}</destination>
@@ -150,19 +153,21 @@
 	<object class="MixerBusFader" id="{14da1cf5-f062-4b32-b138-cdde62f72a12}" />
 	<object class="MixerBusEffectChain" id="{b5b88845-28ae-4f67-bb95-af3ad685efb3}">
 		<relationship name="effects">
+			<destination>{e0e3dbd1-d02e-4cd7-88b9-6ab340443b1b}</destination>
+			<destination>{9b683d74-42f5-4a45-8f02-729b7764ba19}</destination>
 			<destination>{1f26e97b-77df-4f47-aebf-ab9f76eea667}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{aa087b76-44a5-44c6-9e3c-c084b4998014}" />
 	<object class="SpatialiserEffect" id="{308f40d5-0c6d-4178-86da-7bc3c8add0c3}">
 		<property name="distanceRolloffType">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<property name="minimumDistance">
-			<value>7.5999999</value>
+			<value>15</value>
 		</property>
 		<property name="maximumDistance">
-			<value>25</value>
+			<value>65</value>
 		</property>
 		<property name="soundSize">
 			<value>0.299999982</value>
@@ -172,5 +177,60 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{0010b01c-51c7-4c9f-8575-00cf362d684b}" />
+	<object class="SFXReverbEffect" id="{e0e3dbd1-d02e-4cd7-88b9-6ab340443b1b}">
+		<property name="decayTime">
+			<value>250</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-2.5</value>
+		</property>
+		<property name="highCut">
+			<value>7000</value>
+		</property>
+		<property name="wetLevel">
+			<value>-12</value>
+		</property>
+		<property name="dryLevel">
+			<value>-2</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{9b683d74-42f5-4a45-8f02-729b7764ba19}">
+		<property name="filterTypeA">
+			<value>8</value>
+		</property>
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="filterTypeD">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>2446.88208</value>
+		</property>
+		<property name="frequencyB">
+			<value>1369.81946</value>
+		</property>
+		<property name="frequencyC">
+			<value>295.662567</value>
+		</property>
+		<property name="frequencyD">
+			<value>152.354004</value>
+		</property>
+		<property name="gainA">
+			<value>11.7984829</value>
+		</property>
+		<property name="gainB">
+			<value>3.47779155</value>
+		</property>
+		<property name="gainC">
+			<value>-5.88299179</value>
+		</property>
+		<property name="gainD">
+			<value>6.59804821</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{1f26e97b-77df-4f47-aebf-ab9f76eea667}" />
 </objects>

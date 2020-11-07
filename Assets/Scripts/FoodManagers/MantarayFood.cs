@@ -36,6 +36,8 @@ public class MantarayFood : MonoBehaviour
             gameManager.DisplayMantaFoodText();
             gameManager.bools.FoodBools.mantarayFood = true;
             gameObject.SetActive(false);
+
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PickUp_Item", GetComponent<Transform>().position);
         }
     }
 }

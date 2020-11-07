@@ -39,6 +39,8 @@ public class SnailbunnyFood : MonoBehaviour
             gameObject.SetActive(false);
             gameManager.bools.FoodBools.snailbunnyFood = true;
             gameManager.DispalyBerriesFoundText();
+
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PickUp_Item", GetComponent<Transform>().position);
         }
     }
 }

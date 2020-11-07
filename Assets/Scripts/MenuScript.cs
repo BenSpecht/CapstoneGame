@@ -11,7 +11,7 @@ public class MenuScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
-
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Music/Music_FERAstart", GetComponent<Transform>().position);
     }
 
     public void Credit()

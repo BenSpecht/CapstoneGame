@@ -91,5 +91,6 @@ public class BellController : MonoBehaviour
         
         // Return player control
         gameManager.bools.ControlBools.playerControl = true;
+
     } 
 }

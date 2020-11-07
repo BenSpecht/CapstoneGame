@@ -40,6 +40,8 @@ public class WendigoManager : MonoBehaviour
             gameManager.AddWendigoToBook();
             gameManager.bools.AnimalsMetBools.WendigoMet = true;
 
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PanFlute_Wendigo", gameObject.transform.position);
+
             //hope this doesn't break lol
             thinkingText.text = " ";
 

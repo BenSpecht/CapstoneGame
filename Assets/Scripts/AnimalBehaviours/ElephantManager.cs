@@ -37,6 +37,8 @@ public class ElephantManager : MonoBehaviour
             glowLeaves.SetActive(true);
             
             gameManager.TreeLightAnimation();
-        }
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Music/Music_FERAstart", GetComponent<Transform>().position);
+            
+    }
     }
 }

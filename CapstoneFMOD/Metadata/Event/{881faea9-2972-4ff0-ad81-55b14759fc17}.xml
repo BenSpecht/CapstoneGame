@@ -5,7 +5,7 @@
 			<value>PickUp_Item</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a78ad190-3924-4e50-aa54-946caac668e2}</destination>
@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{9174355e-615e-489c-9ab0-cf483ef7243d}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{c3deda07-ddc7-4b22-a568-b672e34de230}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{17dee521-1f2c-4f88-8cd4-207ef2a54a10}">
 		<relationship name="masterBus">
@@ -53,14 +56,25 @@
 			<destination>{d26cedd2-414d-47da-a13f-97f601c6270b}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{2765f92b-0118-4917-85a3-fdb5c68dfe15}" />
+	<object class="EventAutomatableProperties" id="{2765f92b-0118-4917-85a3-fdb5c68dfe15}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{1e25e2d1-4c12-4ebb-819f-7d604cd4cb40}" />
 	<object class="GroupTrack" id="{74ca3a2d-1c60-41d7-8245-bb1efae90825}">
+		<relationship name="modules">
+			<destination>{1ad25acc-e4ee-4955-bea4-2d2cfe0a0b4a}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f8f4c4f0-a1e6-41a1-a32d-6bbd9c986ca8}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{9174355e-615e-489c-9ab0-cf483ef7243d}" />
+	<object class="Timeline" id="{9174355e-615e-489c-9ab0-cf483ef7243d}">
+		<relationship name="modules">
+			<destination>{1ad25acc-e4ee-4955-bea4-2d2cfe0a0b4a}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{02b77165-a7cf-456e-8302-40253ef82bcb}">
 		<relationship name="effectChain">
 			<destination>{a8ff4c3f-7c0a-433d-8c79-1f35c32e7ccc}</destination>
@@ -78,6 +92,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{25148f4a-75f8-4c86-9ad6-89effdfaafb5}" />
+	<object class="SingleSound" id="{1ad25acc-e4ee-4955-bea4-2d2cfe0a0b4a}">
+		<property name="length">
+			<value>2.6249886621315195</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{8013f79b-2d6a-4e10-965b-6556b3c83d1e}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{f8f4c4f0-a1e6-41a1-a32d-6bbd9c986ca8}">
 		<property name="volume">
 			<value>-8</value>
