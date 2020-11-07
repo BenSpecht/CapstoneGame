@@ -1236,7 +1236,11 @@ MonoBehaviour:
   guid: a6b6b0bd770d414482ec2016f22c2216
   Banks:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: -2075052465855567310}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1284,15 +1288,21 @@ MonoBehaviour:
   lastModified: 637403698510000000
   LoadResult: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   FileSizes: []
   Exists: 0
 --- !u!114 &-7973789540756854178
 =======
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   FileSizes:
   - Name: Desktop
     Value: 2766
   Exists: 1
 --- !u!114 &904266603937309932
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1304,6 +1314,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Player/PanFlute_FlowerSnake
+<<<<<<< HEAD
   m_EditorClassIdentifier: 
   Path: event:/Player/PanFlute_FlowerSnake
   guid: 9cd4bcf3aaf5ab40867130dc9ea43868
@@ -1530,6 +1541,109 @@ MonoBehaviour:
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Player/Jump
   guid: 2c1705e3e75824438bec03b569dc5bf2
+=======
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PanFlute_FlowerSnake
+  guid: 9cd4bcf3aaf5ab40867130dc9ea43868
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+  Banks:
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+<<<<<<< HEAD
+  Length: 400
+--- !u!114 &2076437217833643184
+=======
+  Length: 5339
+--- !u!114 &917992981800317532
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+<<<<<<< HEAD
+  m_Name: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
+  m_EditorClassIdentifier: 
+=======
+  m_Name: event:/Player/PanFlute_Wendigo
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PanFlute_Wendigo
+  guid: 2b74c63d8b83a947bb8b05061732c1ca
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9500
+--- !u!114 &1023436847512848698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wendigo_Music/Wendigo_Calm
+  m_EditorClassIdentifier: 
+  Name: Wendigo_Calm
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &1190808864685170927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PickUp_Item
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PickUp_Item
+  guid: a9ae1f887229f04fad8155b14759fc17
+  Banks:
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1841
+--- !u!114 &1546409466169196210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Jump
+  guid: 2c1705e3e75824438bec03b569dc5bf2
   Banks:
   - {fileID: 2370519455946628482}
   IsStream: 0
@@ -1551,11 +1665,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
   m_EditorClassIdentifier: 
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
   guid: aa440b0484301c4da54b1c260b6d8f52
   Banks:
   - {fileID: 2370519455946628482}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1598,10 +1716,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: 
   guid: bbf0869940a450488ba5248309ccfd1a
   Banks: []
 =======
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Stand
@@ -1609,6 +1730,9 @@ MonoBehaviour:
   Banks:
   - {fileID: -2075052465855567310}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1633,10 +1757,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: event:/Player/PickUp_Item
   guid: a9ae1f887229f04fad8155b14759fc17
   Banks: []
 =======
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
@@ -1644,6 +1771,9 @@ MonoBehaviour:
   Banks:
   - {fileID: -2075052465855567310}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1671,7 +1801,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1684,6 +1818,7 @@ MonoBehaviour:
   Parameters: []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   MinDistance: 10000
   MaxDistance: 10000
   Length: 380
@@ -1691,11 +1826,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   MinDistance: 0
   MaxDistance: 0
   Length: 566
 --- !u!114 &3142892762312186564
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1713,8 +1853,13 @@ MonoBehaviour:
   Path: CapstoneFMOD/Build/Desktop/Master.strings.bank
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   SubDir: 
   lastModified: 637403843250000000
+=======
+  Name: Master.strings
+  lastModified: 637403766010000000
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   Name: Master.strings
   lastModified: 637403766010000000
@@ -1742,12 +1887,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: event:/Music/Wendigo_Music
   guid: e7e8e821e1169b4fa6f370be0d907f46
   Banks: []
   IsStream: 1
   Is3D: 0
 =======
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Animals/Whale/Whale_Tutorial
@@ -1757,6 +1905,9 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1782,7 +1933,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1810,10 +1965,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: event:/Animals/ForestAnimals/SnailBunny/SnailBunny_Idle
   guid: 4199195e59e81c44b056fc463f13b57e
   Banks: []
 =======
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Player/Jump
@@ -1821,6 +1979,9 @@ MonoBehaviour:
   Banks:
   - {fileID: -2075052465855567310}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1848,7 +2009,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: -2075052465855567310}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1879,7 +2044,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1907,6 +2076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Hiss
   guid: 02258dd1ac3f2c49bd0c8988af0419cc
   Banks:
@@ -1922,6 +2092,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Name: Wendigo_Calm
   Min: 0
   Max: 1
@@ -1932,6 +2104,9 @@ MonoBehaviour:
   Exists: 0
 --- !u!114 &4269910501918647362
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1951,6 +2126,7 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
   IsStream: 0
   Is3D: 1
@@ -1958,11 +2134,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   - {fileID: -2075052465855567310}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -1984,6 +2165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
   guid: aa440b0484301c4da54b1c260b6d8f52
   Banks:
@@ -1999,6 +2181,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Name: Wendigo_Calm
   Min: 0
   Max: 1
@@ -2009,6 +2193,9 @@ MonoBehaviour:
   Exists: 1
 --- !u!114 &4967290801524120110
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2028,7 +2215,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: -2075052465855567310}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2056,10 +2247,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: event:/Player/PanFlute_Wendigo
   guid: 2b74c63d8b83a947bb8b05061732c1ca
   Banks: []
 =======
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Music/Music_FERAStart
@@ -2067,6 +2261,9 @@ MonoBehaviour:
   Banks:
   - {fileID: 2370519455946628482}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2094,7 +2291,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2123,6 +2324,7 @@ MonoBehaviour:
   Path: event:/Animals/ForestAnimals/SnailBunny/SnailBunny_Idle
   guid: 4199195e59e81c44b056fc463f13b57e
   Banks:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: -715344700967673245}
@@ -2161,6 +2363,11 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
+  - {fileID: -2075052465855567310}
+  IsStream: 0
+  Is3D: 1
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
@@ -2183,7 +2390,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: -2075052465855567310}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2214,8 +2425,13 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
   IsStream: 0
+=======
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: -2075052465855567310}
   IsStream: 1
@@ -2243,6 +2459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Animals/Whale/Whale_Tutorial
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   Path: event:/Animals/Whale/Whale_Idle
@@ -2307,6 +2524,8 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
 =======
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Animals/Whale/Whale_Tutorial
   guid: 0bd6cd6858a2c2498f4c89185e02c97f
   Banks:
@@ -2315,12 +2534,18 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters: []
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   MinDistance: 2
   MaxDistance: 20
   Length: 10000
 --- !u!114 &6091886517461378444
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2337,10 +2562,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: event:/Music/Music_FERAStart
   guid: 474ef349f776eb41ac0d2353511e3cdb
   Banks: []
 =======
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Planks/Planks_Bridge
@@ -2348,6 +2576,9 @@ MonoBehaviour:
   Banks:
   - {fileID: 2370519455946628482}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2370,6 +2601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Wendigo_Music/Wendigo_Calm
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   EditorBanks:
@@ -2417,6 +2649,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Name: Wendigo_Calm
   Min: 0
   Max: 1
@@ -2427,6 +2661,9 @@ MonoBehaviour:
   Exists: 1
 --- !u!114 &6465412355073368790
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2446,8 +2683,13 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
   IsStream: 0
+=======
+  - {fileID: -2075052465855567310}
+  IsStream: 1
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: -2075052465855567310}
   IsStream: 1
@@ -2479,7 +2721,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2494,8 +2740,13 @@ MonoBehaviour:
   MaxDistance: 20
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Length: 400
 --- !u!114 &1241923132021517118
+=======
+  Length: 1276
+--- !u!114 &6736581716769530670
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   Length: 1276
 --- !u!114 &6736581716769530670
@@ -2520,7 +2771,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2551,7 +2806,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2582,7 +2841,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2613,8 +2876,13 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
   IsStream: 1
+=======
+  - {fileID: 2370519455946628482}
+  IsStream: 0
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
   IsStream: 0
@@ -2646,7 +2914,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: -2075052465855567310}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2659,6 +2931,7 @@ MonoBehaviour:
   Parameters: []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   MinDistance: 1
   MaxDistance: 20
   Length: 440
@@ -2666,11 +2939,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   MinDistance: 0
   MaxDistance: 0
   Length: 350
 --- !u!114 &7630999697556683677
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2685,6 +2963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Wendigo_Music/Wendigo_Calm
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   Path: event:/Ambience/DarkWorld_River_Loop
@@ -2702,6 +2981,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Name: Wendigo_Calm
   Min: 0
   Max: 1
@@ -2712,6 +2993,9 @@ MonoBehaviour:
   Exists: 0
 --- !u!114 &7650076699929763174
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2728,11 +3012,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: event:/Ambience/OceanForest_Waterfall_Loop
   guid: bbb774c3c177284bbff26f7e47d817c7
   Banks: []
   IsStream: 1
 =======
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Animals/ForestAnimals/Octopus/Octopus_Walk
@@ -2741,6 +3028,9 @@ MonoBehaviour:
   - {fileID: -2075052465855567310}
   IsStream: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2764,6 +3054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: event:/Music/Ocean_MusicLoop
   guid: e65a80974d4a344c850e239d4ea7dc6d
   Banks:
@@ -2779,6 +3070,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Name: Wendigo_Calm
   Min: 0
   Max: 1
@@ -2789,6 +3082,9 @@ MonoBehaviour:
   Exists: 0
 --- !u!114 &7841546203285658891
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2808,7 +3104,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: -2075052465855567310}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2839,7 +3139,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2870,7 +3174,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: -2075052465855567310}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2924,7 +3232,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: 2370519455946628482}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: 2370519455946628482}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2955,7 +3267,11 @@ MonoBehaviour:
   Banks:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -715344700967673245}
+=======
+  - {fileID: -2075052465855567310}
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
   - {fileID: -2075052465855567310}
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
@@ -2983,6 +3299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Path: event:/Music/Elephant_Music
   guid: 0cfb4a347636e142a41ac4c5a5509a8f
   Banks: []
@@ -2990,6 +3307,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
 =======
+=======
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
   Path: event:/Animals/DarkAnimals/Corvanine/Corvanine_Howl
@@ -3000,6 +3319,9 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
+=======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
 =======
 >>>>>>> parent of c31fec6... new fmod package installed to fix the big problem
