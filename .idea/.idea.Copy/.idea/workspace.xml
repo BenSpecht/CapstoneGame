@@ -37,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BridgeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WhaleManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/darkworldmusictrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineBabyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/OctopusManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -100,6 +101,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/SnailbunnyFood.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/darkworldmusictrigger.cs" />
       </list>
     </option>
   </component>
@@ -150,6 +152,7 @@
       <workItem from="1603691779822" duration="1213000" />
       <workItem from="1603757539528" duration="13007000" />
       <workItem from="1604743681242" duration="1309000" />
+      <workItem from="1604803224647" duration="658000" />
     </task>
     <servers />
   </component>

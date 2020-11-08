@@ -147,6 +147,7 @@
             <e p="WhaleManager.cs" t="Include" />
           </e>
           <e p="BridgeManager.cs" t="Include" />
+          <e p="darkworldmusictrigger.cs" t="Include" />
           <e p="Fade.cs" t="Include" />
           <e p="FMOD_Animations.cs" t="Include" />
           <e p="FoodManagers" t="Include">
@@ -526,6 +527,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="ui_audio.cs" t="Include" />
       </e>
       <e p="Copy.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

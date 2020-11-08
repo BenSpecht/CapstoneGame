@@ -17,8 +17,8 @@ public class BellController : MonoBehaviour
 
     public GameObject wendi;
 
-    public GameObject Wendigo_Music;
-    public GameObject DarkWorld_Music_Loop;
+    public GameObject wendimusic;
+    public GameObject darkworldmusic;
 
     public bool flute;
     
@@ -66,8 +66,8 @@ public class BellController : MonoBehaviour
                 //Wendigo.GetComponent<WendigoManager>().WendigoAwaken();
                 wendi.gameObject.SetActive(true);
 
-                Wendigo_Music.SetActive(true);
-                DarkWorld_Music_Loop.SetActive(false);
+                wendimusic.SetActive(true);
+                darkworldmusic.SetActive(false);
             }
             
             
