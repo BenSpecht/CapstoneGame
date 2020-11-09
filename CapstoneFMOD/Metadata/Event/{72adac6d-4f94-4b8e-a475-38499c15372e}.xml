@@ -98,6 +98,9 @@
 		<property name="delayType">
 			<value>0</value>
 		</property>
+		<property name="maximumTimeDelay">
+			<value>420</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{c9760861-86f2-4944-b4d6-963f50df879b}</destination>
 		</relationship>

@@ -69,5 +69,19 @@ public class FMOD_Animations : MonoBehaviour
         FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
     }
 
+    void PlayWendigo_Roar(string path)
+    {
+        FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
+    }
+
+    void PlayWendigo_Calm(string path)
+    {
+        FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
+    }
+
+    void PlayElephant_Trumpet(string path)
+    {
+        FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
+    }
 }
     

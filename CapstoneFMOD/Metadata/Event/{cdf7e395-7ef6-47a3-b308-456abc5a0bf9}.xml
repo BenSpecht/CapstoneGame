@@ -5,7 +5,7 @@
 			<value>DarkWorld_MusicLoop</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8448c81-3ab8-403b-aa19-992b067aa0a2}</destination>
@@ -155,6 +155,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{00705a70-a2d5-455d-b98b-36d833fb26df}">
 		<relationship name="effects">
+			<destination>{7efd1148-01aa-474e-b344-8c8bb4c66c93}</destination>
 			<destination>{caba988a-4812-4a98-a1ae-e7111f7a074a}</destination>
 		</relationship>
 	</object>
@@ -166,6 +167,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b66cf18e-27b8-46f4-8868-71871e9056de}" />
+	<object class="SpatialiserEffect" id="{7efd1148-01aa-474e-b344-8c8bb4c66c93}">
+		<property name="minimumDistance">
+			<value>100</value>
+		</property>
+		<property name="maximumDistance">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{caba988a-4812-4a98-a1ae-e7111f7a074a}" />
 	<object class="MixerBusFader" id="{8a2a858d-c2ff-41e7-abad-09273afe0a69}" />
 </objects>
