@@ -48,8 +48,13 @@ public class BellController : MonoBehaviour
                 // Ring bell
                 FMODUnity.RuntimeManager.PlayOneShot("event:/TowerBell", GetComponent<Transform>().position);
 
-                // Disable Player Control
-                gameManager.bools.ControlBools.playerControl = false;
+                // Wendigo Roar
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Animals/Wendigo/Wendigo_Roar", GetComponent<Transform>().position);
+                    
+            }
+
+            // Disable Player Control
+            gameManager.bools.ControlBools.playerControl = false;
             
                 // Enable Cinemachine
                 MainCamera.GetComponent<MouseOrbitImproved>().enabled = false;
@@ -68,25 +73,25 @@ public class BellController : MonoBehaviour
 
                 wendimusic.SetActive(true);
                 darkworldmusic.SetActive(false);
-            }
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+
         }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
        
     }
 
-    public void BellFinishedAnimation()
+public void BellFinishedAnimation()
     {
         // Set camera to default
         MainCamera.GetComponent<CinemachineBrain>().enabled = false;

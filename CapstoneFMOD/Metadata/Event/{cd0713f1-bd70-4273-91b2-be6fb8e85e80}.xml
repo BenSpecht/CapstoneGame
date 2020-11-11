@@ -5,7 +5,7 @@
 			<value>Wendigo_Roar</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8f1464b2-b812-480d-8cf7-3d87e3f496ab}</destination>
@@ -89,8 +89,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{ca6f122e-1b22-4545-a847-6f220c5afff0}" />
 	<object class="MultiSound" id="{16060e2d-435f-4aa3-9c2a-89e51020bfa6}">
+		<property name="start">
+			<value>2</value>
+		</property>
 		<property name="length">
 			<value>3.6875056689342403</value>
+		</property>
+		<property name="delayType">
+			<value>0</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{783c6bde-8cac-4edf-bc26-ad9612200b9e}</destination>
@@ -98,7 +104,6 @@
 		<relationship name="sounds">
 			<destination>{f8d4c998-1477-4801-8271-952c1421498f}</destination>
 			<destination>{a4ddb84c-e7f1-4152-b95f-47c0aeae2c9f}</destination>
-			<destination>{c99ee08b-695e-44dd-be18-a86e5d394423}</destination>
 			<destination>{3e565cd8-7975-428d-9f38-39d65c9cb39c}</destination>
 			<destination>{172d6c48-cf8e-4fd4-86ec-0c0dad4b3c29}</destination>
 		</relationship>
@@ -122,8 +127,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{83738ca1-ac9c-4c39-8895-cafbb614e332}">
 		<relationship name="effects">
+			<destination>{fe2d1150-2381-4474-acdb-55667969de26}</destination>
 			<destination>{50c3fac7-fd63-4994-9151-1878a749ef8e}</destination>
-			<destination>{96c1d74d-0223-4c99-b8ad-63e9f056b84c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{15bf8aba-2fd6-42d4-b2b3-fc828624814c}" />
@@ -146,11 +151,6 @@
 			<destination>{a95d058b-9adf-4609-9256-f73574b0c199}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{c99ee08b-695e-44dd-be18-a86e5d394423}">
-		<relationship name="audioFile">
-			<destination>{b0b8e974-aa80-43c7-a79f-7925ccd339ef}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{3e565cd8-7975-428d-9f38-39d65c9cb39c}">
 		<relationship name="audioFile">
 			<destination>{75696b4b-055d-45f5-bd16-b1cd0929533c}</destination>
@@ -167,7 +167,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d8b88f3f-401c-438e-9e7e-b781c7cc5abb}" />
+	<object class="SFXReverbEffect" id="{fe2d1150-2381-4474-acdb-55667969de26}">
+		<property name="lowShelfGain">
+			<value>-8</value>
+		</property>
+		<property name="dryLevel">
+			<value>-7.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{50c3fac7-fd63-4994-9151-1878a749ef8e}" />
-	<object class="SpatialiserEffect" id="{96c1d74d-0223-4c99-b8ad-63e9f056b84c}" />
 	<object class="MixerBusFader" id="{9085d4f5-e038-423a-80f1-6d59f5e57196}" />
 </objects>
