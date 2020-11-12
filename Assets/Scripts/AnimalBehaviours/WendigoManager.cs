@@ -46,7 +46,8 @@ public class WendigoManager : MonoBehaviour
 
             FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PanFlute_Wendigo", gameObject.transform.position);
 
-
+            Wendigo_Music.SetActive(false);
+            DarkWorld_Music_Loop.SetActive(true);
 
             //hope this doesn't break lol
             thinkingText.text = " ";
@@ -70,8 +71,7 @@ public class WendigoManager : MonoBehaviour
         if (other.CompareTag("Player"))
         {
 
-            Wendigo_Music.SetActive(false);
-            DarkWorld_Music_Loop.SetActive(true);
+           
 
         }
 

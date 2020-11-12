@@ -43,29 +43,27 @@ public class BellController : MonoBehaviour
     {
         if (flute == true)
         {
-            if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E)) 
+            if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
             {
                 // Ring bell
                 FMODUnity.RuntimeManager.PlayOneShot("event:/TowerBell", GetComponent<Transform>().position);
 
                 // Wendigo Roar
-                FMODUnity.RuntimeManager.PlayOneShot("event:/Animals/Wendigo/Wendigo_Roar", GetComponent<Transform>().position);
-                    
-            }
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/Animals/Wendigo/Wendigo_Roar", GetComponent<Transform>().position);
 
-            // Disable Player Control
-            gameManager.bools.ControlBools.playerControl = false;
-            
+                // Disable Player Control
+                gameManager.bools.ControlBools.playerControl = false;
+
                 // Enable Cinemachine
                 MainCamera.GetComponent<MouseOrbitImproved>().enabled = false;
                 MainCamera.GetComponent<CinemachineBrain>().enabled = true;
-            
+
                 // Set VCam prio to high
                 BellCamera.GetComponent<CinemachineVirtualCamera>().Priority = 1000000;
-            
+
                 // Move player to location
                 Player.transform.position = NewPlayerPosition.transform.position;
-            
+
                 // Play animation
                 BellCamera.GetComponent<Animation>().Play();
                 //Wendigo.GetComponent<WendigoManager>().WendigoAwaken();
@@ -73,6 +71,8 @@ public class BellController : MonoBehaviour
 
                 wendimusic.SetActive(true);
                 darkworldmusic.SetActive(false);
+
+            }
 
         }
             

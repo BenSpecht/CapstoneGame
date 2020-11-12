@@ -33,7 +33,7 @@ MonoBehaviour:
   Path: event:/Player/PanFlute_Wendigo
   guid: eb249cacb862954a9a0b3a46f707cb6b
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -41,6 +41,42 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 9500
+--- !u!114 &-8459260287903205155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637407466150000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8373803212406811116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637407459640000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8199099795180271655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,7 +128,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Stand
   guid: 87456a054b3f714d8495f2591de36fbf
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -115,7 +151,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/FlowerSnake/Serpanceae_Hiss
   guid: 02258dd1ac3f2c49bd0c8988af0419cc
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -138,7 +174,7 @@ MonoBehaviour:
   Path: event:/Music/WendigoMusic
   guid: 1ef81a3f0635f243a2b398c37d8e2eb2
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -146,6 +182,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 108394
+--- !u!114 &-6404570965397202728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637407465050000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6347115707188296608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,7 +215,7 @@ MonoBehaviour:
   Path: event:/Planks/Planks_PickUp
   guid: bac8567a10893a448be38bf4ecbb1f06
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -184,7 +238,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/Wendigo/Wendigo_Calm
   guid: 83a6367516541f4b97b00a89c15474b5
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -225,7 +279,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_CompleteTask
   guid: 0e67e765317df74f9705b3718cd71ae6
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -248,7 +302,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle2
   guid: 81ac3def58924f43a922ff98eadbe6a4
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -307,7 +361,7 @@ MonoBehaviour:
   Path: event:/Animals/ForestAnimals/SnailBunny/SnailBunny_Idle
   guid: 4199195e59e81c44b056fc463f13b57e
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -350,7 +404,7 @@ MonoBehaviour:
   lastModified: 637407365080000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-4012236176047550105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,7 +456,7 @@ MonoBehaviour:
   Path: event:/Ambience/OceanForest_Bed
   guid: 5a7618c28bd83048a4232e9323de549e
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -443,7 +497,7 @@ MonoBehaviour:
   Path: event:/Animals/Whale/Whale_OnOff
   guid: 58941b4f356cfc4ca3f180e675427ec5
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -466,7 +520,7 @@ MonoBehaviour:
   Path: event:/Player/Footsteps
   guid: 27ee6f8c103af74ba73c85b854b6c5aa
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -489,7 +543,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_Open
   guid: 993cc37caefd524b8b09eab2677f9a70
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -511,7 +565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: CapstoneFMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637407365080000000
+  lastModified: 637407467660000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -550,7 +604,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/ScorpionCat/ScorpionCat_Meow
   guid: eee3b29c91f8884885d04e201a54b057
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -573,7 +627,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/Corvanine/Corvanine_Howl
   guid: 32899383266d1343bae649baa5971775
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -596,7 +650,7 @@ MonoBehaviour:
   Path: event:/Animals/ForestAnimals/Elephant/Elephant_Trumpet
   guid: a5e06f31466b5a478a0fe230da4c91ee
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -619,7 +673,7 @@ MonoBehaviour:
   Path: event:/Player/Land
   guid: 50bb93301c7d3143a6eb11c5d1075da9
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -642,7 +696,7 @@ MonoBehaviour:
   Path: event:/Music/ElephantMusic
   guid: 797cf3c19436214f82d8cf95a1514a87
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -665,7 +719,7 @@ MonoBehaviour:
   Path: event:/Planks/Planks_Drop
   guid: 3ecfce13dde83a45a43f65aea9d4b05b
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -688,7 +742,7 @@ MonoBehaviour:
   Path: event:/Animals/Whale/Whale_Tutorial
   guid: 0bd6cd6858a2c2498f4c89185e02c97f
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -711,7 +765,7 @@ MonoBehaviour:
   Path: event:/Player/PanFlute_FlowerSnake
   guid: 9cd4bcf3aaf5ab40867130dc9ea43868
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -734,7 +788,7 @@ MonoBehaviour:
   Path: event:/Animals/ForestAnimals/Octopus/Octopus_Idle
   guid: 8c632482aa4fc9469e5dfc47be3bc8ea
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -757,7 +811,7 @@ MonoBehaviour:
   Path: event:/Music/Music_FERAstart
   guid: ba3af331ea79804b854a70145fe18efc
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -780,7 +834,7 @@ MonoBehaviour:
   Path: event:/Music/Ocean_MusicLoop
   guid: e65a80974d4a344c850e239d4ea7dc6d
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -820,7 +874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -2948949333879516942}
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   EditorEvents:
   - {fileID: 1864463633442616676}
   - {fileID: -7020699227442244329}
@@ -866,10 +920,10 @@ MonoBehaviour:
   - {fileID: 9193362594440215510}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   StringsBanks:
   - {fileID: -2948949333879516942}
-  stringsBankWriteTime: 637407365080000000
+  stringsBankWriteTime: 637407467660000000
   cacheVersion: 3
 --- !u!114 &69341483625029663
 MonoBehaviour:
@@ -904,7 +958,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_PageFlip
   guid: f6de75e19a30204bb171731bb51be729
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -963,7 +1017,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_NewTask
   guid: a6b6b0bd770d414482ec2016f22c2216
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -986,7 +1040,7 @@ MonoBehaviour:
   Path: event:/Player/PickUp_Item
   guid: a9ae1f887229f04fad8155b14759fc17
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1009,7 +1063,7 @@ MonoBehaviour:
   Path: event:/Ambience/DarkWorld_River_Loop
   guid: 004cdd48b6560e488457146fa0bda469
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1053,6 +1107,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &2694535964647431547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637407467660000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &3040766907583544082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1068,7 +1140,7 @@ MonoBehaviour:
   Path: event:/Player/Jump
   guid: 2c1705e3e75824438bec03b569dc5bf2
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1091,7 +1163,7 @@ MonoBehaviour:
   Path: event:/Animals/ForestAnimals/Octopus/Octopus_Walk
   guid: 984767633f877a4a9eeb6f6a193efc7e
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -1099,6 +1171,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 600
+--- !u!114 &3868131738820486038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637407466840000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &4233018746516784057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1114,7 +1204,7 @@ MonoBehaviour:
   Path: event:/Player/Feed_Generic
   guid: b1725a77b2d4c042add4dbb668983654
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1155,7 +1245,7 @@ MonoBehaviour:
   Path: event:/Animals/Whale/Whale_HopOnOff
   guid: 9eff3fc8825139449de42ff47e7bed6e
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1178,7 +1268,7 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/CorvaninePup/CorvaninePup_Idle1
   guid: aa440b0484301c4da54b1c260b6d8f52
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1201,7 +1291,7 @@ MonoBehaviour:
   Path: event:/Ambience/WhaleStation_Bed
   guid: 80605e721e2cfe4aadd38d241a7e582d
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1224,7 +1314,7 @@ MonoBehaviour:
   Path: event:/Ambience/WaterfallLoop
   guid: 0900c2054243f748a0075d215a74aa8e
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1247,7 +1337,7 @@ MonoBehaviour:
   Path: event:/Planks/Planks_Bridge
   guid: fcb552a4aeaf8342b7161a6d8a7f9f70
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1270,6 +1360,24 @@ MonoBehaviour:
   Path: CapstoneFMOD/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637404114120000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5330858350105659310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637407463310000000
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -1324,7 +1432,7 @@ MonoBehaviour:
   Path: event:/Ambience/DarkWorld_Bed
   guid: fb81852ac4c5fb488d24bc81258da677
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1365,7 +1473,7 @@ MonoBehaviour:
   Path: event:/TowerBell
   guid: bbc8c50265fccb4ebe0ee4e5b3c480e4
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1406,7 +1514,7 @@ MonoBehaviour:
   Path: event:/Animals/Whale/Whale_Idle
   guid: 821d734781ba5a47963a07192a5efe5e
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1429,7 +1537,7 @@ MonoBehaviour:
   Path: event:/Music/DarkWorld_MusicLoop
   guid: 95e3f7cdf67ea347b308456abc5a0bf9
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1437,6 +1545,24 @@ MonoBehaviour:
   MinDistance: 100
   MaxDistance: 100
   Length: 149500
+--- !u!114 &8966035473868208499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: CapstoneFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637407462010000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &9046425669822907086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1452,7 +1578,7 @@ MonoBehaviour:
   Path: event:/Journal/Journal_Close
   guid: 8c5a840da429054ca3d8b0db702c566f
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1475,11 +1601,11 @@ MonoBehaviour:
   Path: event:/Animals/DarkAnimals/Wendigo/Wendigo_Roar
   guid: f11307cd70bd734291b2be6fb8e85e80
   Banks:
-  - {fileID: -4156117699745566959}
+  - {fileID: 2694535964647431547}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 5687
+  Length: 3687
