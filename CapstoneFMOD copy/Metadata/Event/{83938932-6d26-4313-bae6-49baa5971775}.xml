@@ -144,12 +144,12 @@
 	</object>
 	<object class="SingleSound" id="{d3ea1b83-055a-449a-8899-699ea3e074ec}">
 		<relationship name="audioFile">
-			<destination>{0fb79a10-08a1-4907-ba3e-93926201ceb6}</destination>
+			<destination>{471aa6a8-bf12-4888-a678-b33e382e24dd}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{6006a0ec-69ed-4f20-aecf-df600e978677}">
 		<relationship name="audioFile">
-			<destination>{813c3faa-0864-4bbd-8cad-6a9031ab7ac8}</destination>
+			<destination>{a5bbf860-de8e-47c6-9f84-5a7ca55bfde0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{67f6e410-a4f0-43f0-b8f3-49e59c2ba6bd}">
