@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{ed9fb44f-70de-49ea-974c-4b6e5813c9d0}">
+		<property name="assetPath">
+			<value>Animals/Octopus/Octopus_Idle_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.91668934240362809</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a92529b8-2d2c-4835-a9a7-b4743b92a9a4}</destination>
+		</relationship>
+	</object>
+</objects>

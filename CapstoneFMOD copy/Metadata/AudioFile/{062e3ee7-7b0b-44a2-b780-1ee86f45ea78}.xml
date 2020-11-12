@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{062e3ee7-7b0b-44a2-b780-1ee86f45ea78}">
+		<property name="assetPath">
+			<value>Animals/snailbunny2/Ssnailbunny_idle.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.28541950113378683</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a92529b8-2d2c-4835-a9a7-b4743b92a9a4}</destination>
+		</relationship>
+	</object>
+</objects>
