@@ -401,7 +401,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator BefriendText()
     {
-        thinkingText.text = "*I think it likes me*";
+        thinkingText.text = "*Maybe it's hungry...*";
         //ScreenText.befriendText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
         //ScreenText.befriendText.gameObject.SetActive(false);
@@ -500,7 +500,7 @@ public class GameManager : MonoBehaviour
     }
     private IEnumerator MantaFoodFound()
     {
-        thinkingText.text = "*More corral! This one must be for another fishy creature*";
+        thinkingText.text = "*More coral! This one must be for another fishy creature*";
                           
         //ScreenText.befriendSuccessText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
@@ -516,7 +516,7 @@ public class GameManager : MonoBehaviour
     
     private IEnumerator MantaFed()
     {
-        thinkingText.text = "*Wow, they really love their corral! Fly away now little friend*";
+        thinkingText.text = "*Wow, they really love their coral! Fly away now little friend*";
                           
         //ScreenText.befriendSuccessText.gameObject.SetActive(true);
         yield return new WaitForSeconds(5);
@@ -531,7 +531,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator WhaleForestPickup()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(5);
         thinkingText.text = "*I think the Whale is coming to pick me up*";
                           
         //ScreenText.befriendSuccessText.gameObject.SetActive(true);
