@@ -87,7 +87,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/SerpanceaeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/CorvanineManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BridgeManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WendigoManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/MantarayFood.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodManagers/WhaleFood.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WoodScript.cs" />
@@ -102,6 +101,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SkyboxController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/darkworldmusictrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimalBehaviours/WendigoManager.cs" />
       </list>
     </option>
   </component>
@@ -153,6 +153,7 @@
       <workItem from="1603757539528" duration="13007000" />
       <workItem from="1604743681242" duration="1309000" />
       <workItem from="1604803224647" duration="658000" />
+      <workItem from="1605240012740" duration="839000" />
     </task>
     <servers />
   </component>

@@ -26,7 +26,6 @@
     <explicitExcludes>
       <Path>.git</Path>
       <Path>.idea</Path>
-      <Path>CapstoneFMOD</Path>
       <Path>CapstoneFMOD copy</Path>
       <Path>Library</Path>
       <Path>Temp</Path>

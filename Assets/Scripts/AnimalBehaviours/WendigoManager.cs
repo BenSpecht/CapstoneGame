@@ -8,8 +8,8 @@ public class WendigoManager : MonoBehaviour
     public GameManager gameManager;
     public TextMeshPro thinkingText;
     //Julia messin around with code. What will she do
-   // public GameObject playFlute;
-   // public GameObject carryFlute;
+    public GameObject playFlute;
+   public GameObject carryFlute;
     //end of Julia messin with code
     public GameObject Wendigo_Music;
     public GameObject DarkWorld_Music_Loop;
@@ -48,8 +48,8 @@ public class WendigoManager : MonoBehaviour
             gameManager.bools.AnimalsMetBools.WendigoMet = true;
             
             //Julia messin around with code. What will she do
-           // playFlute.SetActive(true);
-           // carryFlute.SetActive(false);
+            playFlute.SetActive(true);
+           carryFlute.SetActive(false);
             //end of Julia messin with code
 
             FMODUnity.RuntimeManager.PlayOneShot("event:/Player/PanFlute_Wendigo", gameObject.transform.position);
@@ -78,7 +78,8 @@ public class WendigoManager : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-
+            playFlute.SetActive(false);
+            carryFlute.SetActive(true);
            
 
         }
